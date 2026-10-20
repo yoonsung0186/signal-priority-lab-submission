@@ -1,0 +1,58 @@
+{
+  "links": [
+    {
+      "id": "code",
+      "existing_link": "https://github.com/yoonsung0186/signal-priority-lab/blob/b9eeb57bec449ed74ff4c8f78430753a52b45676/README.md",
+      "corresponding_file": "README.md",
+      "actual_new_link": "https://github.com/yoonsung0186/signal-priority-lab-submission/blob/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e/README.md",
+      "original_sha": "b9eeb57bec449ed74ff4c8f78430753a52b45676",
+      "deployment_commit": "6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e",
+      "access_status": "PUBLIC_ACCESS_VERIFIED_ANONYMOUS_BYTES_MATCH",
+      "directory_link": "https://github.com/yoonsung0186/signal-priority-lab-submission/tree/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e",
+      "raw_file_link": "https://raw.githubusercontent.com/yoonsung0186/signal-priority-lab-submission/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e/README.md"
+    },
+    {
+      "id": "baseline",
+      "existing_link": "https://github.com/yoonsung0186/signal-priority-lab/blob/c5ac62a54b76c551d9fe27ef9051f9f5e36722df/review/runs/finish_multiday_20261013_01/metrics.csv",
+      "corresponding_file": "review/runs/finish_multiday_20261013_01/metrics.csv",
+      "actual_new_link": "https://github.com/yoonsung0186/signal-priority-lab-submission/blob/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e/review/runs/finish_multiday_20261013_01/metrics.csv",
+      "original_sha": "c5ac62a54b76c551d9fe27ef9051f9f5e36722df",
+      "deployment_commit": "6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e",
+      "access_status": "PUBLIC_ACCESS_VERIFIED_ANONYMOUS_BYTES_MATCH",
+      "directory_link": "https://github.com/yoonsung0186/signal-priority-lab-submission/tree/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e/review/runs/finish_multiday_20261013_01",
+      "raw_file_link": "https://raw.githubusercontent.com/yoonsung0186/signal-priority-lab-submission/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e/review/runs/finish_multiday_20261013_01/metrics.csv"
+    },
+    {
+      "id": "R2",
+      "existing_link": "https://github.com/yoonsung0186/signal-priority-lab/blob/c5ac62a54b76c551d9fe27ef9051f9f5e36722df/review/runs/r2_finish_20261013_01/analysis/unit_summary.csv",
+      "corresponding_file": "review/runs/r2_finish_20261013_01/analysis/unit_summary.csv",
+      "actual_new_link": "https://github.com/yoonsung0186/signal-priority-lab-submission/blob/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e/review/runs/r2_finish_20261013_01/analysis/unit_summary.csv",
+      "original_sha": "c5ac62a54b76c551d9fe27ef9051f9f5e36722df",
+      "deployment_commit": "6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e",
+      "access_status": "PUBLIC_ACCESS_VERIFIED_ANONYMOUS_BYTES_MATCH",
+      "directory_link": "https://github.com/yoonsung0186/signal-priority-lab-submission/tree/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e/review/runs/r2_finish_20261013_01",
+      "raw_file_link": "https://raw.githubusercontent.com/yoonsung0186/signal-priority-lab-submission/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e/review/runs/r2_finish_20261013_01/analysis/unit_summary.csv"
+    },
+    {
+      "id": "boundary",
+      "existing_link": "https://github.com/yoonsung0186/signal-priority-lab/blob/c5ac62a54b76c551d9fe27ef9051f9f5e36722df/review/runs/r2_quality_boundary_20261013_01/metrics.csv",
+      "corresponding_file": "review/runs/r2_quality_boundary_20261013_01/metrics.csv",
+      "actual_new_link": "https://github.com/yoonsung0186/signal-priority-lab-submission/blob/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e/review/runs/r2_quality_boundary_20261013_01/metrics.csv",
+      "original_sha": "c5ac62a54b76c551d9fe27ef9051f9f5e36722df",
+      "deployment_commit": "6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e",
+      "access_status": "PUBLIC_ACCESS_VERIFIED_ANONYMOUS_BYTES_MATCH",
+      "directory_link": "https://github.com/yoonsung0186/signal-priority-lab-submission/tree/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e/review/runs/r2_quality_boundary_20261013_01",
+      "raw_file_link": "https://raw.githubusercontent.com/yoonsung0186/signal-priority-lab-submission/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e/review/runs/r2_quality_boundary_20261013_01/metrics.csv"
+    }
+  ],
+  "original_repository_visibility": "PRIVATE",
+  "private_owner_access_is_not_judge_access": true,
+  "private_package_release": "https://github.com/yoonsung0186/signal-priority-lab/releases/tag/submission-source-20261019-02",
+  "private_distribution_commit": "6d4225c7bf0ff6d558f1929ad93772879f28b390",
+  "public_deployment_commit": "6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e",
+  "public_repository": "https://github.com/yoonsung0186/signal-priority-lab-submission",
+  "publication_receipt": "PUBLICATION_RECEIPT.json",
+  "execution_and_limits_url": "https://github.com/yoonsung0186/signal-priority-lab-submission/blob/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e/REPRODUCTION.md",
+  "public_release": "https://github.com/yoonsung0186/signal-priority-lab-submission/releases/tag/submission-20261019-02",
+  "ready_to_submit": false
+}

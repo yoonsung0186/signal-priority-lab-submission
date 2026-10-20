@@ -1,0 +1,245 @@
+{
+  "status": "PUBLIC_ACCESS_VERIFIED",
+  "checked_at_utc": "2026-10-20T14:07:54.183999+00:00",
+  "package_id": "submission_20261019_02",
+  "repository": "https://github.com/yoonsung0186/signal-priority-lab-submission",
+  "deployment_commit": "6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e",
+  "release": "https://github.com/yoonsung0186/signal-priority-lab-submission/releases/tag/submission-20261019-02",
+  "zip_name": "SPL_SUBMISSION_SOURCE_submission_20261019_02.zip",
+  "zip_bytes": 3696923,
+  "zip_sha256": "cdc35a368bb59f8828064e8b1bb8ae379359448c36749de3cee2bc81c2681889",
+  "anonymous_access": {
+    "authorization_headers": false,
+    "cookies": false,
+    "credential_handlers": false,
+    "environment_proxy_used": false,
+    "checks": [
+      {
+        "url": "https://api.github.com/repos/yoonsung0186/signal-priority-lab-submission",
+        "kind": "anonymous_repository",
+        "http_status": 200,
+        "bytes": 6253,
+        "sha256": "0d4de2eb98d49a714e92e1803dfabd3dacdb2d2219ce8935552f0a1f7f4178e5",
+        "authorization_header": false,
+        "cookie_header": false,
+        "final_host": "api.github.com"
+      },
+      {
+        "url": "https://api.github.com/repos/yoonsung0186/signal-priority-lab-submission/git/commits/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e",
+        "kind": "anonymous_commit",
+        "http_status": 200,
+        "bytes": 1030,
+        "sha256": "b7f87cb185c27aff6dabc172fe71b615b47d2fb9bfa8ab20dce720140060f587",
+        "authorization_header": false,
+        "cookie_header": false,
+        "final_host": "api.github.com"
+      },
+      {
+        "url": "https://api.github.com/repos/yoonsung0186/signal-priority-lab-submission/git/trees/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e?recursive=1",
+        "kind": "anonymous_tree",
+        "http_status": 200,
+        "bytes": 94240,
+        "sha256": "527eb3a8ce4548ab5f1ffdd313086911e4a4d58e983e48b56d8955ec05a685d3",
+        "authorization_header": false,
+        "cookie_header": false,
+        "final_host": "api.github.com"
+      },
+      {
+        "url": "https://github.com/yoonsung0186/signal-priority-lab-submission/tree/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e",
+        "kind": "anonymous_directory_html",
+        "http_status": 200,
+        "bytes": 310003,
+        "sha256": "822f0fcdac13e623d6016d8f62835afa17b468c6a96864e6258e8adf0d4fead4",
+        "authorization_header": false,
+        "cookie_header": false,
+        "final_host": "github.com"
+      },
+      {
+        "url": "https://github.com/yoonsung0186/signal-priority-lab-submission/tree/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e/review/runs/finish_multiday_20261013_01",
+        "kind": "anonymous_directory_html",
+        "http_status": 200,
+        "bytes": 356338,
+        "sha256": "b14c2f06393d6b177c0cce7dd1863419359f979723c5c43dbe64a3977b59b5ba",
+        "authorization_header": false,
+        "cookie_header": false,
+        "final_host": "github.com"
+      },
+      {
+        "url": "https://github.com/yoonsung0186/signal-priority-lab-submission/tree/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e/review/runs/r2_finish_20261013_01",
+        "kind": "anonymous_directory_html",
+        "http_status": 200,
+        "bytes": 265117,
+        "sha256": "95e816c9f235975cb3e4ee18906e8623cf53a452fcf1a2c1ef430053bd18bd7f",
+        "authorization_header": false,
+        "cookie_header": false,
+        "final_host": "github.com"
+      },
+      {
+        "url": "https://github.com/yoonsung0186/signal-priority-lab-submission/tree/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e/review/runs/r2_quality_boundary_20261013_01",
+        "kind": "anonymous_directory_html",
+        "http_status": 200,
+        "bytes": 253794,
+        "sha256": "90a6e795b966a7ba5f5414ad96928c4821f3bd7323a92ab2c192d60b19fbf8f6",
+        "authorization_header": false,
+        "cookie_header": false,
+        "final_host": "github.com"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/yoonsung0186/signal-priority-lab-submission/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e/README.md",
+        "kind": "anonymous_file",
+        "http_status": 200,
+        "bytes": 3451,
+        "sha256": "819a75fa3d1b00e54c7fed050bcd533b0646e2573b2d2f1b1cb5e66362f6cc06",
+        "authorization_header": false,
+        "cookie_header": false,
+        "final_host": "raw.githubusercontent.com"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/yoonsung0186/signal-priority-lab-submission/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e/REPRODUCTION.md",
+        "kind": "anonymous_file",
+        "http_status": 200,
+        "bytes": 4526,
+        "sha256": "547c731c90cefeb8aa715a56d8d43bd60ea225de1a43f48d18a392b5f6f13e24",
+        "authorization_header": false,
+        "cookie_header": false,
+        "final_host": "raw.githubusercontent.com"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/yoonsung0186/signal-priority-lab-submission/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e/ATTRIBUTION.md",
+        "kind": "anonymous_file",
+        "http_status": 200,
+        "bytes": 917,
+        "sha256": "3bb7fad37dea83259609ff19b79683b67f3f02d2abaaae950f3297ebd5400314",
+        "authorization_header": false,
+        "cookie_header": false,
+        "final_host": "raw.githubusercontent.com"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/yoonsung0186/signal-priority-lab-submission/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e/src/spl/r2_signal_quality.py",
+        "kind": "anonymous_file",
+        "http_status": 200,
+        "bytes": 21511,
+        "sha256": "6c418ade42d91b383db7bc4ebd22b7d59f2833d522d26fc559ac38b1d1789015",
+        "authorization_header": false,
+        "cookie_header": false,
+        "final_host": "raw.githubusercontent.com"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/yoonsung0186/signal-priority-lab-submission/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e/review/runs/finish_multiday_20261013_01/metrics.csv",
+        "kind": "anonymous_file",
+        "http_status": 200,
+        "bytes": 752,
+        "sha256": "e89b6dac398f1aaaf92f73dc646b48674d9f18666e1e90b34419abe36774b189",
+        "authorization_header": false,
+        "cookie_header": false,
+        "final_host": "raw.githubusercontent.com"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/yoonsung0186/signal-priority-lab-submission/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e/review/runs/r2_finish_20261013_01/analysis/unit_summary.csv",
+        "kind": "anonymous_file",
+        "http_status": 200,
+        "bytes": 61038,
+        "sha256": "16bcde59e4f4add06442462520fd299140227f506e29c2b82e989264ed37e2f5",
+        "authorization_header": false,
+        "cookie_header": false,
+        "final_host": "raw.githubusercontent.com"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/yoonsung0186/signal-priority-lab-submission/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e/review/runs/r2_quality_boundary_20261013_01/metrics.csv",
+        "kind": "anonymous_file",
+        "http_status": 200,
+        "bytes": 540,
+        "sha256": "14e74135ce91ce89fc8e0e01a801a2825638c26922f46ead960ac303fc1fae26",
+        "authorization_header": false,
+        "cookie_header": false,
+        "final_host": "raw.githubusercontent.com"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/yoonsung0186/signal-priority-lab-submission/6b65232de4032cb359f58e7e3d6b7dfd39f3ab6e/review/runs/r2_quality_boundary_20261013_01/analysis/signal_condition_quality.csv",
+        "kind": "anonymous_file",
+        "http_status": 200,
+        "bytes": 453414,
+        "sha256": "4cca38bad41042c0668aa0f1393335ab7c9e3b9b1b70507462447022c651b815",
+        "authorization_header": false,
+        "cookie_header": false,
+        "final_host": "raw.githubusercontent.com"
+      },
+      {
+        "url": "https://api.github.com/repos/yoonsung0186/signal-priority-lab-submission/releases/tags/submission-20261019-02",
+        "kind": "anonymous_release",
+        "http_status": 200,
+        "bytes": 9140,
+        "sha256": "e2fddba1f9fa9c30e3f37ec810422c628263e91dc0b1b244b62d4081991c2db3",
+        "authorization_header": false,
+        "cookie_header": false,
+        "final_host": "api.github.com"
+      },
+      {
+        "url": "https://api.github.com/repos/yoonsung0186/signal-priority-lab-submission/git/ref/tags/submission-20261019-02",
+        "kind": "anonymous_release_tag",
+        "http_status": 200,
+        "bytes": 443,
+        "sha256": "7fc8b001916e39119f82408fafb35a3f055c1ec2d5e701705c24689577a07474",
+        "authorization_header": false,
+        "cookie_header": false,
+        "final_host": "api.github.com"
+      },
+      {
+        "url": "https://github.com/yoonsung0186/signal-priority-lab-submission/releases/download/submission-20261019-02/CHECKSUMS.sha256",
+        "kind": "anonymous_release_asset",
+        "http_status": 200,
+        "bytes": 292,
+        "sha256": "9ceeca64e0cf423821b019166263e5d8a991055366a83f6884d9895a8ab9468d",
+        "authorization_header": false,
+        "cookie_header": false,
+        "final_host": "release-assets.githubusercontent.com"
+      },
+      {
+        "url": "https://github.com/yoonsung0186/signal-priority-lab-submission/releases/download/submission-20261019-02/FILE_MANIFEST.json",
+        "kind": "anonymous_release_asset",
+        "http_status": 200,
+        "bytes": 127524,
+        "sha256": "36fe128180efad7b35f853bb7d3db8765db98246fe0b4f85202a370b9f1a8f13",
+        "authorization_header": false,
+        "cookie_header": false,
+        "final_host": "release-assets.githubusercontent.com"
+      },
+      {
+        "url": "https://github.com/yoonsung0186/signal-priority-lab-submission/releases/download/submission-20261019-02/PREPUBLICATION_CHECK.json",
+        "kind": "anonymous_release_asset",
+        "http_status": 200,
+        "bytes": 375,
+        "sha256": "114560541948028063bcde1047addef7948902fac3e35f8bcc71aa4dd6afddee",
+        "authorization_header": false,
+        "cookie_header": false,
+        "final_host": "release-assets.githubusercontent.com"
+      },
+      {
+        "url": "https://github.com/yoonsung0186/signal-priority-lab-submission/releases/download/submission-20261019-02/SPL_SUBMISSION_SOURCE_submission_20261019_02.zip",
+        "kind": "anonymous_release_asset",
+        "http_status": 200,
+        "bytes": 3696923,
+        "sha256": "cdc35a368bb59f8828064e8b1bb8ae379359448c36749de3cee2bc81c2681889",
+        "authorization_header": false,
+        "cookie_header": false,
+        "final_host": "release-assets.githubusercontent.com"
+      }
+    ],
+    "tree_matches_all_300_approved_files": true,
+    "commit_is_single_root_no_private_history": true
+  },
+  "original_repository": {
+    "nameWithOwner": "yoonsung0186/signal-priority-lab",
+    "visibility": "PRIVATE"
+  },
+  "original_private_maintained": true,
+  "calculation_source_commit": "b9eeb57bec449ed74ff4c8f78430753a52b45676",
+  "evidence_commit": "c5ac62a54b76c551d9fe27ef9051f9f5e36722df",
+  "packaging_record_commit": "6803dede470b4f4e2c4dcc8e87bc4054abdd4d7a",
+  "full_raw_data_reproduction": false,
+  "original_execution_context_dependency": "UNRESOLVED_PRESERVED",
+  "new_real_fits": 0,
+  "ready_to_submit": false,
+  "automatic_source_archive_is_approved_zip": false,
+  "historical_pending_statements": "Approved snapshot preserves packaging-time PENDING statements; this receipt records subsequent publication only."
+}
