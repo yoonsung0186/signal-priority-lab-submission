@@ -1,0 +1,20 @@
+{
+  "command": [
+    "<PROJECT_ROOT>\\.venv\\Scripts\\python.exe",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tools",
+    "-p",
+    "test_r2_signal_quality_context.py",
+    "-v"
+  ],
+  "elapsed_s": 1.6066602002829313,
+  "exit_code": 0,
+  "name": "binding_tests",
+  "source_unchanged": true,
+  "started_utc": "2026-10-13T06:01:09.310480+00:00",
+  "stderr_sha256": "e998cead751a7b1ccdb1cca2ccea861f9c43e5969dc9be8e3f17fb7b42a4b53c",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

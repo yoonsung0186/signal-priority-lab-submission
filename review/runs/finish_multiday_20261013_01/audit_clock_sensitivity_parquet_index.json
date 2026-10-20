@@ -1,0 +1,11 @@
+{
+  "nested_columns": "STABLE_JSON_STRINGS",
+  "row_count": 40,
+  "shards": [
+    {
+      "path": "audit_clock_sensitivity.parquet",
+      "row_count": 40
+    }
+  ],
+  "table": "audit_clock_sensitivity"
+}

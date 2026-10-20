@@ -1,0 +1,159 @@
+{
+  "files": [
+    {
+      "bytes": 768607,
+      "path": "bootstrap_date_resamples.csv",
+      "sha256": "000f34433e718e52438fc95ff1adee1a298811f3cc4d150acd8205d2272b8a5b"
+    },
+    {
+      "bytes": 7454339,
+      "path": "bootstrap_rank_replicates.csv",
+      "sha256": "345ecf1c5caf6c0997ff38305833e2ae0d235669e38a3a0e53931d71d52fda64"
+    },
+    {
+      "bytes": 41104,
+      "path": "bootstrap_rank_summary.csv",
+      "sha256": "02523f066f0a4d26bed6395d63ee45c019d99aed94a3c6be0eb3d01692027097"
+    },
+    {
+      "bytes": 35015,
+      "path": "figures/common_date_rank.png",
+      "sha256": "d3f178f2836d7187d41b3ecb14ca5bb55746e014c2392ab180aa741a196d1108"
+    },
+    {
+      "bytes": 38583,
+      "path": "figures/common_date_rank.svg",
+      "sha256": "49979fdb5556ff234d2bc17d76383eb1cc912c6e70c6641b93aec3247865969a"
+    },
+    {
+      "bytes": 95746,
+      "path": "figures/event_state_change.png",
+      "sha256": "e2f92168b78912d3e6f7b27e7c3e6f4c37b4beb38c24f32021f05d19ccb95858"
+    },
+    {
+      "bytes": 52109,
+      "path": "figures/event_state_change.svg",
+      "sha256": "d362d8588c15657fd401c1fcfe9b0670025decbaca52288956287c9a6ff0bc59"
+    },
+    {
+      "bytes": 77369,
+      "path": "figures/unit_denominators.png",
+      "sha256": "9ae04f0599461ed114a2e399e5cbc306f398b0e45a0a7036d87942e2837bea7a"
+    },
+    {
+      "bytes": 43251,
+      "path": "figures/unit_denominators.svg",
+      "sha256": "7b9354925de68059d3d8831e8ce94f2846e0dc4efc12d917d1be64ac302e4c83"
+    },
+    {
+      "bytes": 1827,
+      "path": "figures_index.json",
+      "sha256": "bc413e481e6bb00fb0d06af79053be433c7941a4005ac04ef49492c6a0cf928c"
+    },
+    {
+      "bytes": 4585,
+      "path": "inspection_candidates_r2.csv",
+      "sha256": "70e3ca4e949d1134dcd28412363efce0b6a39ca739da3329ed621f02c6cdac80"
+    },
+    {
+      "bytes": 373320,
+      "path": "leave_one_month_rank_sensitivity.csv",
+      "sha256": "10f099437f299ce843f04dc40352e2a49707606dfdc67535c62a55b63595ed04"
+    },
+    {
+      "bytes": 113128,
+      "path": "metric_facts.jsonl",
+      "sha256": "5037891fb58e159a9060f8ebe1b8c70fed5ddd3f353fcdb5d7945124e54fec89"
+    },
+    {
+      "bytes": 355560,
+      "path": "monthly_rank_sensitivity.csv",
+      "sha256": "e3f4eff4497dcfc8907ab3143beac98e16a1de2003bab9d4933cf3ad829219de"
+    },
+    {
+      "bytes": 2483,
+      "path": "numeric_checks.json",
+      "sha256": "c2257b41fa868bbe90b9d324c7ec94d4933d6665a829f8ce4a2d790300aec539"
+    },
+    {
+      "bytes": 2208,
+      "path": "pair_multiplicity.csv",
+      "sha256": "5c2a77812bc7848044a137f38dcd1d028d3c3838d212aaa770a6daa8e475b646"
+    },
+    {
+      "bytes": 687,
+      "path": "period_support.csv",
+      "sha256": "7eb0e079bff0e562ea95dd04e735adb2e76d546df2c643bcb633633dcfd93971"
+    },
+    {
+      "bytes": 25624,
+      "path": "reproducibility_context.json",
+      "sha256": "4a1f8a1e2e9ad4d01fdf4c1050c7cfbdf02102083e790a0ecbbb220afe0855c9"
+    },
+    {
+      "bytes": 1412,
+      "path": "reused_ai_assessment.json",
+      "sha256": "cc0974c23499ef5ade70a5610f429145b7eec790fc29cbc3b7c3d7adb7bf3719"
+    },
+    {
+      "bytes": 7287,
+      "path": "reused_event_audit.json",
+      "sha256": "ec9158911f9575f1ec524971293dad25ff1dece82a19e2e7b5d8744f95b43a63"
+    },
+    {
+      "bytes": 292264,
+      "path": "signal_condition_pet.csv",
+      "sha256": "ff65ceb3732b54cec6ab12b8652e8ee9ab712b6f9f31706f795f6606112021c1"
+    },
+    {
+      "bytes": 552739,
+      "path": "signal_coverage_daily.csv",
+      "sha256": "c7f4393771392866697259f592cee0a18c2a408ccc812cd9055f30af57c2cd00"
+    },
+    {
+      "bytes": 40133,
+      "path": "signal_event_changes.csv",
+      "sha256": "a1c4d990e60341b8dfc2e8d4542db04e91fd1411c098c0568fdd2bd34500ad33"
+    },
+    {
+      "bytes": 237087,
+      "path": "signal_event_coverage_daily.csv",
+      "sha256": "8b90e86a83d8277f8699cad9f51f2bbf91e4e1a88a61e018a3c2f7d2615cc3c0"
+    },
+    {
+      "bytes": 2349,
+      "path": "signal_missing_period_crossings.csv",
+      "sha256": "7ecf59620a504fd84291654f4728c1c269a0ff357cc542f75ddb7329809642bf"
+    },
+    {
+      "bytes": 436815,
+      "path": "signal_pair_tv.csv",
+      "sha256": "72128e7d956b109c18af7aeeebd7ae27f18164055c1c6178df598518083088a8"
+    },
+    {
+      "bytes": 2301088,
+      "path": "signal_state_transitions.csv",
+      "sha256": "a220ee5361c845011de2a964e4f556486422d1e88aa0e1ef903435b2c60654e0"
+    },
+    {
+      "bytes": 1959,
+      "path": "signals_metadata.json",
+      "sha256": "2ea99d680a21600c3509ae2f0a1c544f2cf00b87ac0ddbeb3cb6772c0f183e91"
+    },
+    {
+      "bytes": 128014822,
+      "path": "unit_selection.csv",
+      "sha256": "89058115936e32cc8eecbf0afe85867c4c1e1c4d6a1c280d278ad288017d7c3b"
+    },
+    {
+      "bytes": 61038,
+      "path": "unit_summary.csv",
+      "sha256": "16bcde59e4f4add06442462520fd299140227f506e29c2b82e989264ed37e2f5"
+    },
+    {
+      "bytes": 6900,
+      "path": "units_metadata.json",
+      "sha256": "1352c9ddb7c8990c874cfd3bcfedefb92c972975b87ff428f20c196b9a267db9"
+    }
+  ]
+}

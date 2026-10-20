@@ -1,0 +1,212 @@
+schema_version: '1.0'
+project:
+  id: signal-priority-lab
+  artifact_kind: DESIGN_PLUS_BOOTSTRAP
+  independent_new_project: true
+  import_legacy_source: false
+  inherit_legacy_approval: false
+  design_version: '3.0'
+scope:
+  movement:
+  - STRAIGHT
+  target: OBSERVED_ENTRY_PATTERNS
+  official_enforcement: false
+  accident_probability: false
+  report_generation: false
+  report_generator_module: false
+  technical_notes: true
+  charts_and_plot_data: true
+  external_submission: false
+autonomy:
+  routine_approval_required: false
+  decision_policy: SPEC_DEFAULTS_THEN_LOG
+  continue_independent_tasks_on_block: true
+  on_unclear_rights: BLOCK_SOURCE_CONTINUE_ENGINE
+  on_unavailable_data: SYNTHETIC_TECHNICAL_ONLY
+  on_session_end: CHECKPOINT_ONLY_NO_BACKGROUND_PROMISE
+  retry_limit_per_task: 3
+  same_error_limit: 2
+safety:
+  workspace_root: CURRENT_PROJECT_ROOT
+  allow_external_writes: false
+  allow_user_data_deletion: false
+  allow_raw_overwrite: false
+  allow_completed_run_overwrite: false
+  allow_global_dependency_changes: false
+  allow_admin: false
+  allow_security_bypass: false
+  allow_secret_discovery: false
+  allow_paid_apis: false
+  allow_account_creation: false
+  allow_email: false
+  refuse_existing_git_parent: true
+  check_symlink_and_junction: true
+  archive_preflight: true
+  source_revision_history: true
+  raw_immutable: true
+  technical_output_allowlist: true
+  external_transfer_policy: DEFAULT_DENY_WITH_EXPLICIT_PRIVATE_PUSH_GATE
+  git_gate_authority: configs/startup_policy.json#git
+execution:
+  mode: AUTO
+  coding_workers: 2
+  analysis_workers: 2
+  max_cpu_threads: 4
+  memory_fraction_of_available: 0.4
+  memory_ceiling_gib: 4
+  max_total_download_gib: 2
+  max_single_download_gib: 1
+  max_workspace_gib: 8
+  min_free_disk_gib: 5
+  max_model_fits: 120
+  walltime_budget_seconds: 14400
+  max_source_candidates: 3
+  network_retries: 2
+  max_concurrent_agent_workers: 2
+  agent_spawn_depth: 1
+  max_model_fits_meaning: OUTER_ESTIMATOR_FIT_CALLS; n_init internal trials recorded
+    separately
+  budget_scope: EXECUTED_LOCAL_ANALYSIS_AND_TEST_COMMAND_ELAPSED; excludes LLM latency
+    and waiting
+  finalizer_reserved_seconds: 600
+data:
+  adapter_order:
+  - OFFICIAL_VERIFIED_SOURCE
+  - AUTHORIZED_INBOX
+  - SYNTHETIC
+  inbox: data/inbox
+  rights_required_for_download:
+  - access_status
+  rights_required_for_analysis:
+  - access_status
+  - analysis_status
+  rights_required_for_derived_handoff:
+  - share_derived_status
+  include_raw_in_handoff: false
+  relative_time_preserved: true
+  require_observed_signal: true
+  require_verified_movement_signal_mapping: true
+  require_documented_coordinates: true
+  mix_real_and_synthetic: false
+events:
+  primary_reference: FRONT_BUMPER
+  centroid_fallback: SEPARATE_EXPLORATORY_PROFILE_ONLY
+  allow_turns: false
+  allow_plan_as_observed_signal: false
+  crossing_gap_max_s: 0.3
+  boundary_hysteresis_m: 0.2
+  parameter_basis: POC_OPERATIONAL_DEFAULTS_NOT_MEASURED_ERRORS
+  labels:
+  - RED_CONSISTENT
+  - NON_RED_CONSISTENT
+  - SIGNAL_AMBIGUOUS
+  - EXCLUDED
+analysis:
+  cell_keys:
+  - site_id
+  - approach_id
+  - record_id
+  denominator: RED_CONSISTENT + NON_RED_CONSISTENT + SIGNAL_AMBIGUOUS
+  null_on_zero_denominator: true
+  uncertainty_interval_is_sampling_ci: false
+  min_events_for_priority: 100
+  min_complete_cycles_for_priority: 5
+  max_ambiguous_fraction_for_priority: 0.2
+  min_comparable_cells_for_ranking: 2
+  opaque_risk_score: false
+learning:
+  enabled: true
+  algorithm: ROBUST_SCALER_KMEANS
+  feature_window_s: 3.0
+  stopped_speed_mps: 0.5
+  features:
+  - entry_speed_mps
+  - mean_speed_mps
+  - speed_std_mps
+  - mean_accel_mps2
+  - min_accel_mps2
+  - stopped_fraction
+  exclude_features:
+  - candidate_label
+  - signal_state
+  - time_since_red
+  - provider_violation_label
+  k_candidates:
+  - 2
+  - 3
+  - 4
+  - 5
+  seeds:
+  - 17
+  - 29
+  - 43
+  n_init: 10
+  min_train_events: 200
+  min_cluster_absolute: 20
+  min_cluster_fraction: 0.05
+  primary_split_group: record_id
+  fallback_split: PURGED_TIME_BLOCK_EXPLORATORY
+  fit_preprocessing_on: TRAIN_ONLY
+  timing_feature_ablation_enabled: false
+  ai_failure_keeps_baseline: true
+  holdout_fraction: 0.2
+  inner_cv_max_splits: 3
+  min_median_ari_for_stable_description: 0.7
+  silhouette_tie_delta_choose_smaller_k: 0.02
+  primary_model_seed: 17
+sensitivity:
+  clock_offset_s:
+  - -0.5
+  - -0.2
+  - 0.0
+  - 0.2
+  - 0.5
+  boundary_offset_m:
+  - -0.5
+  - 0.0
+  - 0.5
+  basis: ASSUMED_SCENARIOS_NOT_MEASURED_ERROR_DISTRIBUTION
+  clock_shift_unit: WHOLE_RECORD
+  refit_model_per_scenario: false
+  recompute_population: true
+  also_export_common_event_cohort: true
+  stable_top_set_fraction: 0.8
+  clock_shift_reference: TRAJECTORY_TO_FIXED_SIGNAL_CLOCK
+  clock_shift_formula: aligned_trajectory_time = original_trajectory_time + delta_seconds;
+    signal_time unchanged
+  shift_both_clocks: false
+statistics:
+  population_ci_method: RECORD_CLUSTER_BOOTSTRAP
+  bootstrap_repetitions: 1000
+  min_independent_records: 20
+  on_insufficient_records: NULL_CI_WITH_REASON
+  sample_frames_as_independent: false
+outputs:
+  report_owner: CHATGPT_AFTER_USER_HANDOFF
+  handoff_basename: SPL_TECH_HANDOFF
+  source_basename: SPL_SOURCE
+  formats:
+  - JSON
+  - JSONL
+  - CSV
+  - PARQUET
+  - PNG
+  - SVG
+  - MD
+  - ZIP
+  - XML
+  - TXT
+  - NPZ
+  forbidden_documents:
+  - CONTEST_REPORT
+  - APPLICATION
+  - PRESENTATION
+  - POLICY_NARRATIVE
+  font_file_packaging: false
+  fact_source_traceability: true
+  include_failed_runs_in_index: true
+git_policy:
+  default_remote_push_enabled: false
+  conditional_exception: EXPLICIT_APPROVED_PRIVATE_REMOTE_ONLY
+  authority_file: configs/startup_policy.json
+  local_task_commits: true

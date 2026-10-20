@@ -1,0 +1,12 @@
+{
+  "run_id": "r2_quality_boundary_20261013_01",
+  "source_commit": "b9eeb57bec449ed74ff4c8f78430753a52b45676",
+  "source_tree_hash": "3122d69e09e30aab21c2139e1162c696909ea3ee055af0bd0d9d257a2c8199b7",
+  "config": "configs/r2_signal_quality.json",
+  "reused_r2_source": "dd83988e74696603b515f1944766207b2d3d26cf",
+  "reused_r2_review": "review/runs/r2_finish_20261013_01",
+  "previous_review_commit": "622baed63fb69a79bf835f10b5374d479a7cdabd",
+  "actual_new_fits": 0,
+  "new_signal_state_sensitivity": false,
+  "new_model": false
+}

@@ -1,0 +1,25 @@
+{
+  "status": "MATCH",
+  "verification_summary_sha256": "6817d60bcc9e5b1fef586fbee8b933fe8962255d3606400dcad8fad2c05eb048",
+  "original_literal_field_strings_preserved": true,
+  "initial_27_impact_rows_match_final": true,
+  "all_offset_population_denominators_fixed": true,
+  "role_query_sums_match_event_table": true,
+  "per_cell_n_N_three_way_partition": true,
+  "zero_denominator_null": true,
+  "prior_rank_rows_reused_not_recomputed": true,
+  "tau_1_totals": {
+    "tau_s": 1.0,
+    "n_valid_nonnegative_pet": 924775.0,
+    "n_short_pet": 4492.0,
+    "new_long_interval_held_n_valid_nonnegative_pet": 7062.0,
+    "new_long_interval_held_n_short_pet": 49.0,
+    "quality_held_n_valid_nonnegative_pet": 42259.0,
+    "quality_held_n_short_pet": 267.0,
+    "remaining_unknown_n_valid_nonnegative_pet": 1250.0,
+    "remaining_unknown_n_short_pet": 5.0,
+    "interpretable_n_valid_nonnegative_pet": 881266.0,
+    "interpretable_n_short_pet": 4220.0
+  },
+  "independent_data_truth_verified": false
+}

@@ -1,0 +1,23 @@
+{
+  "allowed": [
+    "Recorded provider PET interaction descriptions at this Austrian intersection",
+    "Conditional scenario/signal comparisons and date-cluster exploration",
+    "Automated timestamp/source consistency checks"
+  ],
+  "limitations": [
+    "Selected provider interactions are not all traffic exposure",
+    "Signal context is own conflict-area entry, not stop-line entry",
+    "AI uses a deterministic bounded sample; no improvement claim",
+    "Date clusters at one intersection do not establish broader generalization",
+    "Official form details, exact deadline time, eligibility and AI/data rules remain unconfirmed"
+  ],
+  "original_straight_entry_status": "DEFERRED_OUT_OF_SCOPE",
+  "report_generated_by_codex": false,
+  "technical_scope": "MULTIDAY_CASE",
+  "unsupported": [
+    "Accident probability, violations, all-traffic risk or Korean intersection estimates",
+    "Independent geometric PET accuracy or manually labelled ground truth",
+    "Causal AI improvement or validated policy priority"
+  ],
+  "v3_full_spec_verified": false
+}

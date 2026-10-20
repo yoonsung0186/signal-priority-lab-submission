@@ -1,0 +1,9 @@
+[project]
+name = "signal-priority-lab"
+version = "0.1.0"
+requires-python = ">=3.11"
+description = "Conservative technical prototype; no enforcement or safety prediction"
+
+[tool.spl]
+source-layout = "src"
+real-analysis-status = "READINESS_PENDING"

@@ -1,0 +1,137 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Normalized trajectory row",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "dataset_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "site_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "track_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "timestamp_s": {
+      "type": "number"
+    },
+    "data_kind": {
+      "enum": [
+        "REAL",
+        "SYNTHETIC"
+      ]
+    },
+    "class": {
+      "type": "string",
+      "minLength": 1
+    },
+    "x_m": {
+      "type": "number"
+    },
+    "y_m": {
+      "type": "number"
+    },
+    "position_reference": {
+      "enum": [
+        "CENTROID",
+        "FRONT_BUMPER",
+        "DOCUMENTED_OTHER"
+      ]
+    },
+    "source_row_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "vx_mps": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "vy_mps": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "heading_rad": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "yaw_rad": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "length_m": {
+      "anyOf": [
+        {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "width_m": {
+      "anyOf": [
+        {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "ax_mps2": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "ay_mps2": {
+      "type": [
+        "number",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "dataset_id",
+    "record_id",
+    "site_id",
+    "track_id",
+    "timestamp_s",
+    "data_kind",
+    "class",
+    "x_m",
+    "y_m",
+    "position_reference",
+    "source_row_id",
+    "vx_mps",
+    "vy_mps",
+    "heading_rad",
+    "yaw_rad",
+    "length_m",
+    "width_m",
+    "ax_mps2",
+    "ay_mps2"
+  ]
+}

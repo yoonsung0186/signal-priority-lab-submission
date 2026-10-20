@@ -1,0 +1,186 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Metric fact row",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "template": {
+      "type": "boolean"
+    },
+    "fact_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "metric_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "enum": [
+        "COMPUTED",
+        "NOT_COMPUTED",
+        "UNDEFINED",
+        "NOT_APPLICABLE"
+      ]
+    },
+    "value": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "unit": {
+      "type": "string",
+      "minLength": 1
+    },
+    "numerator": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "denominator": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "population_definition": {
+      "type": "string",
+      "minLength": 1
+    },
+    "data_kind": {
+      "enum": [
+        "REAL",
+        "SYNTHETIC",
+        "NONE"
+      ]
+    },
+    "source_artifact_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "code_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "config_hash": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "run_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "uncertainty_kind": {
+      "enum": [
+        "NONE",
+        "MEASUREMENT_CLASSIFICATION_INTERVAL",
+        "SAMPLING_CONFIDENCE_INTERVAL",
+        "SCENARIO_RANGE",
+        "NOT_APPLICABLE"
+      ]
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "template",
+    "fact_id",
+    "metric_name",
+    "status",
+    "value",
+    "unit",
+    "numerator",
+    "denominator",
+    "population_definition",
+    "data_kind",
+    "source_artifact_ids",
+    "code_ref",
+    "config_hash",
+    "run_id",
+    "uncertainty_kind",
+    "limitations"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "COMPUTED"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "value": {
+            "type": "number"
+          },
+          "source_artifact_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "code_ref": {
+            "type": "string",
+            "minLength": 1
+          },
+          "config_hash": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "run_id": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "enum": [
+              "NOT_COMPUTED",
+              "UNDEFINED",
+              "NOT_APPLICABLE"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "value": {
+            "type": "null"
+          }
+        }
+      }
+    }
+  ]
+}

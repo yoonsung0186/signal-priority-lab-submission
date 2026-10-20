@@ -1,0 +1,38 @@
+{
+  "additional_fit_calls": 0,
+  "baseline_recomputed": false,
+  "candidate_period_end_ms": 1749679200000,
+  "candidate_period_start_ms": 1749074400000,
+  "clock_offsets_s": [
+    -2.0,
+    -1.0,
+    -0.5,
+    -0.2,
+    0.0,
+    0.2,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "condition_partition_checks": "LITERAL_AND_ORIGINAL_DATE_HOLD_SCENARIO_THRESHOLD_SUMS_MATCH_LEDGER",
+  "limitations": [
+    "Source quality remains unresolved; a file interval is not proof of physically observed continuous signals.",
+    "Old held cell counts are preserved and aggregate-checked, not independently relabeled.",
+    "Unknown/ambiguous remaining cells are not interpreted as safe or zero risk."
+  ],
+  "literal_lookup_calls": 14124,
+  "long_hold_basis": "ANY_SHIFTED_OWN_ROLE_ENTRY_IN_ITS_GROUP_ORIGINAL_[start,end)",
+  "lookup_scope": "ONLY_NEW_LONG_HELD_NONNEGATIVE_EVENTS_OFFSET_ZERO",
+  "n_ledger_events": 928958,
+  "n_newly_held_nonnegative_events_offset_zero": 7062,
+  "n_null_role_timestamps": 0,
+  "n_quality_interval_rows": 10,
+  "n_quality_signal_groups": 10,
+  "nullable_timestamp_policy": "QC_VALID_SIGNED_NULL_OWN_ENTRY_REJECTED; INVALID_ROW_NULL_CLOCK_NO_MEMBERSHIP_OR_GUESSED_STATE",
+  "original_date_hold_basis": "ANY_ORIGINAL_OWN_ROLE_ENTRY_[candidate_start,candidate_end)_FIXED_ACROSS_OFFSETS",
+  "pet_and_input_dataframes_mutated": false,
+  "quality_hold_mode": "QUALITY_HOLD_ONLY_NOT_NEW_SIGNAL_STATE_SENSITIVITY",
+  "raw_signal_states_changed": false,
+  "signal_clock_shifted": false,
+  "status": "COMPLETED_BOUNDARY_QUALITY_SUPPLEMENT"
+}

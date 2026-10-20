@@ -1,0 +1,55 @@
+{
+  "actual_fit_before": 52,
+  "commands": [
+    [
+      "boundary_tests",
+      [
+        "<PROJECT_ROOT>\\.venv\\Scripts\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_r2_signal_quality.py",
+        "-v"
+      ]
+    ],
+    [
+      "binding_tests",
+      [
+        "<PROJECT_ROOT>\\.venv\\Scripts\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools",
+        "-p",
+        "test_r2_signal_quality_context.py",
+        "-v"
+      ]
+    ],
+    [
+      "overlay_1",
+      [
+        "<PROJECT_ROOT>\\.venv\\Scripts\\python.exe",
+        "tools/r2_signal_quality.py",
+        "--out",
+        "runs/r2_quality_boundary_20261013_A_1"
+      ]
+    ],
+    [
+      "overlay_2",
+      [
+        "<PROJECT_ROOT>\\.venv\\Scripts\\python.exe",
+        "tools/r2_signal_quality.py",
+        "--out",
+        "runs/r2_quality_boundary_20261013_A_2"
+      ]
+    ]
+  ],
+  "new_fit_budget": 0,
+  "scope": "New boundary overlay tests and two replays only",
+  "source_commit": "b9eeb57bec449ed74ff4c8f78430753a52b45676",
+  "source_tree_hash": "3122d69e09e30aab21c2139e1162c696909ea3ee055af0bd0d9d257a2c8199b7"
+}

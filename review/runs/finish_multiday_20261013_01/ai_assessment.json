@@ -1,0 +1,38 @@
+{
+  "additional_fit_calls": 0,
+  "assignment_reconstruction_mismatches": 0,
+  "diagnostic_conclusion": "STATIC_SIZE_DOMINATES_CENTROID_SEPARATION",
+  "heldout_metrics": {
+    "n_events": 30485,
+    "selection_used_heldout": false,
+    "silhouette": 0.7837332270022704
+  },
+  "incremental_explanation_status": "NOT_ESTABLISHED_BY_DESCRIPTIVE_CLUSTER_COMPARISONS",
+  "independent_accuracy": null,
+  "limitations": [
+    "Feature subset diagnostics reuse frozen centers and scaling; they are not separately trained baselines.",
+    "IQR fences identify distributional tails; long or wide vehicles are not automatically erroneous.",
+    "Cluster agreement and silhouette do not establish accident risk, legal violation, or additional policy benefit."
+  ],
+  "measurement_outlier_confirmation": "NOT_PERFORMED",
+  "n_saved_assignment_rows_reviewed": 100000,
+  "original_validation_status": "FITTED_CHRONOLOGICAL_HELDOUT_DESCRIPTION",
+  "seed_stability": [
+    {
+      "anchor_events": 10000,
+      "ari": 1.0,
+      "meaning": "Cluster agreement, not detection accuracy",
+      "seed": 20261013
+    },
+    {
+      "anchor_events": 10000,
+      "ari": 1.0,
+      "meaning": "Cluster agreement, not detection accuracy",
+      "seed": 20261014
+    }
+  ],
+  "selected_k": 2,
+  "static_dimension_centroid_separation_fraction": 0.9788143953976368,
+  "status": "COMPUTED_FROM_FROZEN_MODEL",
+  "training_population": 69515
+}

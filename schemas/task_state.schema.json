@@ -1,0 +1,191 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Task execution state",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "task_id": {
+      "type": "string",
+      "pattern": "^T[0-9]{2}$"
+    },
+    "state": {
+      "enum": [
+        "PENDING",
+        "RUNNING",
+        "PASSED",
+        "FAILED_RETRYABLE",
+        "BLOCKED_EXTERNAL",
+        "BLOCKED_DEPENDENCY",
+        "SKIPPED_CONDITIONAL",
+        "BUDGET_EXHAUSTED",
+        "FAILED_FINAL"
+      ]
+    },
+    "attempts": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "actual_commands": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "artifact_refs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "source_tree_hash": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "config_hash": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "environment_hash": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "error_code": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "updated_at_utc": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "execution_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "command",
+          "exit_code",
+          "expected_exit_code",
+          "evidence_ref"
+        ],
+        "properties": {
+          "command": {
+            "type": "string",
+            "minLength": 1
+          },
+          "exit_code": {
+            "type": "integer"
+          },
+          "expected_exit_code": {
+            "type": "integer"
+          },
+          "evidence_ref": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "task_id",
+    "state",
+    "attempts",
+    "actual_commands",
+    "artifact_refs",
+    "source_tree_hash",
+    "config_hash",
+    "environment_hash",
+    "error_code",
+    "updated_at_utc"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "state": {
+            "const": "PASSED"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "attempts": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "actual_commands": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "artifact_refs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "source_tree_hash": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "config_hash": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "environment_hash": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "updated_at_utc": {
+            "type": "string",
+            "minLength": 1
+          },
+          "execution_evidence": {
+            "type": "array",
+            "minItems": 1
+          }
+        },
+        "required": [
+          "execution_evidence"
+        ]
+      }
+    }
+  ]
+}

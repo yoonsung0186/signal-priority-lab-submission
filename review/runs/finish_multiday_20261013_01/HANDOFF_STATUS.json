@@ -1,0 +1,14 @@
+{
+  "ai_status": "FITTED_CHRONOLOGICAL_HELDOUT_DESCRIPTION",
+  "evidence_status": "REAL_EXPLORATORY",
+  "external_submission_performed": false,
+  "original_straight_entry": "DEFERRED_OUT_OF_SCOPE",
+  "report_generated": false,
+  "report_owner": "CHATGPT",
+  "rights_for_contest": "UNKNOWN",
+  "rights_for_derived_handoff": "ALLOW",
+  "scope": "MULTIDAY_CASE",
+  "source_tree_hash": "2f7f115dde8602612ebb98787362f717ae8bf74ca07e2f6628a639c7d4f424c8",
+  "status": "TECHNICAL_SCOPE_COMPLETE_WITH_LIMITATIONS",
+  "v3_full_spec_verified": false
+}

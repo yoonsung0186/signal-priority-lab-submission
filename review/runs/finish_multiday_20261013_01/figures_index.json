@@ -1,0 +1,48 @@
+{
+  "figures": [
+    {
+      "axes": {
+        "x": "Filter metric",
+        "y": "Number of interactions"
+      },
+      "figure_id": "AUDIT_DENOMINATORS",
+      "files": [
+        {
+          "bytes": 53727,
+          "path": "figures/audit_denominators.png",
+          "sha256": "4d45f05dbe48892bd38845211d9bcd04cc54adea6585406955d7af7abc28f130"
+        },
+        {
+          "bytes": 38025,
+          "path": "figures/audit_denominators.svg",
+          "sha256": "2f4f48e236c8010a96b65e40f92729cd5ec486b53c34966a96360213e0c380ae"
+        }
+      ],
+      "limitations": "Recorded interactions and frozen-model description; not traffic exposure or independent accuracy.",
+      "source_table": "audit_denominators.csv",
+      "source_table_sha256": "e89b6dac398f1aaaf92f73dc646b48674d9f18666e1e90b34419abe36774b189"
+    },
+    {
+      "axes": {
+        "x": "Allowed feature",
+        "y": "Fraction of squared centroid separation"
+      },
+      "figure_id": "AI_FEATURE_SEPARATION",
+      "files": [
+        {
+          "bytes": 58078,
+          "path": "figures/ai_feature_separation.png",
+          "sha256": "990d15e2f41cd48e916390bf1bec3002e4ab2bbac93d5ab25bf294e528507348"
+        },
+        {
+          "bytes": 41228,
+          "path": "figures/ai_feature_separation.svg",
+          "sha256": "ba64fa9e2b017ca7025c446bd9dee011b8be719e1e2c368875e65cf5329ec395"
+        }
+      ],
+      "limitations": "Recorded interactions and frozen-model description; not traffic exposure or independent accuracy.",
+      "source_table": "ai_feature_separation.csv",
+      "source_table_sha256": "f02e26dbdf8a8be3bd3bc00df735ea7f002c5bc995cb07303801df26a32dbc1a"
+    }
+  ]
+}

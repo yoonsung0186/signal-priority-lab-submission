@@ -1,0 +1,7 @@
+{
+  "config_ref": "configs/pet_multiday_finish.yaml",
+  "config_sha256": "e5f83c73ce8274e83935cadc20928a0673523aba200f2f3f77fbb72ade584ad5",
+  "processing_mode": "DATE_BATCHED_FULL_BASELINE_BOUNDED_AI",
+  "profile_id": "PET_INTERACTIONS_V1",
+  "source_sha256": "2f7f115dde8602612ebb98787362f717ae8bf74ca07e2f6628a639c7d4f424c8"
+}

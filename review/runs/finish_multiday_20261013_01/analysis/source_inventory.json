@@ -1,0 +1,72 @@
+{
+  "inputs": [
+    {
+      "archive": "data/raw/sitpet_finish_20261013/attempt_01/pet_events.zip",
+      "bytes": 34033414,
+      "sha256": "615176e1138c70adab919b722da1a525e584d2c711eb06d4eb5ecf2c8738277f"
+    },
+    {
+      "archive": "data/raw/sitpet_finish_20261013/attempt_02/objects.zip",
+      "bytes": 23432360,
+      "sha256": "9d17b3894d49c0f0c5e7ab945324cafc89d3cc3e0bfe262ab3c7823284141343"
+    },
+    {
+      "archive": "data/raw/sitpet_finish_20261013/attempt_03/signals.zip",
+      "bytes": 72354318,
+      "sha256": "04676cd0ce221d7228d84a3d1c97a96c1052dd162afcbbbae2b131a7f7ebad6c"
+    },
+    {
+      "archive": "data/raw/sitpet_v1_1/examples.zip",
+      "bytes": 150667218,
+      "sha256": "60ffaaf43c4bc1287f50111aa70c1eef311616ad72e8667ca7c09a04c5750f82"
+    }
+  ],
+  "tables": [
+    {
+      "archive": "data/raw/sitpet_finish_20261013/attempt_01/pet_events.zip",
+      "archive_sha256": "615176e1138c70adab919b722da1a525e584d2c711eb06d4eb5ecf2c8738277f",
+      "expanded_bytes": 122907791,
+      "member": "pet_events.csv.gz",
+      "row_count": 928958,
+      "source_file_sha256": "f8dfdfb9ab7baf3d052452207fe808dac9da353fceae8434250717cf5128b884",
+      "table": "pet_events"
+    },
+    {
+      "archive": "data/raw/sitpet_finish_20261013/attempt_02/objects.zip",
+      "archive_sha256": "9d17b3894d49c0f0c5e7ab945324cafc89d3cc3e0bfe262ab3c7823284141343",
+      "expanded_bytes": 167994145,
+      "member": "objects.csv.gz",
+      "row_count": 2327831,
+      "source_file_sha256": "cb79c9e8a929fa3b7817550d2d01fb53041541ce4be7b1dbf4dc83ee3c935617",
+      "table": "objects"
+    },
+    {
+      "archive": "data/raw/sitpet_finish_20261013/attempt_03/signals.zip",
+      "archive_sha256": "04676cd0ce221d7228d84a3d1c97a96c1052dd162afcbbbae2b131a7f7ebad6c",
+      "expanded_bytes": 221,
+      "member": "scenario_signal_mapping.csv.gz",
+      "row_count": 8,
+      "source_file_sha256": "80eb5825615818f097aba257c684a3f3a6d1032ddfc29c6509a302e4ad47fa81",
+      "table": "scenario_signal_mapping"
+    },
+    {
+      "archive": "data/raw/sitpet_finish_20261013/attempt_03/signals.zip",
+      "archive_sha256": "04676cd0ce221d7228d84a3d1c97a96c1052dd162afcbbbae2b131a7f7ebad6c",
+      "expanded_bytes": 478815121,
+      "member": "signal_states.csv.gz",
+      "row_count": 11226785,
+      "source_file_sha256": "a7da81ee301f220fd5e8ca75921e6853ccc39a565af1794ca029d2cefa38b5aa",
+      "table": "signal_states"
+    },
+    {
+      "archive": "data/raw/sitpet_v1_1/examples.zip",
+      "archive_sha256": "60ffaaf43c4bc1287f50111aa70c1eef311616ad72e8667ca7c09a04c5750f82",
+      "expanded_bytes": 1161,
+      "member": "scenarios/scenarios.csv",
+      "row_count": 8,
+      "source_file_sha256": "c59b6201a5045c61995cb0e32e0c1177ce468be9962ea646377d2c61f21bffd1",
+      "table": "scenarios"
+    }
+  ],
+  "tracks_parsed": false
+}

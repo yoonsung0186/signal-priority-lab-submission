@@ -1,0 +1,13 @@
+test_config_content_mismatch_rejected (test_r2_signal_quality_context.ReusedContextTests.test_config_content_mismatch_rejected) ... ok
+test_config_hash_mismatch_rejected (test_r2_signal_quality_context.ReusedContextTests.test_config_hash_mismatch_rejected) ... ok
+test_exact_context_accepted (test_r2_signal_quality_context.ReusedContextTests.test_exact_context_accepted) ... ok
+test_lock_mismatch_rejected (test_r2_signal_quality_context.ReusedContextTests.test_lock_mismatch_rejected) ... ok
+test_original_source_mismatch_rejected (test_r2_signal_quality_context.ReusedContextTests.test_original_source_mismatch_rejected) ... ok
+test_overlay_preserves_literal_decimal_strings (test_r2_signal_quality_context.ReusedContextTests.test_overlay_preserves_literal_decimal_strings) ... ok
+test_reuse_manifest_mismatch_rejected (test_r2_signal_quality_context.ReusedContextTests.test_reuse_manifest_mismatch_rejected) ... ok
+test_source_commit_mismatch_rejected (test_r2_signal_quality_context.ReusedContextTests.test_source_commit_mismatch_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.996s
+
+OK

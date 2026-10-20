@@ -1,0 +1,925 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "HANDOFF_STATUS.json",
+      "format": "json",
+      "path": "HANDOFF_STATUS.json"
+    },
+    {
+      "artifact_id": "analysis/ai_population.csv",
+      "format": "csv",
+      "path": "analysis/ai_population.csv"
+    },
+    {
+      "artifact_id": "analysis/ai_population_parquet/part_00000.parquet",
+      "format": "parquet",
+      "path": "analysis/ai_population_parquet/part_00000.parquet"
+    },
+    {
+      "artifact_id": "analysis/ai_population_parquet/part_00001.parquet",
+      "format": "parquet",
+      "path": "analysis/ai_population_parquet/part_00001.parquet"
+    },
+    {
+      "artifact_id": "analysis/ai_population_parquet/part_00002.parquet",
+      "format": "parquet",
+      "path": "analysis/ai_population_parquet/part_00002.parquet"
+    },
+    {
+      "artifact_id": "analysis/ai_population_parquet/part_00003.parquet",
+      "format": "parquet",
+      "path": "analysis/ai_population_parquet/part_00003.parquet"
+    },
+    {
+      "artifact_id": "analysis/ai_population_parquet_index.json",
+      "format": "json",
+      "path": "analysis/ai_population_parquet_index.json"
+    },
+    {
+      "artifact_id": "analysis/ai_sampling.json",
+      "format": "json",
+      "path": "analysis/ai_sampling.json"
+    },
+    {
+      "artifact_id": "analysis/analysis_request.json",
+      "format": "json",
+      "path": "analysis/analysis_request.json"
+    },
+    {
+      "artifact_id": "analysis/cluster_assignments.csv",
+      "format": "csv",
+      "path": "analysis/cluster_assignments.csv"
+    },
+    {
+      "artifact_id": "analysis/cluster_assignments_parquet/part_00000.parquet",
+      "format": "parquet",
+      "path": "analysis/cluster_assignments_parquet/part_00000.parquet"
+    },
+    {
+      "artifact_id": "analysis/cluster_assignments_parquet/part_00001.parquet",
+      "format": "parquet",
+      "path": "analysis/cluster_assignments_parquet/part_00001.parquet"
+    },
+    {
+      "artifact_id": "analysis/cluster_assignments_parquet/part_00002.parquet",
+      "format": "parquet",
+      "path": "analysis/cluster_assignments_parquet/part_00002.parquet"
+    },
+    {
+      "artifact_id": "analysis/cluster_assignments_parquet/part_00003.parquet",
+      "format": "parquet",
+      "path": "analysis/cluster_assignments_parquet/part_00003.parquet"
+    },
+    {
+      "artifact_id": "analysis/cluster_assignments_parquet_index.json",
+      "format": "json",
+      "path": "analysis/cluster_assignments_parquet_index.json"
+    },
+    {
+      "artifact_id": "analysis/cluster_condition_profile.csv",
+      "format": "csv",
+      "path": "analysis/cluster_condition_profile.csv"
+    },
+    {
+      "artifact_id": "analysis/cluster_condition_profile.parquet",
+      "format": "parquet",
+      "path": "analysis/cluster_condition_profile.parquet"
+    },
+    {
+      "artifact_id": "analysis/cluster_condition_profile_parquet_index.json",
+      "format": "json",
+      "path": "analysis/cluster_condition_profile_parquet_index.json"
+    },
+    {
+      "artifact_id": "analysis/cluster_model.json",
+      "format": "json",
+      "path": "analysis/cluster_model.json"
+    },
+    {
+      "artifact_id": "analysis/cluster_profile.csv",
+      "format": "csv",
+      "path": "analysis/cluster_profile.csv"
+    },
+    {
+      "artifact_id": "analysis/cluster_profile.parquet",
+      "format": "parquet",
+      "path": "analysis/cluster_profile.parquet"
+    },
+    {
+      "artifact_id": "analysis/cluster_profile_parquet_index.json",
+      "format": "json",
+      "path": "analysis/cluster_profile_parquet_index.json"
+    },
+    {
+      "artifact_id": "analysis/cluster_validation.json",
+      "format": "json",
+      "path": "analysis/cluster_validation.json"
+    },
+    {
+      "artifact_id": "analysis/date_cluster_intervals.csv",
+      "format": "csv",
+      "path": "analysis/date_cluster_intervals.csv"
+    },
+    {
+      "artifact_id": "analysis/date_cluster_intervals.parquet",
+      "format": "parquet",
+      "path": "analysis/date_cluster_intervals.parquet"
+    },
+    {
+      "artifact_id": "analysis/date_cluster_intervals_parquet_index.json",
+      "format": "json",
+      "path": "analysis/date_cluster_intervals_parquet_index.json"
+    },
+    {
+      "artifact_id": "analysis/figure_ai_cluster_plot_data.csv",
+      "format": "csv",
+      "path": "analysis/figure_ai_cluster_plot_data.csv"
+    },
+    {
+      "artifact_id": "analysis/figure_ai_cluster_plot_data.parquet",
+      "format": "parquet",
+      "path": "analysis/figure_ai_cluster_plot_data.parquet"
+    },
+    {
+      "artifact_id": "analysis/figure_ai_cluster_plot_data_parquet_index.json",
+      "format": "json",
+      "path": "analysis/figure_ai_cluster_plot_data_parquet_index.json"
+    },
+    {
+      "artifact_id": "analysis/figure_ai_stability_plot_data.csv",
+      "format": "csv",
+      "path": "analysis/figure_ai_stability_plot_data.csv"
+    },
+    {
+      "artifact_id": "analysis/figure_ai_stability_plot_data.parquet",
+      "format": "parquet",
+      "path": "analysis/figure_ai_stability_plot_data.parquet"
+    },
+    {
+      "artifact_id": "analysis/figure_ai_stability_plot_data_parquet_index.json",
+      "format": "json",
+      "path": "analysis/figure_ai_stability_plot_data_parquet_index.json"
+    },
+    {
+      "artifact_id": "analysis/figure_pet_ecdf_plot_data.csv",
+      "format": "csv",
+      "path": "analysis/figure_pet_ecdf_plot_data.csv"
+    },
+    {
+      "artifact_id": "analysis/figure_pet_ecdf_plot_data.parquet",
+      "format": "parquet",
+      "path": "analysis/figure_pet_ecdf_plot_data.parquet"
+    },
+    {
+      "artifact_id": "analysis/figure_pet_ecdf_plot_data_parquet_index.json",
+      "format": "json",
+      "path": "analysis/figure_pet_ecdf_plot_data_parquet_index.json"
+    },
+    {
+      "artifact_id": "analysis/figures/ai_occupancy_types.png",
+      "format": "png",
+      "path": "analysis/figures/ai_occupancy_types.png"
+    },
+    {
+      "artifact_id": "analysis/figures/ai_occupancy_types.svg",
+      "format": "svg",
+      "path": "analysis/figures/ai_occupancy_types.svg"
+    },
+    {
+      "artifact_id": "analysis/figures/ai_seed_agreement.png",
+      "format": "png",
+      "path": "analysis/figures/ai_seed_agreement.png"
+    },
+    {
+      "artifact_id": "analysis/figures/ai_seed_agreement.svg",
+      "format": "svg",
+      "path": "analysis/figures/ai_seed_agreement.svg"
+    },
+    {
+      "artifact_id": "analysis/figures/pet_ecdf.png",
+      "format": "png",
+      "path": "analysis/figures/pet_ecdf.png"
+    },
+    {
+      "artifact_id": "analysis/figures/pet_ecdf.svg",
+      "format": "svg",
+      "path": "analysis/figures/pet_ecdf.svg"
+    },
+    {
+      "artifact_id": "analysis/figures_index.json",
+      "format": "json",
+      "path": "analysis/figures_index.json"
+    },
+    {
+      "artifact_id": "analysis/fit_attempts.jsonl",
+      "format": "jsonl",
+      "path": "analysis/fit_attempts.jsonl"
+    },
+    {
+      "artifact_id": "analysis/inspection_candidates.csv",
+      "format": "csv",
+      "path": "analysis/inspection_candidates.csv"
+    },
+    {
+      "artifact_id": "analysis/inspection_candidates.parquet",
+      "format": "parquet",
+      "path": "analysis/inspection_candidates.parquet"
+    },
+    {
+      "artifact_id": "analysis/inspection_candidates_parquet_index.json",
+      "format": "json",
+      "path": "analysis/inspection_candidates_parquet_index.json"
+    },
+    {
+      "artifact_id": "analysis/pet_analysis.json",
+      "format": "json",
+      "path": "analysis/pet_analysis.json"
+    },
+    {
+      "artifact_id": "analysis/pet_ecdf.csv",
+      "format": "csv",
+      "path": "analysis/pet_ecdf.csv"
+    },
+    {
+      "artifact_id": "analysis/pet_ecdf_parquet/part_00000.parquet",
+      "format": "parquet",
+      "path": "analysis/pet_ecdf_parquet/part_00000.parquet"
+    },
+    {
+      "artifact_id": "analysis/pet_ecdf_parquet/part_00001.parquet",
+      "format": "parquet",
+      "path": "analysis/pet_ecdf_parquet/part_00001.parquet"
+    },
+    {
+      "artifact_id": "analysis/pet_ecdf_parquet/part_00002.parquet",
+      "format": "parquet",
+      "path": "analysis/pet_ecdf_parquet/part_00002.parquet"
+    },
+    {
+      "artifact_id": "analysis/pet_ecdf_parquet/part_00003.parquet",
+      "format": "parquet",
+      "path": "analysis/pet_ecdf_parquet/part_00003.parquet"
+    },
+    {
+      "artifact_id": "analysis/pet_ecdf_parquet/part_00004.parquet",
+      "format": "parquet",
+      "path": "analysis/pet_ecdf_parquet/part_00004.parquet"
+    },
+    {
+      "artifact_id": "analysis/pet_ecdf_parquet_index.json",
+      "format": "json",
+      "path": "analysis/pet_ecdf_parquet_index.json"
+    },
+    {
+      "artifact_id": "analysis/pet_qc.json",
+      "format": "json",
+      "path": "analysis/pet_qc.json"
+    },
+    {
+      "artifact_id": "analysis/pet_result.json",
+      "format": "json",
+      "path": "analysis/pet_result.json"
+    },
+    {
+      "artifact_id": "analysis/pet_thresholds.csv",
+      "format": "csv",
+      "path": "analysis/pet_thresholds.csv"
+    },
+    {
+      "artifact_id": "analysis/pet_thresholds.parquet",
+      "format": "parquet",
+      "path": "analysis/pet_thresholds.parquet"
+    },
+    {
+      "artifact_id": "analysis/pet_thresholds_parquet_index.json",
+      "format": "json",
+      "path": "analysis/pet_thresholds_parquet_index.json"
+    },
+    {
+      "artifact_id": "analysis/provenance.json",
+      "format": "json",
+      "path": "analysis/provenance.json"
+    },
+    {
+      "artifact_id": "analysis/run_manifest.json",
+      "format": "json",
+      "path": "analysis/run_manifest.json"
+    },
+    {
+      "artifact_id": "analysis/scenario_summary.csv",
+      "format": "csv",
+      "path": "analysis/scenario_summary.csv"
+    },
+    {
+      "artifact_id": "analysis/scenario_summary.parquet",
+      "format": "parquet",
+      "path": "analysis/scenario_summary.parquet"
+    },
+    {
+      "artifact_id": "analysis/scenario_summary_parquet_index.json",
+      "format": "json",
+      "path": "analysis/scenario_summary_parquet_index.json"
+    },
+    {
+      "artifact_id": "analysis/source_inventory.json",
+      "format": "json",
+      "path": "analysis/source_inventory.json"
+    },
+    {
+      "artifact_id": "analysis/timebin_summary.csv",
+      "format": "csv",
+      "path": "analysis/timebin_summary.csv"
+    },
+    {
+      "artifact_id": "analysis/timebin_summary.parquet",
+      "format": "parquet",
+      "path": "analysis/timebin_summary.parquet"
+    },
+    {
+      "artifact_id": "analysis/timebin_summary_parquet_index.json",
+      "format": "json",
+      "path": "analysis/timebin_summary_parquet_index.json"
+    },
+    {
+      "artifact_id": "analysis/timing_sensitivity.csv",
+      "format": "csv",
+      "path": "analysis/timing_sensitivity.csv"
+    },
+    {
+      "artifact_id": "analysis/timing_sensitivity.parquet",
+      "format": "parquet",
+      "path": "analysis/timing_sensitivity.parquet"
+    },
+    {
+      "artifact_id": "analysis/timing_sensitivity_parquet_index.json",
+      "format": "json",
+      "path": "analysis/timing_sensitivity_parquet_index.json"
+    },
+    {
+      "artifact_id": "data_dictionary.md",
+      "format": "md",
+      "path": "data_dictionary.md"
+    },
+    {
+      "artifact_id": "evidence/claim_constraints.json",
+      "format": "json",
+      "path": "evidence/claim_constraints.json"
+    },
+    {
+      "artifact_id": "evidence/metric_facts.jsonl",
+      "format": "jsonl",
+      "path": "evidence/metric_facts.jsonl"
+    },
+    {
+      "artifact_id": "history/pre_format_fix_input_probe.json",
+      "format": "json",
+      "path": "history/pre_format_fix_input_probe.json"
+    },
+    {
+      "artifact_id": "limitations.json",
+      "format": "json",
+      "path": "limitations.json"
+    },
+    {
+      "artifact_id": "reproduce/configs/pet_multiday_finish.yaml",
+      "format": "yaml",
+      "path": "reproduce/configs/pet_multiday_finish.yaml"
+    },
+    {
+      "artifact_id": "reproduce/requirements.lock",
+      "format": "lock",
+      "path": "reproduce/requirements.lock"
+    },
+    {
+      "artifact_id": "reproduce/sitpet/LICENSE.md",
+      "format": "md",
+      "path": "reproduce/sitpet/LICENSE.md"
+    },
+    {
+      "artifact_id": "reproduce/sitpet/README.md",
+      "format": "md",
+      "path": "reproduce/sitpet/README.md"
+    },
+    {
+      "artifact_id": "reproduce/sitpet/metadata.json",
+      "format": "json",
+      "path": "reproduce/sitpet/metadata.json"
+    },
+    {
+      "artifact_id": "reproduce/sitpet/schema.md",
+      "format": "md",
+      "path": "reproduce/sitpet/schema.md"
+    },
+    {
+      "artifact_id": "reproduce/technical/finish_multiday.md",
+      "format": "md",
+      "path": "reproduce/technical/finish_multiday.md"
+    },
+    {
+      "artifact_id": "reproduce/technical/pet_r1.md",
+      "format": "md",
+      "path": "reproduce/technical/pet_r1.md"
+    },
+    {
+      "artifact_id": "sources.json",
+      "format": "json",
+      "path": "sources.json"
+    },
+    {
+      "artifact_id": "technical_notes.md",
+      "format": "md",
+      "path": "technical_notes.md"
+    },
+    {
+      "artifact_id": "validation/acquisition/attempt_01.json",
+      "format": "json",
+      "path": "validation/acquisition/attempt_01.json"
+    },
+    {
+      "artifact_id": "validation/acquisition/attempt_02.json",
+      "format": "json",
+      "path": "validation/acquisition/attempt_02.json"
+    },
+    {
+      "artifact_id": "validation/acquisition/attempt_03.json",
+      "format": "json",
+      "path": "validation/acquisition/attempt_03.json"
+    },
+    {
+      "artifact_id": "validation/acquisition/attempt_04.json",
+      "format": "json",
+      "path": "validation/acquisition/attempt_04.json"
+    },
+    {
+      "artifact_id": "validation/acquisition/request_02.json",
+      "format": "json",
+      "path": "validation/acquisition/request_02.json"
+    },
+    {
+      "artifact_id": "validation/acquisition/request_03.json",
+      "format": "json",
+      "path": "validation/acquisition/request_03.json"
+    },
+    {
+      "artifact_id": "validation/acquisition/request_04.json",
+      "format": "json",
+      "path": "validation/acquisition/request_04.json"
+    },
+    {
+      "artifact_id": "validation/artifact_manifest.json",
+      "format": "json",
+      "path": "validation/artifact_manifest.json"
+    },
+    {
+      "artifact_id": "validation/data_acquisition_manifest.json",
+      "format": "json",
+      "path": "validation/data_acquisition_manifest.json"
+    },
+    {
+      "artifact_id": "validation/decision.json",
+      "format": "json",
+      "path": "validation/decision.json"
+    },
+    {
+      "artifact_id": "validation/environment_manifest_r1.json",
+      "format": "json",
+      "path": "validation/environment_manifest_r1.json"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_evidence_1/execution.json",
+      "format": "json",
+      "path": "validation/executions/finish_final_20261013_A_evidence_1/execution.json"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_evidence_1/stderr.log",
+      "format": "log",
+      "path": "validation/executions/finish_final_20261013_A_evidence_1/stderr.log"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_evidence_1/stdout.log",
+      "format": "log",
+      "path": "validation/executions/finish_final_20261013_A_evidence_1/stdout.log"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_evidence_2/execution.json",
+      "format": "json",
+      "path": "validation/executions/finish_final_20261013_A_evidence_2/execution.json"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_evidence_2/stderr.log",
+      "format": "log",
+      "path": "validation/executions/finish_final_20261013_A_evidence_2/stderr.log"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_evidence_2/stdout.log",
+      "format": "log",
+      "path": "validation/executions/finish_final_20261013_A_evidence_2/stdout.log"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_implementation/execution.json",
+      "format": "json",
+      "path": "validation/executions/finish_final_20261013_A_implementation/execution.json"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_implementation/stderr.log",
+      "format": "log",
+      "path": "validation/executions/finish_final_20261013_A_implementation/stderr.log"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_implementation/stdout.log",
+      "format": "log",
+      "path": "validation/executions/finish_final_20261013_A_implementation/stdout.log"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_optimized/execution.json",
+      "format": "json",
+      "path": "validation/executions/finish_final_20261013_A_optimized/execution.json"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_optimized/stderr.log",
+      "format": "log",
+      "path": "validation/executions/finish_final_20261013_A_optimized/stderr.log"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_optimized/stdout.log",
+      "format": "log",
+      "path": "validation/executions/finish_final_20261013_A_optimized/stdout.log"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_pet_1/execution.json",
+      "format": "json",
+      "path": "validation/executions/finish_final_20261013_A_pet_1/execution.json"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_pet_1/stderr.log",
+      "format": "log",
+      "path": "validation/executions/finish_final_20261013_A_pet_1/stderr.log"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_pet_1/stdout.log",
+      "format": "log",
+      "path": "validation/executions/finish_final_20261013_A_pet_1/stdout.log"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_pet_2/execution.json",
+      "format": "json",
+      "path": "validation/executions/finish_final_20261013_A_pet_2/execution.json"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_pet_2/stderr.log",
+      "format": "log",
+      "path": "validation/executions/finish_final_20261013_A_pet_2/stderr.log"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_pet_2/stdout.log",
+      "format": "log",
+      "path": "validation/executions/finish_final_20261013_A_pet_2/stdout.log"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_preflight/execution.json",
+      "format": "json",
+      "path": "validation/executions/finish_final_20261013_A_preflight/execution.json"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_preflight/stderr.log",
+      "format": "log",
+      "path": "validation/executions/finish_final_20261013_A_preflight/stderr.log"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_preflight/stdout.log",
+      "format": "log",
+      "path": "validation/executions/finish_final_20261013_A_preflight/stdout.log"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_synthetic_1/execution.json",
+      "format": "json",
+      "path": "validation/executions/finish_final_20261013_A_synthetic_1/execution.json"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_synthetic_1/stderr.log",
+      "format": "log",
+      "path": "validation/executions/finish_final_20261013_A_synthetic_1/stderr.log"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_synthetic_1/stdout.log",
+      "format": "log",
+      "path": "validation/executions/finish_final_20261013_A_synthetic_1/stdout.log"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_synthetic_2/execution.json",
+      "format": "json",
+      "path": "validation/executions/finish_final_20261013_A_synthetic_2/execution.json"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_synthetic_2/stderr.log",
+      "format": "log",
+      "path": "validation/executions/finish_final_20261013_A_synthetic_2/stderr.log"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_synthetic_2/stdout.log",
+      "format": "log",
+      "path": "validation/executions/finish_final_20261013_A_synthetic_2/stdout.log"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_tools/execution.json",
+      "format": "json",
+      "path": "validation/executions/finish_final_20261013_A_tools/execution.json"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_tools/stderr.log",
+      "format": "log",
+      "path": "validation/executions/finish_final_20261013_A_tools/stderr.log"
+    },
+    {
+      "artifact_id": "validation/executions/finish_final_20261013_A_tools/stdout.log",
+      "format": "log",
+      "path": "validation/executions/finish_final_20261013_A_tools/stdout.log"
+    },
+    {
+      "artifact_id": "validation/reproducibility.json",
+      "format": "json",
+      "path": "validation/reproducibility.json"
+    },
+    {
+      "artifact_id": "validation/source_snapshot.json",
+      "format": "json",
+      "path": "validation/source_snapshot.json"
+    },
+    {
+      "artifact_id": "validation/verification_summary.json",
+      "format": "json",
+      "path": "validation/verification_summary.json"
+    },
+    {
+      "artifact_id": "writer_input/WRITER_BRIEF.md",
+      "format": "md",
+      "path": "writer_input/WRITER_BRIEF.md"
+    },
+    {
+      "artifact_id": "writer_input/ai_assessment.json",
+      "format": "json",
+      "path": "writer_input/ai_assessment.json"
+    },
+    {
+      "artifact_id": "writer_input/ai_basic_description_comparison.csv",
+      "format": "csv",
+      "path": "writer_input/ai_basic_description_comparison.csv"
+    },
+    {
+      "artifact_id": "writer_input/ai_basic_description_comparison.parquet",
+      "format": "parquet",
+      "path": "writer_input/ai_basic_description_comparison.parquet"
+    },
+    {
+      "artifact_id": "writer_input/ai_basic_description_comparison_parquet_index.json",
+      "format": "json",
+      "path": "writer_input/ai_basic_description_comparison_parquet_index.json"
+    },
+    {
+      "artifact_id": "writer_input/ai_condition_counts.csv",
+      "format": "csv",
+      "path": "writer_input/ai_condition_counts.csv"
+    },
+    {
+      "artifact_id": "writer_input/ai_condition_counts.parquet",
+      "format": "parquet",
+      "path": "writer_input/ai_condition_counts.parquet"
+    },
+    {
+      "artifact_id": "writer_input/ai_condition_counts_parquet_index.json",
+      "format": "json",
+      "path": "writer_input/ai_condition_counts_parquet_index.json"
+    },
+    {
+      "artifact_id": "writer_input/ai_feature_separation.csv",
+      "format": "csv",
+      "path": "writer_input/ai_feature_separation.csv"
+    },
+    {
+      "artifact_id": "writer_input/ai_feature_separation.parquet",
+      "format": "parquet",
+      "path": "writer_input/ai_feature_separation.parquet"
+    },
+    {
+      "artifact_id": "writer_input/ai_feature_separation_parquet_index.json",
+      "format": "json",
+      "path": "writer_input/ai_feature_separation_parquet_index.json"
+    },
+    {
+      "artifact_id": "writer_input/ai_feature_tail_description.csv",
+      "format": "csv",
+      "path": "writer_input/ai_feature_tail_description.csv"
+    },
+    {
+      "artifact_id": "writer_input/ai_feature_tail_description.parquet",
+      "format": "parquet",
+      "path": "writer_input/ai_feature_tail_description.parquet"
+    },
+    {
+      "artifact_id": "writer_input/ai_feature_tail_description_parquet_index.json",
+      "format": "json",
+      "path": "writer_input/ai_feature_tail_description_parquet_index.json"
+    },
+    {
+      "artifact_id": "writer_input/ai_frozen_subset_comparison.csv",
+      "format": "csv",
+      "path": "writer_input/ai_frozen_subset_comparison.csv"
+    },
+    {
+      "artifact_id": "writer_input/ai_frozen_subset_comparison.parquet",
+      "format": "parquet",
+      "path": "writer_input/ai_frozen_subset_comparison.parquet"
+    },
+    {
+      "artifact_id": "writer_input/ai_frozen_subset_comparison_parquet_index.json",
+      "format": "json",
+      "path": "writer_input/ai_frozen_subset_comparison_parquet_index.json"
+    },
+    {
+      "artifact_id": "writer_input/artifact_manifest.json",
+      "format": "json",
+      "path": "writer_input/artifact_manifest.json"
+    },
+    {
+      "artifact_id": "writer_input/audit_clock_sensitivity.csv",
+      "format": "csv",
+      "path": "writer_input/audit_clock_sensitivity.csv"
+    },
+    {
+      "artifact_id": "writer_input/audit_clock_sensitivity.parquet",
+      "format": "parquet",
+      "path": "writer_input/audit_clock_sensitivity.parquet"
+    },
+    {
+      "artifact_id": "writer_input/audit_clock_sensitivity_parquet_index.json",
+      "format": "json",
+      "path": "writer_input/audit_clock_sensitivity_parquet_index.json"
+    },
+    {
+      "artifact_id": "writer_input/audit_denominators.csv",
+      "format": "csv",
+      "path": "writer_input/audit_denominators.csv"
+    },
+    {
+      "artifact_id": "writer_input/audit_denominators.parquet",
+      "format": "parquet",
+      "path": "writer_input/audit_denominators.parquet"
+    },
+    {
+      "artifact_id": "writer_input/audit_denominators_parquet_index.json",
+      "format": "json",
+      "path": "writer_input/audit_denominators_parquet_index.json"
+    },
+    {
+      "artifact_id": "writer_input/audit_scenario_thresholds.csv",
+      "format": "csv",
+      "path": "writer_input/audit_scenario_thresholds.csv"
+    },
+    {
+      "artifact_id": "writer_input/audit_scenario_thresholds.parquet",
+      "format": "parquet",
+      "path": "writer_input/audit_scenario_thresholds.parquet"
+    },
+    {
+      "artifact_id": "writer_input/audit_scenario_thresholds_parquet_index.json",
+      "format": "json",
+      "path": "writer_input/audit_scenario_thresholds_parquet_index.json"
+    },
+    {
+      "artifact_id": "writer_input/calculation_formulae.json",
+      "format": "json",
+      "path": "writer_input/calculation_formulae.json"
+    },
+    {
+      "artifact_id": "writer_input/claim_limits.json",
+      "format": "json",
+      "path": "writer_input/claim_limits.json"
+    },
+    {
+      "artifact_id": "writer_input/contest_requirements.json",
+      "format": "json",
+      "path": "writer_input/contest_requirements.json"
+    },
+    {
+      "artifact_id": "writer_input/data_route.json",
+      "format": "json",
+      "path": "writer_input/data_route.json"
+    },
+    {
+      "artifact_id": "writer_input/event_audit.json",
+      "format": "json",
+      "path": "writer_input/event_audit.json"
+    },
+    {
+      "artifact_id": "writer_input/event_audit_cases.csv",
+      "format": "csv",
+      "path": "writer_input/event_audit_cases.csv"
+    },
+    {
+      "artifact_id": "writer_input/event_audit_cases.parquet",
+      "format": "parquet",
+      "path": "writer_input/event_audit_cases.parquet"
+    },
+    {
+      "artifact_id": "writer_input/event_audit_cases_parquet_index.json",
+      "format": "json",
+      "path": "writer_input/event_audit_cases_parquet_index.json"
+    },
+    {
+      "artifact_id": "writer_input/figures/ai_feature_separation.png",
+      "format": "png",
+      "path": "writer_input/figures/ai_feature_separation.png"
+    },
+    {
+      "artifact_id": "writer_input/figures/ai_feature_separation.svg",
+      "format": "svg",
+      "path": "writer_input/figures/ai_feature_separation.svg"
+    },
+    {
+      "artifact_id": "writer_input/figures/audit_denominators.png",
+      "format": "png",
+      "path": "writer_input/figures/audit_denominators.png"
+    },
+    {
+      "artifact_id": "writer_input/figures/audit_denominators.svg",
+      "format": "svg",
+      "path": "writer_input/figures/audit_denominators.svg"
+    },
+    {
+      "artifact_id": "writer_input/figures_index.json",
+      "format": "json",
+      "path": "writer_input/figures_index.json"
+    },
+    {
+      "artifact_id": "writer_input/local_omissions.json",
+      "format": "json",
+      "path": "writer_input/local_omissions.json"
+    },
+    {
+      "artifact_id": "writer_input/metric_facts.jsonl",
+      "format": "jsonl",
+      "path": "writer_input/metric_facts.jsonl"
+    },
+    {
+      "artifact_id": "writer_input/prior_result_preservation.json",
+      "format": "json",
+      "path": "writer_input/prior_result_preservation.json"
+    },
+    {
+      "artifact_id": "writer_input/provenance.json",
+      "format": "json",
+      "path": "writer_input/provenance.json"
+    },
+    {
+      "artifact_id": "writer_input/reproducibility.json",
+      "format": "json",
+      "path": "writer_input/reproducibility.json"
+    },
+    {
+      "artifact_id": "writer_input/review.json",
+      "format": "json",
+      "path": "writer_input/review.json"
+    },
+    {
+      "artifact_id": "writer_input/run_manifest.json",
+      "format": "json",
+      "path": "writer_input/run_manifest.json"
+    },
+    {
+      "artifact_id": "writer_input/runtime_roles.json",
+      "format": "json",
+      "path": "writer_input/runtime_roles.json"
+    },
+    {
+      "artifact_id": "writer_input/sample_scope.json",
+      "format": "json",
+      "path": "writer_input/sample_scope.json"
+    },
+    {
+      "artifact_id": "writer_input/signal_timestamp_format_audit.json",
+      "format": "json",
+      "path": "writer_input/signal_timestamp_format_audit.json"
+    },
+    {
+      "artifact_id": "writer_input/source_snapshot.json",
+      "format": "json",
+      "path": "writer_input/source_snapshot.json"
+    },
+    {
+      "artifact_id": "writer_input/sources.json",
+      "format": "json",
+      "path": "writer_input/sources.json"
+    },
+    {
+      "artifact_id": "writer_input/technical_summary.json",
+      "format": "json",
+      "path": "writer_input/technical_summary.json"
+    },
+    {
+      "artifact_id": "writer_input/verification_summary.json",
+      "format": "json",
+      "path": "writer_input/verification_summary.json"
+    }
+  ],
+  "row_counts": "See corresponding Parquet index or explicitly counted metrics; not inferred from file size"
+}

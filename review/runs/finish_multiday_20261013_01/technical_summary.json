@@ -1,0 +1,57 @@
+{
+  "additional_fit_calls": 0,
+  "ai_diagnostic_conclusion": "STATIC_SIZE_DOMINATES_CENTROID_SEPARATION",
+  "ai_incremental_benefit_status": "NOT_ESTABLISHED_BY_DESCRIPTIVE_CLUSTER_COMPARISONS",
+  "claim_limits": [
+    "Recorded interaction fractions are not vehicle exposure, accident probability or legal violation accuracy.",
+    "Single-intersection recorded interactions do not establish general policy priority or transfer to a domestic intersection."
+  ],
+  "data_kind": "REAL",
+  "denominators": [
+    {
+      "denominator": 928958,
+      "fraction": 0.004502894641092493,
+      "metric_id": "raw_source_finite_negative",
+      "numerator": 4183,
+      "population": "All original provider rows, before QC or key reconciliation",
+      "unit": "recorded interaction fraction"
+    },
+    {
+      "denominator": 928958,
+      "fraction": 0.9954971053589075,
+      "metric_id": "qc_valid_nonnegative",
+      "numerator": 924775,
+      "population": "Unique reconciled event keys including explicit invalid rows",
+      "unit": "recorded interaction fraction"
+    },
+    {
+      "denominator": 928958,
+      "fraction": 0.004502894641092493,
+      "metric_id": "qc_valid_negative_review",
+      "numerator": 4183,
+      "population": "Unique reconciled event keys including explicit invalid rows",
+      "unit": "recorded interaction fraction"
+    },
+    {
+      "denominator": 928958,
+      "fraction": 0.0,
+      "metric_id": "qc_invalid",
+      "numerator": 0,
+      "population": "Unique reconciled event keys including explicit invalid rows",
+      "unit": "recorded interaction fraction"
+    },
+    {
+      "denominator": 924775,
+      "fraction": 0.004857397745397529,
+      "metric_id": "valid_nonnegative_pet_le_1s",
+      "numerator": 4492,
+      "population": "QC-valid nonnegative provider interactions",
+      "unit": "recorded interaction fraction"
+    }
+  ],
+  "event_audit_status": "CONSISTENT",
+  "independent_accuracy": null,
+  "input_run": "runs/finish_final_20261013_A_pet_2",
+  "manual_review_status": "NOT_PERFORMED",
+  "scope": "MULTIDAY_CASE"
+}

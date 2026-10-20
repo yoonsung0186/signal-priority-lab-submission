@@ -1,0 +1,54 @@
+{
+  "record_id": 19231310,
+  "version": "1.1",
+  "record_doi": "10.5281/zenodo.19231310",
+  "publication_date": "2026-03-26",
+  "metadata_cached_path": "state/research/sitpet/metadata.json",
+  "metadata_sha256": "4e8bda185290b4ea7df2ed79060b197a9b64964bed55979009f41f1ffb16a6ec",
+  "paper_doi": "10.3390/data11040068",
+  "paper_directly_read": false,
+  "paper_attempts": [
+    "Web DOI open unavailable",
+    "Publisher HTML HTTP429",
+    "Same publisher URL scheduled retry HTTP403"
+  ],
+  "paper_retry_exhausted": true,
+  "no_access_bypass": true,
+  "comparisons": [
+    {
+      "item": "observation_unit",
+      "provider_version_evidence": "Schema section4: one row per derived interaction event; events unfiltered including negative and large values",
+      "r2_interpretation": "A preserves all valid nonnegative records; repeated pairs are separate events, C/D only sensitivity",
+      "paper_match_status": "UNKNOWN_PAPER_UNAVAILABLE"
+    },
+    {
+      "item": "five_second_filter",
+      "provider_version_evidence": "Fixed examples archive 00_load_and_inspect.py lines94-97 uses 0<=pet_s<=5",
+      "r2_interpretation": "B,D use stated bounded-record denominator, not all traffic exposure",
+      "paper_match_status": "UNKNOWN_PAPER_UNAVAILABLE"
+    },
+    {
+      "item": "representative_event",
+      "provider_version_evidence": "No first ordered-pair recommendation independently established from readable schema",
+      "r2_interpretation": "Timestamp+numeric eventID fixed sensitivity rule; multiple coordinates flagged",
+      "paper_match_status": "UNKNOWN_PAPER_UNAVAILABLE"
+    },
+    {
+      "item": "signal_precision",
+      "provider_version_evidence": "Schema timestamps are integer milliseconds; storage units do not establish measurement accuracy",
+      "r2_interpretation": "Offsets are stress conditions; do not infer true clock error distribution",
+      "paper_match_status": "UNKNOWN_PAPER_UNAVAILABLE"
+    },
+    {
+      "item": "2025-06-05_to_11_missing_period",
+      "provider_version_evidence": "User requested comparison to paper description; paper text unavailable",
+      "r2_interpretation": "Measure actual v1.1 intervals and gaps/crossings; do not presume missing days or coding defect; affected quality window withheld from signal conclusions",
+      "paper_match_status": "USER_REQUESTED_CLAIM_NOT_INDEPENDENTLY_VERIFIED"
+    }
+  ],
+  "required_originals_if_user_can_provide": [
+    "Provider paper definition/filter and signal precision/missing-period pages",
+    "Organizer exact deadline time and detailed eligibility if separate from downloaded forms"
+  ],
+  "license_analysis_and_derived_sharing": "Reuse prior record-specific ALLOW; contest suitability remains separately assessed"
+}

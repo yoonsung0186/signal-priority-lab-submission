@@ -1,0 +1,135 @@
+{
+  "actual_fit_after": 52,
+  "actual_fit_before": 52,
+  "actual_new_fits": 0,
+  "baseline_full_replay_in_r2": false,
+  "baseline_verification_reused": "finish_final_20261013_A",
+  "executions": [
+    {
+      "command": [
+        "<PROJECT_ROOT>\\.venv\\Scripts\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "config_sha256": "691c44ca1771a2f087fefd8360eff061ab8fc98b35a69286d95667650024b9de",
+      "elapsed_s": 11.274039200041443,
+      "environment_sha256": "9328cddcaa62aaf6014dd98d8569342e74023d5a010e43bef16ac0102a11c976",
+      "exit_code": 0,
+      "name": "tools",
+      "source_tree_hash": "1b80f24f6f3affe5c7e33ece7e4f3574c43a019082faa9071640d0e5b1b41338",
+      "source_unchanged": true,
+      "stderr_sha256": "fe61e6d53d4225c33b60b6dddef4c13a340ac920c61cad7330d8b4aab9a596cf",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "<PROJECT_ROOT>\\.venv\\Scripts\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "config_sha256": "691c44ca1771a2f087fefd8360eff061ab8fc98b35a69286d95667650024b9de",
+      "elapsed_s": 25.97408870002255,
+      "environment_sha256": "9328cddcaa62aaf6014dd98d8569342e74023d5a010e43bef16ac0102a11c976",
+      "exit_code": 0,
+      "name": "implementation",
+      "source_tree_hash": "1b80f24f6f3affe5c7e33ece7e4f3574c43a019082faa9071640d0e5b1b41338",
+      "source_unchanged": true,
+      "stderr_sha256": "dd968cd27a0f0aa8adbb8bd995285c36ac0713520c5f4b9680824a2bf646e8b7",
+      "stdout_sha256": "e440e0595d818ff083debba7498be05efcc9ab0b81d615fcb37430f497d569c0"
+    },
+    {
+      "command": [
+        "<PROJECT_ROOT>\\.venv\\Scripts\\python.exe",
+        "-O",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_ops.py",
+        "-v"
+      ],
+      "config_sha256": "691c44ca1771a2f087fefd8360eff061ab8fc98b35a69286d95667650024b9de",
+      "elapsed_s": 1.6282583996653557,
+      "environment_sha256": "9328cddcaa62aaf6014dd98d8569342e74023d5a010e43bef16ac0102a11c976",
+      "exit_code": 0,
+      "name": "optimized",
+      "source_tree_hash": "1b80f24f6f3affe5c7e33ece7e4f3574c43a019082faa9071640d0e5b1b41338",
+      "source_unchanged": true,
+      "stderr_sha256": "311059475aab54f071a08b365de3be573bbfac09c767c88296d471ba6af6cb3b",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "<PROJECT_ROOT>\\.venv\\Scripts\\python.exe",
+        "tools/preflight.py",
+        "--root",
+        "."
+      ],
+      "config_sha256": "691c44ca1771a2f087fefd8360eff061ab8fc98b35a69286d95667650024b9de",
+      "elapsed_s": 3.8671587998978794,
+      "environment_sha256": "9328cddcaa62aaf6014dd98d8569342e74023d5a010e43bef16ac0102a11c976",
+      "exit_code": 0,
+      "name": "preflight",
+      "source_tree_hash": "1b80f24f6f3affe5c7e33ece7e4f3574c43a019082faa9071640d0e5b1b41338",
+      "source_unchanged": true,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "35b0dd74127555f34292c39fbe8a53108ec5404082bd90cb793d3c7f8abd4d60"
+    },
+    {
+      "command": [
+        "<PROJECT_ROOT>\\.venv\\Scripts\\python.exe",
+        "tools/r2_postprocess.py",
+        "--out",
+        "runs/r2_final_20261013_B_1"
+      ],
+      "config_sha256": "691c44ca1771a2f087fefd8360eff061ab8fc98b35a69286d95667650024b9de",
+      "elapsed_s": 1075.6051713000052,
+      "environment_sha256": "9328cddcaa62aaf6014dd98d8569342e74023d5a010e43bef16ac0102a11c976",
+      "exit_code": 0,
+      "name": "postprocess_1",
+      "source_tree_hash": "1b80f24f6f3affe5c7e33ece7e4f3574c43a019082faa9071640d0e5b1b41338",
+      "source_unchanged": true,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "e8223c3f1fb2714031c3fdddadaf384a14d0b64796a7bbd65c88e8b7e47ffa7c"
+    },
+    {
+      "command": [
+        "<PROJECT_ROOT>\\.venv\\Scripts\\python.exe",
+        "tools/r2_postprocess.py",
+        "--out",
+        "runs/r2_final_20261013_B_2"
+      ],
+      "config_sha256": "691c44ca1771a2f087fefd8360eff061ab8fc98b35a69286d95667650024b9de",
+      "elapsed_s": 1201.0014022998512,
+      "environment_sha256": "9328cddcaa62aaf6014dd98d8569342e74023d5a010e43bef16ac0102a11c976",
+      "exit_code": 0,
+      "name": "postprocess_2",
+      "source_tree_hash": "1b80f24f6f3affe5c7e33ece7e4f3574c43a019082faa9071640d0e5b1b41338",
+      "source_unchanged": true,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "d38ef23146dc1e537170b4ec44a4020321d378ea6ca144ae79338b279da18ce4"
+    }
+  ],
+  "implemented_checks_passed": true,
+  "independent_accuracy": null,
+  "manual_ground_truth": "NOT_PERFORMED",
+  "preserved_input_artifact_count": 480,
+  "r2_lock_sha256": "5ca490556dc58fcb0cb025013a9d4250a9dd59897b6473f3524c93c51a6df13e",
+  "reproducibility_sha256": "04743e140ed49b5a2f01bbc902d4ba0330c70abc4bf9eabd049f17c87515c4ec",
+  "selected_run": "runs/r2_final_20261013_B_2",
+  "source_commit": "dd83988e74696603b515f1944766207b2d3d26cf",
+  "source_tree_hash": "1b80f24f6f3affe5c7e33ece7e4f3574c43a019082faa9071640d0e5b1b41338",
+  "status": "COMPLETED_R2_NO_FIT"
+}

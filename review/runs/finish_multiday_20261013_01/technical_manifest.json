@@ -1,0 +1,2004 @@
+{
+  "files": [
+    {
+      "bytes": 542,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "HANDOFF_STATUS.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "9fb71e1444a79925d60f4e3c95cd718471217cf18c9fd21fb3a9dbb8da1af6cc"
+    },
+    {
+      "bytes": 16345847,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/ai_population.csv",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "4049d3ec9047f3ac8743c4c66e9ebc63ceee4eac516f29c897dc4330bf2c44ff"
+    },
+    {
+      "bytes": 773108,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/ai_population_parquet/part_00000.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "ee69e4f78c4f04cb6485c650a7754d9ed00cf28054e553ba8b05a1fcdcb853e5"
+    },
+    {
+      "bytes": 767487,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/ai_population_parquet/part_00001.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "e95cc7f53daba1161b8eacb260151147c8eb6e03a6a4734048c8f8a11f543aff"
+    },
+    {
+      "bytes": 772751,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/ai_population_parquet/part_00002.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "471438c2ddbb13e57bfdd3222519c2c00703f51e57009eff7f7fa1460e88e7df"
+    },
+    {
+      "bytes": 770942,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/ai_population_parquet/part_00003.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "635383cbec6a3d9b29abfafdea83a261b7c29f8102e4f0acde76a2f43fd3245a"
+    },
+    {
+      "bytes": 499,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/ai_population_parquet_index.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "77f323b4ba0481af700373041b3b12ea70f5a5d9d9d7e493226f75806e36b904"
+    },
+    {
+      "bytes": 221197,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/ai_sampling.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "eaf18218ce0f676d9578c81c4487f079f9fbfe4ff9ffa9238297e97adb753bb6"
+    },
+    {
+      "bytes": 330,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/analysis_request.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "6c10982b3d313cc72746f27a04c3e4f2a65f5a91c86eb9209ae8e4e0a5b587e7"
+    },
+    {
+      "bytes": 4478107,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/cluster_assignments.csv",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "eca3a775d309ea00f5db8472a5ddfd866b834b37ad6225410b92c9a57739ad71"
+    },
+    {
+      "bytes": 246828,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/cluster_assignments_parquet/part_00000.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "fc68888536cf0fb2cbef917041c8d0e1bbc621659cd5480cf16711c09a1284e2"
+    },
+    {
+      "bytes": 248038,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/cluster_assignments_parquet/part_00001.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "a2bc29a009441c04e9602e8a04c5f841ba8b0bd4ec5d355ced0a4b6e49fb501c"
+    },
+    {
+      "bytes": 249516,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/cluster_assignments_parquet/part_00002.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "8e7a3d1d11d708bde47f83b83efff70ed11f9757af4fa99e66217513145c94b3"
+    },
+    {
+      "bytes": 247071,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/cluster_assignments_parquet/part_00003.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "906f177c78c5c6bb33ff76b25cd3d924ebf1fb46cfa72a28bf6f998956d36895"
+    },
+    {
+      "bytes": 529,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/cluster_assignments_parquet_index.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "b662c12e7f1986a49581ed6682fbfc9f9a218d953bcb86a0d32a9b281b96b2b8"
+    },
+    {
+      "bytes": 1001,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/cluster_condition_profile.csv",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "0c8095bac02b85b0709c9779ab189cbeca1f4ef5c76ca964bc4181600e909444"
+    },
+    {
+      "bytes": 2860,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/cluster_condition_profile.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "08eb238a7bbad6ec78d752364bfe85194c56e40b6b8f8bc3f0f226e43c250fde"
+    },
+    {
+      "bytes": 209,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/cluster_condition_profile_parquet_index.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "6fd348ac1d9b50b826b8c3304f28880014e815eb9e4869c464535f36bdf4fb57"
+    },
+    {
+      "bytes": 938,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/cluster_model.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "59956bb4d9b854c0d8b4f8c7fe1eeb6d0460b0aa7cea8d97a5f28235bb173e17"
+    },
+    {
+      "bytes": 324,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/cluster_profile.csv",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "788f0266834ca7cb173bcbd86f0df7b8d2f82f1d5f137e2c15dcb70fe488f9fc"
+    },
+    {
+      "bytes": 3841,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/cluster_profile.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "9b524dad41d413aaff681ce075b8b222eba8aed951986500a79a19fe5dc58a65"
+    },
+    {
+      "bytes": 187,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/cluster_profile_parquet_index.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "4c6a5feecf2cf305111af4de0e015bb9d8bf4c3e52fbac4ca6b93040dad7622f"
+    },
+    {
+      "bytes": 264213,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/cluster_validation.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "e197a6b37670bd55bb19547acab31677ae777442194abecc810e05af243c6224"
+    },
+    {
+      "bytes": 6028,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/date_cluster_intervals.csv",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "ca13d240594a577b09ab197849a5762f90e5fe3c871a096864c1b84ea561ab64"
+    },
+    {
+      "bytes": 5585,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/date_cluster_intervals.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "c77530f08e1f766369bd33af7487a3e212bfd06ba802b80fd2ba35988b298874"
+    },
+    {
+      "bytes": 203,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/date_cluster_intervals_parquet_index.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "933055e0bfc53f9ae937f0b75e285ce3ac9c2acb6b21f16bc215571c64b792b9"
+    },
+    {
+      "bytes": 190,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/figure_ai_cluster_plot_data.csv",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "5dafb8c64c9b246485093073c1674c957ccf64ad5f6072f20fc31c1338e4eda9"
+    },
+    {
+      "bytes": 2012,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/figure_ai_cluster_plot_data.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "4c44f178bda62638a5c4c625c19ab4879500869a9a2ffe6645ede167804591cd"
+    },
+    {
+      "bytes": 211,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/figure_ai_cluster_plot_data_parquet_index.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "b9d0d311e2e2fc9e3c419769650ddbca0d5e3d7e607e10595b9ef28efbc607ab"
+    },
+    {
+      "bytes": 157,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/figure_ai_stability_plot_data.csv",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "c20ba1e626f81d1c190ad2b444e891d2bd57cee4296388320c3731cfc7c9478e"
+    },
+    {
+      "bytes": 1589,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/figure_ai_stability_plot_data.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "03224a7f2adc98af04d49c00ce826a9543a6f21079be14e4d002bb5718d145a8"
+    },
+    {
+      "bytes": 215,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/figure_ai_stability_plot_data_parquet_index.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "bec23d9bee08b0bb9777a16e3823d168247d3b4112af7185de537f2ac7271723"
+    },
+    {
+      "bytes": 192308,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/figure_pet_ecdf_plot_data.csv",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "ab8124e0e738bfac9fb826d132e21175dba8d8707350a5e20946e037f487e045"
+    },
+    {
+      "bytes": 39509,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/figure_pet_ecdf_plot_data.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "5b371fca65758ba0fd9987cf8a9831e666bab3b2b57d9744f57e204c9b46cdc0"
+    },
+    {
+      "bytes": 213,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/figure_pet_ecdf_plot_data_parquet_index.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "785cdd3c4b093ab14433504e5d32656396b89801808d6817847aa1be4d7074a7"
+    },
+    {
+      "bytes": 36762,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/figures/ai_occupancy_types.png",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "4e92d42396a418e2ff6b566c3899bf9afaf4ea6a86c0da36cb61a762e1f660a5"
+    },
+    {
+      "bytes": 33598,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/figures/ai_occupancy_types.svg",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "32dfef9f988fc93238d1b84c07941a3d59324df57e2d8d641721fb1b01f624e6"
+    },
+    {
+      "bytes": 38832,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/figures/ai_seed_agreement.png",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "6398af533ebb686f4b821e9bd26ebe844e9f978a48d722c4f0944ba788c5504e"
+    },
+    {
+      "bytes": 32557,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/figures/ai_seed_agreement.svg",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "89401ea895e9d4b8a743169e6595c6aaa0e43213b0c27bcf77077559dfb246be"
+    },
+    {
+      "bytes": 82472,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/figures/pet_ecdf.png",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "4d20e865d4699be38fe3e73747bc00f55e37dad7be5effff7b25f885fcb0b355"
+    },
+    {
+      "bytes": 149380,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/figures/pet_ecdf.svg",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "04f9ab829196596dce1ee35af6006475d263874723ae557d09fe15e0344f7f8a"
+    },
+    {
+      "bytes": 3756,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/figures_index.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "b217c9c867dcf4c5cc8e270945773baffc68305b0be3fac25ada0d8519be4f19"
+    },
+    {
+      "bytes": 4271,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/fit_attempts.jsonl",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "db3a462256c7def748dd4185479c806b9ad83ed670d50802f46e7bcab73888fc"
+    },
+    {
+      "bytes": 2726,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/inspection_candidates.csv",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "8d01719e32ec6838f1ad6616e18f89e7271b56637df1c491c195410a16de637f"
+    },
+    {
+      "bytes": 5160,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/inspection_candidates.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "3998555d4b8aecf268adbd4df598720f6601926794baa7161d87ab4a709f434c"
+    },
+    {
+      "bytes": 199,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/inspection_candidates_parquet_index.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "56bceaf9782fe0afd79b982f3d9c56aea607baaa84ef13c4f83cbb267ebb47f0"
+    },
+    {
+      "bytes": 2251,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/pet_analysis.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "452678d15be988f3652691ad92e8a623f77ecb706df049b5e4e053c5d60c7e02"
+    },
+    {
+      "bytes": 4594677,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/pet_ecdf.csv",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "e67c97af83cbe06597696dcdecf3eae88223d0759b3fef724140cadc315e78a3"
+    },
+    {
+      "bytes": 457840,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/pet_ecdf_parquet/part_00000.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "592a2eb63dc531ba6cbac30e62342321642e0d75dcc3cd28e71abc4323206989"
+    },
+    {
+      "bytes": 422389,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/pet_ecdf_parquet/part_00001.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "e977eefbe498b26c45526ceaf9174e638b2c2b26d98d4391d0efaf1539597204"
+    },
+    {
+      "bytes": 450306,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/pet_ecdf_parquet/part_00002.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "b7c8d47ce750e422269a64b58b9c2a4e2726e92201ea97bf84d720a457c33f61"
+    },
+    {
+      "bytes": 399858,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/pet_ecdf_parquet/part_00003.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "edf53f472e4911c55d375ad910dd5b8730d83ed845f0c93a7dd3535385811619"
+    },
+    {
+      "bytes": 65336,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/pet_ecdf_parquet/part_00004.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "5aa81cad868d1a2404753745ea4493e1cf2486a0dddaf09bfb4dc8b5bdcb9dae"
+    },
+    {
+      "bytes": 725,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/pet_ecdf_parquet_index.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "c4de8957330abb2238f3ccf4a2436cf3b4168df13359bff25734efd8dadee823"
+    },
+    {
+      "bytes": 2043,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/pet_qc.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "385ac76217f244890a6292b92c36270ef1bd485c52602d44af523dade4d1fbc9"
+    },
+    {
+      "bytes": 2251,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/pet_result.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "452678d15be988f3652691ad92e8a623f77ecb706df049b5e4e053c5d60c7e02"
+    },
+    {
+      "bytes": 7081,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/pet_thresholds.csv",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "410bc8abc517b62470524aabc241cc21f3fbc5de474a4bb44746ea91f0f6a293"
+    },
+    {
+      "bytes": 5139,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/pet_thresholds.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "3e0e7a602c44a0e75acc121a298be6029c1ef996e7007ef5da0f569f0d17abda"
+    },
+    {
+      "bytes": 187,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/pet_thresholds_parquet_index.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "afeed492408f5f03e4f7d2e2b57d35f74fbebee63bd7ee844bd58afe1be86e2c"
+    },
+    {
+      "bytes": 55980,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/provenance.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "7854f69af2690a9100e8914a18eeaf257dc05b2b8178045139802f55a503a440"
+    },
+    {
+      "bytes": 246824,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/run_manifest.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "befd676532540f48e1598a614ccdfc8ed0e816f3afc71a945e76d8e02752c31b"
+    },
+    {
+      "bytes": 2004,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/scenario_summary.csv",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "d6d9e315f9e4bd09d782f99be693d4453a3ea0b3082760f26634a1e7b71cd00c"
+    },
+    {
+      "bytes": 8420,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/scenario_summary.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "78b92c3c450bc31fc1b5378f7e85bfac070d2425856ffe80b369d6be28851dcb"
+    },
+    {
+      "bytes": 189,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/scenario_summary_parquet_index.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "93644199aa0edf615d4e6f76be2df90899b26b31fc32b6ec352140af7b4f2a10"
+    },
+    {
+      "bytes": 2842,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/source_inventory.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "cee36aa6169bfdf4c5c72cc24530beda9fd51b0f500c8f12ac34dfda52d7a56c"
+    },
+    {
+      "bytes": 1769,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/timebin_summary.csv",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "767f81490336c01e04b520f42d9b7a9396d52d7831fe4821f1b56c193ec3edd2"
+    },
+    {
+      "bytes": 2833,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/timebin_summary.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "2e94ed9dde2273ae11e3286e3cf9178a61bfc56418d8f7528e81e20b113d02c2"
+    },
+    {
+      "bytes": 189,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/timebin_summary_parquet_index.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "c294d0ecd4b93f1566cef532a49d3eb39f3b3adf0e7420d8a6b201b2b7ba7fa0"
+    },
+    {
+      "bytes": 17839,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/timing_sensitivity.csv",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "d29d04755b434ea3a2465a6de0a05e807b6039fbfec11013db9e5aeced26a58e"
+    },
+    {
+      "bytes": 6829,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/timing_sensitivity.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "de40b87808ac4a5f46e7b360dffdff1006679a1314e423eb510ba996c4510b38"
+    },
+    {
+      "bytes": 195,
+      "data_kind": "REAL_DERIVED",
+      "path": "analysis/timing_sensitivity_parquet_index.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "a3edc3a77ccb6a56ec2524226c98b5c4bf49b714796d4f9ace7a302d0cb0899d"
+    },
+    {
+      "bytes": 30327,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "artifact_index.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "e8c5ffe72aaabbbf0ea9f911bedf888c8c890806236eeb3a9fa3212b7747753c"
+    },
+    {
+      "bytes": 8166,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "data_dictionary.md",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "c041d7cb4e4ab7addc31b3a96ca8da9bacc7211f5d32e4bf3ca54caa26fcb3ff"
+    },
+    {
+      "bytes": 1063,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "evidence/claim_constraints.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "f54b106bdb5d70127d3b8463a426973af4567df55528fc74bc42bb7ef94aaf9f"
+    },
+    {
+      "bytes": 67959,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "evidence/metric_facts.jsonl",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "d379e9e312c830521bd813250ccc0d1ce8b671a2703b49fdf361e3c9ec6eabb2"
+    },
+    {
+      "bytes": 4290,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "history/pre_format_fix_input_probe.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "563bd2e9b050f20f69622bc81700f83cb779fa5e56befaef31e445b9dadf6fe2"
+    },
+    {
+      "bytes": 1063,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "limitations.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "f54b106bdb5d70127d3b8463a426973af4567df55528fc74bc42bb7ef94aaf9f"
+    },
+    {
+      "bytes": 1701,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "reproduce/configs/pet_multiday_finish.yaml",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "e5f83c73ce8274e83935cadc20928a0673523aba200f2f3f77fbb72ade584ad5"
+    },
+    {
+      "bytes": 460,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "reproduce/requirements.lock",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "5f8e16d26c04cfe12b35c2bf434b46babcfa4741458d1a7baef11af7a861a83c"
+    },
+    {
+      "bytes": 1366,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "reproduce/sitpet/LICENSE.md",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "f8f1b1b6023c8a4024e6e98713729d2fce6ea6c7aa8e0a7c22127e64723fe984"
+    },
+    {
+      "bytes": 6164,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "reproduce/sitpet/README.md",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "b67789f0955ff2f619b35872e6efe12c5c566e9ec31dd977a3788f041e4b36d5"
+    },
+    {
+      "bytes": 9972,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "reproduce/sitpet/metadata.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "4e8bda185290b4ea7df2ed79060b197a9b64964bed55979009f41f1ffb16a6ec"
+    },
+    {
+      "bytes": 14350,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "reproduce/sitpet/schema.md",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "8edaba0dde82c8229386ddea0d7e1efffa7351f7a7f715ab27e6c15eeada026b"
+    },
+    {
+      "bytes": 6546,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "reproduce/technical/finish_multiday.md",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "5e04ed3b739b63676100dfc465b1370562e9776cc3c6a8840a5314ad7340817f"
+    },
+    {
+      "bytes": 8166,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "reproduce/technical/pet_r1.md",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "c041d7cb4e4ab7addc31b3a96ca8da9bacc7211f5d32e4bf3ca54caa26fcb3ff"
+    },
+    {
+      "bytes": 1872,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "sources.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "5bd95d2ee24ca377ccf68301b2b75ca42aed7cb20e28995804a0329d00e1114e"
+    },
+    {
+      "bytes": 6546,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "technical_notes.md",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "5e04ed3b739b63676100dfc465b1370562e9776cc3c6a8840a5314ad7340817f"
+    },
+    {
+      "bytes": 834,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/acquisition/attempt_01.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "6dc451377db387a6f5d27c9c85b6f81fcbdcdc5088987f34bf5e3bf10a9e5987"
+    },
+    {
+      "bytes": 825,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/acquisition/attempt_02.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "3fabe5d37734cb572883f6fe7419a05a0d7ffa20d9c535a2f3abf2533433197f"
+    },
+    {
+      "bytes": 984,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/acquisition/attempt_03.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "0f4e370a2d89733dba558b966a44ec293db73e296c719e252acd272e4e202464"
+    },
+    {
+      "bytes": 918,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/acquisition/attempt_04.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "fcc8905d477cdc989a85107b7e74a0f5d8c4d9798983a2e59edebdc80e62744d"
+    },
+    {
+      "bytes": 374,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/acquisition/request_02.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "20345cdde2d06109e9a830d4ead7431481e6af6b8ad58e90a4d3fad76e73011e"
+    },
+    {
+      "bytes": 374,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/acquisition/request_03.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "cab1bda44c5bbdc2eedfb230324ddcb894df1c86c226dc46056bfed94d5b5252"
+    },
+    {
+      "bytes": 375,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/acquisition/request_04.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "646be4014f1383a7125103780e3c80b1f3b1d22be7a1e32abfb826f2dc66e4b2"
+    },
+    {
+      "bytes": 80111,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/artifact_manifest.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "44dcf5cc1f851023cb79cc13bf3aeb09ffb9803cb6c653c6dd7f45136b7ffcce"
+    },
+    {
+      "bytes": 2411,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/data_acquisition_manifest.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "7a55ae259ebe21af02c5228ba678874f27430a554a959a5fcbc593887e88687f"
+    },
+    {
+      "bytes": 19742,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/decision.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "70e81edd56574fe0652d4a6295cefd13c7fb2f5dc0c27cb781957cc421df9b56"
+    },
+    {
+      "bytes": 1642,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/environment_manifest_r1.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "dd52c58dbfa62e5129ffe825562bc73e4f15960bf1cc70b42ba8a19725d88e96"
+    },
+    {
+      "bytes": 923,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_evidence_1/execution.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "e53c6e5aaa8668e7f0c89b3269a3ff32dd817d32893e73ccff3b3326299cffde"
+    },
+    {
+      "bytes": 0,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_evidence_1/stderr.log",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1804,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_evidence_1/stdout.log",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "5c06db19f49b6965134fedc620e86ffb8ec9cfe6dbfdc86e11b0a200b4998c00"
+    },
+    {
+      "bytes": 922,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_evidence_2/execution.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "ea209561537fe598505c989c5a116bb505623c5a2da1cdc098994db834a0f3aa"
+    },
+    {
+      "bytes": 0,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_evidence_2/stderr.log",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1804,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_evidence_2/stdout.log",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "6251165579b2e8b1daa859d7ea96e9e899d908dc402d9275e2a0cbe79a994678"
+    },
+    {
+      "bytes": 845,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_implementation/execution.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "fb43140d35f9e992061cf4ce8e28cec2a7fa2428255cfe452312c810017a8a76"
+    },
+    {
+      "bytes": 22243,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_implementation/stderr.log",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "08f0b123c1248232f1cc4212c7e3e09136108226007541de5265bb09c6fcaf6b"
+    },
+    {
+      "bytes": 32,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_implementation/stdout.log",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "e440e0595d818ff083debba7498be05efcc9ab0b81d615fcb37430f497d569c0"
+    },
+    {
+      "bytes": 887,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_optimized/execution.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "814ffc9f695bbc85707f581672d1f219268bf5672e2c36a3edaeb02a10e11d5b"
+    },
+    {
+      "bytes": 1008,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_optimized/stderr.log",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "0181016e49e0a4f72744d959b0832d1f351354404e00c3a8ef35e336dce2f425"
+    },
+    {
+      "bytes": 0,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_optimized/stdout.log",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 909,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_pet_1/execution.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "4df7feae500d12e516c245aebc9520d29c727ca6b136e360d27e0f763b0bc53b"
+    },
+    {
+      "bytes": 0,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_pet_1/stderr.log",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 8671,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_pet_1/stdout.log",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "3977ddca0ed51fa96609f17ca7ed27e456d3ac5c78543134075c3c4198c452e1"
+    },
+    {
+      "bytes": 909,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_pet_2/execution.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "19d51dbbe3d24ae5bd8d6c3a1b5a2ac82f2c7124d52f54313902f8302d0ec42c"
+    },
+    {
+      "bytes": 0,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_pet_2/stderr.log",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 8671,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_pet_2/stdout.log",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "7c24a580928840a91c02c89c3505d3aa4ea881e9d731461fefb88c336d89c91d"
+    },
+    {
+      "bytes": 815,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_preflight/execution.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "11b02bde8fa0365f37905765cac1b2fad9ac3eb2e605cb9a5398c76a7a2c2da9"
+    },
+    {
+      "bytes": 0,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_preflight/stderr.log",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 3862,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_preflight/stdout.log",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "9a79792b07acc550817dbc476f5c291a05fa894695b2a59e6ccfcb2f7ca55e34"
+    },
+    {
+      "bytes": 871,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_synthetic_1/execution.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "e0184197eeff74914a434f01ba43562c91ee537f1e1dc5e77689479221b2a25c"
+    },
+    {
+      "bytes": 0,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_synthetic_1/stderr.log",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 181,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_synthetic_1/stdout.log",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "6b997ef465dfcf2f3eda19593a3c4c2c71b736035e9637c0ddc4817d376d6f48"
+    },
+    {
+      "bytes": 871,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_synthetic_2/execution.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "196c147ec98281814b895641492fa91037b385e959bc4f0e32897d4db318e402"
+    },
+    {
+      "bytes": 0,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_synthetic_2/stderr.log",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 181,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_synthetic_2/stdout.log",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "ff955d0cecb4210d5ebc598060fa107790d6db07190ea849f583dd59c0188149"
+    },
+    {
+      "bytes": 872,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_tools/execution.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "92020b2445040ff7a680668f3c1679094bad43c17badfb8f3d4e991115031cbf"
+    },
+    {
+      "bytes": 6419,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_tools/stderr.log",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "7a0dadbba2767e6443d2ad1b4e73a8f8046bdb7a7174b80f2033732a777c2994"
+    },
+    {
+      "bytes": 0,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/executions/finish_final_20261013_A_tools/stdout.log",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 71882,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/reproducibility.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "be1393a24d004605502d63cc75160a3a616c3bd8d78f16be62374f16aad49133"
+    },
+    {
+      "bytes": 20066,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/source_snapshot.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "a2a9d6c0e69ebb38c8055280815c8ae4e45f1dbe9e58b6c1feb14c293671a928"
+    },
+    {
+      "bytes": 36920,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "validation/verification_summary.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "64ebc9a59de70b0fd4fb87443ed155f8ad288ae4aa64f9b2b564d40b3028e64b"
+    },
+    {
+      "bytes": 1677,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/WRITER_BRIEF.md",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "10c31e950becfa4db46cc1dbcb77e48981f00b200a3bfbed980a47443794e9af"
+    },
+    {
+      "bytes": 1412,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/ai_assessment.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "cc0974c23499ef5ade70a5610f429145b7eec790fc29cbc3b7c3d7adb7bf3719"
+    },
+    {
+      "bytes": 335,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/ai_basic_description_comparison.csv",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "2deacecbf6a3a80a3d726ae5483d9785554fc34b46b1d53a35bfaac6e03ef699"
+    },
+    {
+      "bytes": 2111,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/ai_basic_description_comparison.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "727e94c80795eb21010e69aca8ec65afcb450b6d0dcf1f910ba4410aa3b74df0"
+    },
+    {
+      "bytes": 219,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/ai_basic_description_comparison_parquet_index.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "cf578016e909d9cf10f2e8d53ea0825276a87e8ee184877072e97670b266627d"
+    },
+    {
+      "bytes": 2456,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/ai_condition_counts.csv",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "7279662fcde0adcb88c8ec9f5addf4a68a0bda15fb60a86769f7454b408ebc94"
+    },
+    {
+      "bytes": 2706,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/ai_condition_counts.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "cac6918b6703ef6e825f092722065d24203e257ee978f6aa60fec81017b81dda"
+    },
+    {
+      "bytes": 197,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/ai_condition_counts_parquet_index.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "474ecdaaeb328a17a8639489e7327ca7d9d33cf0de42528d5550cd6d2e47be1a"
+    },
+    {
+      "bytes": 575,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/ai_feature_separation.csv",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "f02e26dbdf8a8be3bd3bc00df735ea7f002c5bc995cb07303801df26a32dbc1a"
+    },
+    {
+      "bytes": 1797,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/ai_feature_separation.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "ad9b6a87c93af82a4de8a22406ee5c7ecb9af3daaaf9779cd88d01a5ab1ab22e"
+    },
+    {
+      "bytes": 199,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/ai_feature_separation_parquet_index.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "b6206758f4c66816deafb764062814f5776ebbb35e4e4fc2ec516a5f3c9fc207"
+    },
+    {
+      "bytes": 1665,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/ai_feature_tail_description.csv",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "a8baf182cd1183a1496bb6a44e91cc25f24a22d99f80c2dd78032671cb291971"
+    },
+    {
+      "bytes": 4763,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/ai_feature_tail_description.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "20c3d29444988931b7688282c14ff7a571937bc016335d7d6034050fa8c58278"
+    },
+    {
+      "bytes": 213,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/ai_feature_tail_description_parquet_index.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "f06e83de901e89926bbb4d8696eb3ff9182091bf0d573658a66d94afe10bc8dc"
+    },
+    {
+      "bytes": 324,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/ai_frozen_subset_comparison.csv",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "592ded3802b908d86f6da43eff987fe11446e57103b977fca54e0a30c94373f0"
+    },
+    {
+      "bytes": 2465,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/ai_frozen_subset_comparison.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "c659f585df028ba944a24a9600073ea72dcb913f90b617c1193727ca6fd013cd"
+    },
+    {
+      "bytes": 211,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/ai_frozen_subset_comparison_parquet_index.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "66cee7d007cdde976a9e565ebdc577329ddc4b22ee46030e64b21117050de634"
+    },
+    {
+      "bytes": 80111,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/artifact_manifest.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "44dcf5cc1f851023cb79cc13bf3aeb09ffb9803cb6c653c6dd7f45136b7ffcce"
+    },
+    {
+      "bytes": 5076,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/audit_clock_sensitivity.csv",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "8b744ca9ab4c7f9939495a3da5d0f1e6c2d66741c69c655a9e75b8a7a6d1f0a9"
+    },
+    {
+      "bytes": 4317,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/audit_clock_sensitivity.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "f8785c4c0d0b70308056ded3c7800ce92d4a3d8c50c66683fab6fb894f46460a"
+    },
+    {
+      "bytes": 205,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/audit_clock_sensitivity_parquet_index.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "09beda489e121d49bf464205e33f42f2806379f4b6c80b407b19628aaa59c91c"
+    },
+    {
+      "bytes": 752,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/audit_denominators.csv",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "e89b6dac398f1aaaf92f73dc646b48674d9f18666e1e90b34419abe36774b189"
+    },
+    {
+      "bytes": 2573,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/audit_denominators.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "a196f3f9eb57a2ef415b2db60b48d2d43cdf8f315d571fca263ef07c79b938c3"
+    },
+    {
+      "bytes": 193,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/audit_denominators_parquet_index.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "c53ecf9e09385bd2553e6894e6027f84423e581ff07c52a8f6c379b5f6a14606"
+    },
+    {
+      "bytes": 1296,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/audit_scenario_thresholds.csv",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "a7417846036a8ac16ad49bacc18cadbeeee9a8975678196ece826ca182911791"
+    },
+    {
+      "bytes": 2327,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/audit_scenario_thresholds.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "6aed2547dd516d0ac5eca7f685ff3163b10c2d183409675c72ae918a4f1d9f6f"
+    },
+    {
+      "bytes": 209,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/audit_scenario_thresholds_parquet_index.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "0d2082b01c146459c982ac04cf1fb86b4849d9056bd5b452f773a03f839d9be9"
+    },
+    {
+      "bytes": 883,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/calculation_formulae.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "a0ad0f734d3fa0c6aac051615adaf6c0f3a444f1e07b2625824013cb4e10a893"
+    },
+    {
+      "bytes": 1063,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/claim_limits.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "f54b106bdb5d70127d3b8463a426973af4567df55528fc74bc42bb7ef94aaf9f"
+    },
+    {
+      "bytes": 3798,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/contest_requirements.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "338da60f0f452b0995641aef82f164b05aeaa03ef24af5cda9e9169a8e7841f5"
+    },
+    {
+      "bytes": 7663,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/data_route.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "d65ff7da7f4013d77021e18962fefc1708ea7c106e40f563237418e30588adc6"
+    },
+    {
+      "bytes": 7287,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/event_audit.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "ec9158911f9575f1ec524971293dad25ff1dece82a19e2e7b5d8744f95b43a63"
+    },
+    {
+      "bytes": 3849890,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/event_audit_cases.csv",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "e4fb0733e2b6bd44ed528fe232c5c00bec185861e2bf03564ae4761c835f451a"
+    },
+    {
+      "bytes": 483457,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/event_audit_cases.parquet",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "1392ea13b9c4f5e39c1889bd9cac6df7d6b0c8c7bae814124a58917b33630c6c"
+    },
+    {
+      "bytes": 197,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/event_audit_cases_parquet_index.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "eadbca2ccc2b25dece8d6962ab65a75caf50266c9eb03fbad38176ad441462b0"
+    },
+    {
+      "bytes": 58078,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/figures/ai_feature_separation.png",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "990d15e2f41cd48e916390bf1bec3002e4ab2bbac93d5ab25bf294e528507348"
+    },
+    {
+      "bytes": 41228,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/figures/ai_feature_separation.svg",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "ba64fa9e2b017ca7025c446bd9dee011b8be719e1e2c368875e65cf5329ec395"
+    },
+    {
+      "bytes": 53727,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/figures/audit_denominators.png",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "4d45f05dbe48892bd38845211d9bcd04cc54adea6585406955d7af7abc28f130"
+    },
+    {
+      "bytes": 38025,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/figures/audit_denominators.svg",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "2f4f48e236c8010a96b65e40f92729cd5ec486b53c34966a96360213e0c380ae"
+    },
+    {
+      "bytes": 1673,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/figures_index.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "2aefbb92cdd4be3d61d506e21abf132c443e90d4a96b00f09f76e489637b4b82"
+    },
+    {
+      "bytes": 39815,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/local_omissions.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "185591e6cc016c8b47c1d847f037dfac3fb3e47a499fd307cffcc20465cc781f"
+    },
+    {
+      "bytes": 67959,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/metric_facts.jsonl",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "d379e9e312c830521bd813250ccc0d1ce8b671a2703b49fdf361e3c9ec6eabb2"
+    },
+    {
+      "bytes": 1780,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/prior_result_preservation.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "6a246c429f215a9b69a5ad2eafbbf896e1e1ee06285606e477a6f088afb92f05"
+    },
+    {
+      "bytes": 50651,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/provenance.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "9022d103e9a52d5464a1e05e2fd18cfdf7a4fb3a21b50cfc6602366de45e400b"
+    },
+    {
+      "bytes": 71882,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/reproducibility.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "be1393a24d004605502d63cc75160a3a616c3bd8d78f16be62374f16aad49133"
+    },
+    {
+      "bytes": 2701,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/review.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "49756c10761e0517bc13a0fdddce871d2e470ab0cc5da69abfcf0f7746ca8687"
+    },
+    {
+      "bytes": 1384,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/run_manifest.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "afaab497367bd9f82c6bdc02b6a969cea7b1b65d564bfeaf28ae0601aaef7cdf"
+    },
+    {
+      "bytes": 1100,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/runtime_roles.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "69c456a3029fffadf83dcea75753ba7740c3f1fefff8ba80e40b4625dc2bb343"
+    },
+    {
+      "bytes": 7284,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/sample_scope.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "74b56d4e1688903684d2d0bd71058b120dbe0cb15d8c4b300fa388676383337d"
+    },
+    {
+      "bytes": 10798,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/signal_timestamp_format_audit.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "7ef160f73fa19efa5bff197f0a553ab5a99a21d89d9e321d701223d4c39060a6"
+    },
+    {
+      "bytes": 20066,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/source_snapshot.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "a2a9d6c0e69ebb38c8055280815c8ae4e45f1dbe9e58b6c1feb14c293671a928"
+    },
+    {
+      "bytes": 1872,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/sources.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "5bd95d2ee24ca377ccf68301b2b75ca42aed7cb20e28995804a0329d00e1114e"
+    },
+    {
+      "bytes": 2073,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/technical_summary.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "fa7f0127933a42539d3a6b707dd075cb03d746dd65193aab93de53c8a6f16961"
+    },
+    {
+      "bytes": 36920,
+      "data_kind": "TECHNICAL_EVIDENCE",
+      "path": "writer_input/verification_summary.json",
+      "rights_basis": "Dataset-derived statistics: CC-BY-4.0; software and validation retain original notices",
+      "sha256": "64ebc9a59de70b0fd4fb87443ed155f8ad288ae4aa64f9b2b564d40b3028e64b"
+    }
+  ],
+  "omitted": [
+    {
+      "bytes": 692537482,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger.csv",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "72aba27b693fd82065904b2a426b0dc0d337951ee5985bceaa65373f4b12c7f7"
+    },
+    {
+      "bytes": 1822711,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00000.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "17297d59aa8ea4e4d158f665cb8e44bf3c0148460f85d9d13201fc821757f4a3"
+    },
+    {
+      "bytes": 1796834,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00001.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "17b4e64053bdf4245e6e42275886bcd7bc3d0658fddcfd4e501add9d9c7e158f"
+    },
+    {
+      "bytes": 1780637,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00002.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "b543c7564f65963eaeea9224767008f88a8d9fd3a04f6aaede1bbce7cffb8e38"
+    },
+    {
+      "bytes": 1754311,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00003.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "82162f3d4aecb4256cccc37efc432e12b3682473afa3799fcded3276ef7616b9"
+    },
+    {
+      "bytes": 1776007,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00004.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "19f8da8f48a1ce59b39a1ca33339185aeb8d4ece0abfdb523953626686781b54"
+    },
+    {
+      "bytes": 1783706,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00005.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "7fb4463a87a2dbf87136a748d38f5c82d02b063e7a7fb34e458cb000efa9a891"
+    },
+    {
+      "bytes": 1771875,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00006.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "5d6c2ac638bdd9c0b00f790f1401b6cc8ce5f9593ac90fa10a79044e400cfd1a"
+    },
+    {
+      "bytes": 1768271,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00007.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "f8789e9a0032c7b5d341635d9b1a959ffa3dbc61deba090405d6be721fd99fb2"
+    },
+    {
+      "bytes": 1798404,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00008.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "017b3f4ce2cd40471f9e70953df3c5269011916cf84a64fb18c68ddd032f8a9f"
+    },
+    {
+      "bytes": 1734177,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00009.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "d7c6cb5811b6d2a2a79d4eb9cb8fdb8607ec02bb48a017c3126032dc2d06a0c0"
+    },
+    {
+      "bytes": 1704351,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00010.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "f3bd9760937ea70357e2b5b871d9b24c92e17daf15f0f3a8ad98a072f04eac76"
+    },
+    {
+      "bytes": 1778301,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00011.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "dd1b2073e9b0581c875d6b2ef52f2399416bf70131d091fd33c8623505a7bbfd"
+    },
+    {
+      "bytes": 1744292,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00012.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "00848e4d38af2012391ba9eda3188b7f0d7361a50affb2ac5c359eeb9e5b04dd"
+    },
+    {
+      "bytes": 1776598,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00013.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "159b047ee06f452b1ec08023c7c69d737d70b8362b5282c9232d4f3c1683b0e6"
+    },
+    {
+      "bytes": 1777627,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00014.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "3f83fa005145ee8fa12efd735e81b4f7d372e99d9a99ea6f5650f3925a244e48"
+    },
+    {
+      "bytes": 1768747,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00015.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "ba61f2cf9c936405096c990d2403d11f120b1a74b2b9ce56221de39a0a30bd62"
+    },
+    {
+      "bytes": 1774467,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00016.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "040c66c0c126009e2c4245273d5aec4e68cbac23c19ad4c050630d99c42a3d73"
+    },
+    {
+      "bytes": 1794796,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00017.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "64c6b858edae7d0380f488693c501bf6e7d4d92eba26fe9a85999cd06c5ab7cc"
+    },
+    {
+      "bytes": 1755192,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00018.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "6da09c6ddff4b2835c4b28742c3b333e27dd25d335e07be9eec8b2dfe003abaf"
+    },
+    {
+      "bytes": 1758630,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00019.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "2f9ca105ac235438d348909cd4eeab150a7d6b8f2efa95e2c43d69fd0c6e1dbe"
+    },
+    {
+      "bytes": 1772053,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00020.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "a42f5679dfb1fed6bd84be1700fb813039e5895f0a05f694007987ee29947081"
+    },
+    {
+      "bytes": 1775848,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00021.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "109663ba79f401f1fe7c0198b99295e678bf528ad535b5fe5fd3a281b68f9b1c"
+    },
+    {
+      "bytes": 1796583,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00022.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "dd60fd5faf2f2598e2674e41d4464be9f967dbd453ea0f4e5224f722c1f353ab"
+    },
+    {
+      "bytes": 1796046,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00023.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "061c0e897ab03d0b1dbc58074fc84c25fb6479e88e163b1468d343c588bbcbf7"
+    },
+    {
+      "bytes": 1778834,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00024.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "698df949a1c24e5d47ff470e695b44378b86f2795ff89b5f4802d74d589e1669"
+    },
+    {
+      "bytes": 1792624,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00025.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "3051edf54ad10943d30a0bd7068aa1f91515d58a9401483ef0f47121bc8203de"
+    },
+    {
+      "bytes": 1767383,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00026.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "dfae8c25a8b6d7a6efffa894ea810a93734f77743478d2ab8a575ee5cfd74c48"
+    },
+    {
+      "bytes": 1756682,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00027.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "6b1f107e3c5c728e7e6e7324ccf50b0108d76825f5af08d898b7d806735c0777"
+    },
+    {
+      "bytes": 1802165,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00028.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "5519b6633405ce2052a330cafa1a145a082aadc38445b5f993e6c68db5c8c560"
+    },
+    {
+      "bytes": 1807641,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00029.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "b2b5cb2e935c18580bccfa0509758c989765d16b41f087aa76f683d47cca451c"
+    },
+    {
+      "bytes": 1821826,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00030.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "29490081d510eb31ed5597a194e33e4f476227fdb35a914856dd10cc82fa2210"
+    },
+    {
+      "bytes": 1783523,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00031.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "cf53856b4f8be3cf27ca9c2def0b79a8359df69249f924c8c02bb13c5d0cb81f"
+    },
+    {
+      "bytes": 1795604,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00032.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "d482f64288fb98bc80356f84e1be620a7a9b79dad2dddd7b1492e0f2d118bab0"
+    },
+    {
+      "bytes": 1790207,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00033.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "bea2a9772130faaa430cae7407b0afdb0c9570aca044d428836f264443d4bdd4"
+    },
+    {
+      "bytes": 1718884,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00034.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "f48a58efebd4e7b54a7fa66e9f938d2a74594c2474329c8e2f484a58fdd9aee0"
+    },
+    {
+      "bytes": 1786488,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00035.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "13684f63dfd7259fddd5d6664096f364e294c6617e6b61b56a152ddc97a8c9a3"
+    },
+    {
+      "bytes": 1732947,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00036.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "a8306a466bc36b8d466ec1b41abb6f062a031ed6d60491d25606cc5d06ec80d2"
+    },
+    {
+      "bytes": 171400,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00037.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "70daa8ee08eab5998e75a23521df79dde33c9f5f8aa13d790929e76eeb44d6bd"
+    },
+    {
+      "bytes": 3884,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet_index.json",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "74c1816058e2288c9cb757270d92a043c8978ca962f957f9adff540d37e04f4a"
+    },
+    {
+      "bytes": 346356537,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context.csv",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "e0673f31ab994333bbee22de39b651d652456fd405ebf26106a19a0d7f06bf35"
+    },
+    {
+      "bytes": 364012,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00000.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "13adcdd382674ca0072440936759a1996c9063d3d4bc4f27e940dff1157fb7fb"
+    },
+    {
+      "bytes": 363381,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00001.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "d021789f193f4430b579797508b6ba5ba076d159cc7d3f71320ec2cfb16942c3"
+    },
+    {
+      "bytes": 349353,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00002.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "05bba586d4b4030291d61e662637e0510287b03442b891441154e7fffbfc221e"
+    },
+    {
+      "bytes": 363192,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00003.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "ee52b2baa6e16895555f30413ae284c001c0777711f1691efffd906c5c9ea3e8"
+    },
+    {
+      "bytes": 350370,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00004.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "96fc9c083ae36207e6494bb60da46bd85fc4d1fa1fe6420b765bf79ff9d4f37f"
+    },
+    {
+      "bytes": 350289,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00005.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "c2ce52157712c1b07cfd5d0e292fdac5ca2c3da72bd825f7bbca28fcbf2a2ffd"
+    },
+    {
+      "bytes": 349547,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00006.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "f99681319d94fa6fb5f84a0b6fc460990030b2038e1ff03d1b0e5c888913dda9"
+    },
+    {
+      "bytes": 330192,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00007.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "817fec593b8c20925d1b32110eadc0443635b97be79e521e273b95e897a68bde"
+    },
+    {
+      "bytes": 344958,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00008.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "5e805fa746723ac80ca57e749fb1b58a749d93909637e66a2407ff9484d21279"
+    },
+    {
+      "bytes": 352173,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00009.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "d1f404fecfa19c6f56558111cdc5f31109b02383f3a62f8cda38eaf35e652dca"
+    },
+    {
+      "bytes": 350713,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00010.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "2895a382328b42a6630b5a15bd8e6203d2d0b276d91f25b657dad25da4b07bc2"
+    },
+    {
+      "bytes": 352271,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00011.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "c5c17a6b3c156712d96b1da0c14fba9134a30d532aff2ddc7fe799b010184d2e"
+    },
+    {
+      "bytes": 346801,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00012.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "22eed7415185769d5aeb21213455da6f96f578d00a572c5f39217785d8742c29"
+    },
+    {
+      "bytes": 346060,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00013.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "dc4633ea9dd2c099e14be8817fed2ca29c160aaac3485ddad238206ee9c1493a"
+    },
+    {
+      "bytes": 348550,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00014.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "74c6f0e511ae0483598292b52d6459103002ab84c37489e860561afe0145a2e8"
+    },
+    {
+      "bytes": 352521,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00015.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "39242f44e248d7aaeb3bda0da914a61147dd595f6828b24bb31ac116c940c883"
+    },
+    {
+      "bytes": 355172,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00016.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "f04bf1febed3c37327bb917569e66996abf90f4cfa3fff8f2060c5d696511420"
+    },
+    {
+      "bytes": 357178,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00017.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "5c5a4bea9ed683c870aafab1d23f0ccb05f48a1015de5e2f1427607e60f7e059"
+    },
+    {
+      "bytes": 326645,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00018.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "0176c9a85a533db68434baaad7b1fae3e541603bf8a3db0e9092ecab19c762ce"
+    },
+    {
+      "bytes": 328501,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00019.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "71c052340389d2564db0d0c459f5c9dbf61e1b0acc998e12ef158b4f24f18ef8"
+    },
+    {
+      "bytes": 346304,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00020.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "73e128e117de1dc37049c00026c5f6afcbe36da6c7e5586239e5f1d73388aceb"
+    },
+    {
+      "bytes": 316168,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00021.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "c224d9aaa2d0e5f0be2f3eb831497a073ab38e560ea5c9dddc488e8c5f948761"
+    },
+    {
+      "bytes": 346100,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00022.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "29cb042513098584936987a744b77c581b2993254a1242c00e8c8d472f938924"
+    },
+    {
+      "bytes": 352130,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00023.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "844c862e00dc668f2dbe6598a060c9c8dcc26674048451fa97149ed20cc9a3cd"
+    },
+    {
+      "bytes": 329621,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00024.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "3066ef77da26c99cb3e033e021aacb66925e5ad83fba08e5de3d39c7740deeb5"
+    },
+    {
+      "bytes": 344482,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00025.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "0de92e2973023c6beb55b9f148f7dda81fe7a1eb4b774bf6c5ff6ac67d401b74"
+    },
+    {
+      "bytes": 355837,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00026.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "86c2901c7e6ebef8d695c6fd9d084b940e05699eb494684ff2cf81fd4db59f49"
+    },
+    {
+      "bytes": 343273,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00027.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "ea5e4a1cf03e446d2809649c67a019d57841bb75007ebe5e9acdcd77c5dfa01a"
+    },
+    {
+      "bytes": 344305,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00028.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "1f25c2fde615b3871e7355f713b6dd72daf9b2dd58e8132669e9b4eb7eb9390e"
+    },
+    {
+      "bytes": 358632,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00029.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "62867acf7815ef27a74b3146a11c56c2047501bf661527d765d42f7f289cef58"
+    },
+    {
+      "bytes": 347869,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00030.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "b6a162a4080d01b3b0be8c76b4f515bf2c490d509a70d856da51cef8b605c5ae"
+    },
+    {
+      "bytes": 350079,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00031.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "c41beb62e349e6e72b152441a2b259f885d408d4d0f48ece770fc0404ce63ce2"
+    },
+    {
+      "bytes": 347832,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00032.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "9c26e122b4893da29e01037ac5853adde171abcc0a8a82280b43c625876212e7"
+    },
+    {
+      "bytes": 354261,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00033.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "b6de7437840b2f40a7beaec49891627dfaedb19cd09f636a935c461308450f7f"
+    },
+    {
+      "bytes": 346258,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00034.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "b96c1054c23f0c8ab9f457cb5fca40cb3acc4702096dcfe945c78d1fe6afc929"
+    },
+    {
+      "bytes": 360638,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00035.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "04179af33e35e57faeae1a32abc30a07505798f1dbdef6890d22d655b98f38c9"
+    },
+    {
+      "bytes": 345509,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00036.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "992218df247a945eaef087254281c46f9efb78404d2765c2b6f348e992246621"
+    },
+    {
+      "bytes": 343007,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00037.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "54085c3465824e4274c1e90cad0b59bf4580246819a7feae43f8bbd679445e2c"
+    },
+    {
+      "bytes": 350727,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00038.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "c2e32bba08b262003b90f7363de16e2992e46c4e2c4296db15787146594b856a"
+    },
+    {
+      "bytes": 330367,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00039.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "3bf1bb78a617ba033e6a5b841dd6eb5e9e554118ff05d262d31c392bc4e29db2"
+    },
+    {
+      "bytes": 348166,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00040.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "4aa8aed8de077a7a44ba37789472b9ea71ee1ee630c64cbe730f7934a7c30bb3"
+    },
+    {
+      "bytes": 349662,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00041.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "c8fe6bda900326094aee9a6033b32d1cc76d53e93ecaf34dbe080e4795e60c45"
+    },
+    {
+      "bytes": 358201,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00042.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "b915404dc334b37d13091ab0771b6fcdd38736b8122a53aa491aaf86b78c6100"
+    },
+    {
+      "bytes": 331319,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00043.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "331db2df8d80eadd3f9b60faf84ddbf78a0d05d6ccede015f155daeff6d6cb20"
+    },
+    {
+      "bytes": 348166,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00044.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "63c97bd6bf3d72a790b86baabaf99ed97a5585150a55c6aa205ca28c48bafd1a"
+    },
+    {
+      "bytes": 361279,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00045.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "0b01e7404490e6f4aa04b3106cf4d28f5646f82d50520c90ca59904434a42f15"
+    },
+    {
+      "bytes": 350219,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00046.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "8069928ef7914bc743a8b799a31920144506dba7745fa40d047e63e364c6c479"
+    },
+    {
+      "bytes": 363987,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00047.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "6210d50d1cad41c7bb25a1eca56e8b8b40e55104a293709efbc9d54c0ac2a659"
+    },
+    {
+      "bytes": 347041,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00048.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "605f572861ad62c544f437fe55e9150a097c823caca37c2e1250bda043616607"
+    },
+    {
+      "bytes": 353572,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00049.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "2c61d15d4755a1758bc9e1eb8f86b60684005c29cf7bfb0c00a44678ad748a58"
+    },
+    {
+      "bytes": 359076,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00050.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "6431aed88b62070484f963c01a687a90bdb5c9694314873bce6f2114695c3a19"
+    },
+    {
+      "bytes": 350856,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00051.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "6944e84de0eb08cf54a86b69313e477dfb53b842f35c1205ba233ae74202bf5b"
+    },
+    {
+      "bytes": 348234,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00052.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "bd20dbf880a443df77c970cec3a5c6d5d0c2d098645c5a7c057ade89d43df7c4"
+    },
+    {
+      "bytes": 349944,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00053.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "6003f55727fa7e6ec16a61826a004f06b385b4c9dd876957065030fb880ab447"
+    },
+    {
+      "bytes": 349020,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00054.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "9c10669ba2d9bf36e438a70f02d470102be80b92b5656f6e8a7f01f5d57c6d5c"
+    },
+    {
+      "bytes": 344018,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00055.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "9e46df7301e5f8131933fa57f62098920ffabf3bf8561cc5a84b157c17a85ca2"
+    },
+    {
+      "bytes": 361138,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00056.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "9ef6e65ce65812e1ab6484da40a7cffdc9d65139a83e8b4a6d96698eb669f583"
+    },
+    {
+      "bytes": 352061,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00057.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "ee20ccd457a27db8ae030f0b1f74261cceff61ecc0fb0bffbf11adb4369827ec"
+    },
+    {
+      "bytes": 353802,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00058.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "662d91e9fe2cf3e128fa841ceb1503a488f0c81b09e26c437d01d86f235a7343"
+    },
+    {
+      "bytes": 361529,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00059.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "3aab020c4adf23b69afe6b7d7b24dc0a55211652e84f5a045504746cb801f23d"
+    },
+    {
+      "bytes": 362299,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00060.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "cd2ef73c2ff77b18ddefa865516979ddaa676ed423772c0e73042dd579c342ff"
+    },
+    {
+      "bytes": 357010,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00061.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "e421790dc4354291e5e815c0f47cd39f8ff547bb3364ba1fced63eb7c4fc2175"
+    },
+    {
+      "bytes": 356820,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00062.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "221cec9f5f24ab493d035af4f26bb7740e7c84b2128124a1af833b7a786afe60"
+    },
+    {
+      "bytes": 308220,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00063.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "e25e16a6e739e479618d3faa9697ecf733e296e31940de086f873dffba1d67ef"
+    },
+    {
+      "bytes": 300951,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00064.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "b505ff401d84af1f6009cc357e523d19ba1f1b2f1476b88a0e4f19024bd91475"
+    },
+    {
+      "bytes": 302328,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00065.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "10d97e383afa79282429e35651af734f5551ce4b9a9726215203c091301a9032"
+    },
+    {
+      "bytes": 321577,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00066.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "db5679f6d8419c5fa329eeb68f6a091de5c10b3cd5e6eeab03356e4f007729da"
+    },
+    {
+      "bytes": 358424,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00067.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "e3d628eb93ff7f2cc4e8d58fd2200c7dc120a4c1a742bc0d636c2fe21311ab5b"
+    },
+    {
+      "bytes": 351101,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00068.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "5cf1660facd0d12e33a61df617843fdf2bbeefc0a9489b7f81fa25bf31f0b4ce"
+    },
+    {
+      "bytes": 334419,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00069.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "232233109b72b33a6008c28f14862d48265dd659fce8be8fa0a8b2aee50c10d7"
+    },
+    {
+      "bytes": 360548,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00070.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "425edc3eee907572a985027eae503fa5f5d072c21934bc8762b06d19eef0a2bd"
+    },
+    {
+      "bytes": 350136,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00071.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "abcd8cbe71a4a5965e530daa47dbf3c60f41017f4c884b142e50bf3a43d383c4"
+    },
+    {
+      "bytes": 359760,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00072.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "131150cdfafdc8456e440911ec3a9f09f6b8219b4a388a2301e795e2412bbdb2"
+    },
+    {
+      "bytes": 325418,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00073.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "4e6594bfa1a2a010472f81f0989e219c7431e5a945ff2d7c9c9b13dc8fb5f4d7"
+    },
+    {
+      "bytes": 62201,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00074.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "3f4ccd548412d82fd38b4e1b4fa944d44991e7ac64dcdcb0f4e124bb10815b60"
+    },
+    {
+      "bytes": 7552,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet_index.json",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "32943ff3fe178c7e53f5c005bfce7e1fa0c3f919b60a0d764c7dfb0c9039b66a"
+    }
+  ],
+  "self_hash": "Manifest itself is bound by outer DELIVERY_INDEX and CHECKSUMS"
+}

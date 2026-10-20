@@ -1,0 +1,15 @@
+{
+  "command": [
+    "<PROJECT_ROOT>\\.venv\\Scripts\\python.exe",
+    "tools/r2_signal_quality.py",
+    "--out",
+    "runs/r2_quality_boundary_20261013_A_1"
+  ],
+  "elapsed_s": 62.75322989979759,
+  "exit_code": 0,
+  "name": "overlay_1",
+  "source_unchanged": true,
+  "started_utc": "2026-10-13T06:01:11.085406+00:00",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "41c132256e8e2aa75e3cd74589c3131e75b13b4ccdb3b5be2a8ecc851608150e"
+}

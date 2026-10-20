@@ -1,0 +1,7 @@
+local_month,n_raw,n_unique_events,n_qc_valid_signed,n_observed_local_dates,scope
+2025-01,145990,145990,145990,31,"Observed calendar dates, not asserted independent observation days"
+2025-02,146209,146209,146209,28,"Observed calendar dates, not asserted independent observation days"
+2025-03,163709,163709,163709,31,"Observed calendar dates, not asserted independent observation days"
+2025-04,164164,164164,164164,30,"Observed calendar dates, not asserted independent observation days"
+2025-05,151675,151675,151675,31,"Observed calendar dates, not asserted independent observation days"
+2025-06,157211,157211,157211,30,"Observed calendar dates, not asserted independent observation days"

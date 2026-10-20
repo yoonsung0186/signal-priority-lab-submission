@@ -1,0 +1,10 @@
+{
+  "run": "finish_final_20261013_A_pet_1",
+  "method": "Main directly viewed generated PNGs",
+  "files": [
+    "figures/pet_ecdf.png",
+    "figures/ai_occupancy_types.png"
+  ],
+  "result": "Readable axes, units, legends and bars/curves; no visible clipping",
+  "independent_data_validation": false
+}

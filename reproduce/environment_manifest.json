@@ -1,0 +1,33 @@
+{
+  "python": "3.13.9",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "venv": ".venv",
+  "dependencies": [
+    "attrs==26.1.0",
+    "contourpy==1.4.0",
+    "cycler==0.12.1",
+    "fonttools==4.66.1",
+    "jsonschema==4.26.0",
+    "jsonschema-specifications==2025.9.1",
+    "kiwisolver==1.5.1",
+    "matplotlib==3.11.2",
+    "numpy==2.5.4",
+    "packaging==26.3",
+    "pillow==12.3.0",
+    "pyarrow==26.0.0",
+    "pyparsing==3.3.3",
+    "pypdf==6.20.0",
+    "python-dateutil==2.9.0.post0",
+    "PyYAML==6.0.3",
+    "referencing==0.37.0",
+    "rpds-py==2026.9.1",
+    "six==1.17.0"
+  ],
+  "global_install_performed": false,
+  "lock_sha256": "0d7fdc057a4a885762a996980ad78a77dfd7922027c26f5ca84f9ec85052cda8",
+  "interpreter_probe": {
+    "version": "3.13.9",
+    "isolated": true
+  },
+  "plot_cache": "Project-local .cache/matplotlib for final verification; initial development plotting used default cache configuration"
+}

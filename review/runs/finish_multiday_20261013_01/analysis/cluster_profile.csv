@@ -1,0 +1,3 @@
+cluster,encroaching_length_m_median,encroaching_occupancy_s_median,encroaching_width_m_median,n_events,n_negative_pet_review,n_nonnegative_short_pet_1s,priority_length_m_median,priority_occupancy_s_median,priority_width_m_median
+0,4.63,1.398,1.96,88851,224,413,1.51,0.901,0.84
+1,16.01,4.901,3.2,11149,216,86,1.24,0.998,0.72

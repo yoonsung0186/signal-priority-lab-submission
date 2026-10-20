@@ -1,0 +1,17 @@
+cluster,cluster_fraction_within_condition,n_clusters_within_condition,n_condition_events,n_events,road_user_pair,scenario_id
+0,0.9069334352019864,2,41884,37986,vehicle|vehicle,1A
+1,0.09306656479801356,2,41884,3898,vehicle|vehicle,1A
+0,0.968524838832006,2,2637,2554,vehicle|vehicle,1B
+1,0.03147516116799393,2,2637,83,vehicle|vehicle,1B
+0,0.7997179125528914,2,12762,10206,vehicle|pedestrian,2A
+1,0.2002820874471086,2,12762,2556,vehicle|pedestrian,2A
+0,0.8997476239059228,2,37246,33512,vehicle|pedestrian,2B
+1,0.10025237609407722,2,37246,3734,vehicle|pedestrian,2B
+0,0.9824561403508771,2,1197,1176,vehicle|pedestrian,2C
+1,0.017543859649122806,2,1197,21,vehicle|pedestrian,2C
+0,0.9668547249647391,2,1418,1371,vehicle|pedestrian,2D
+1,0.03314527503526093,2,1418,47,vehicle|pedestrian,2D
+0,0.5982862903225806,2,1984,1187,vehicle|two-wheeler,3A
+1,0.4017137096774194,2,1984,797,vehicle|two-wheeler,3A
+0,0.9850917431192661,2,872,859,vehicle|two-wheeler,3B
+1,0.014908256880733946,2,872,13,vehicle|two-wheeler,3B

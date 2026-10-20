@@ -1,0 +1,10 @@
+{
+  "run": "runs/finish_final_20261013_A_evidence_1",
+  "method": "Main directly viewed generated PNGs",
+  "files": [
+    "figures/ai_feature_separation.png",
+    "figures/audit_denominators.png"
+  ],
+  "result": "Readable axes, units and labels; no visible clipping; count chart retains linear scale and source table for small categories",
+  "data_validation": "Independent arithmetic/source review remains separate; visuals do not establish accuracy"
+}

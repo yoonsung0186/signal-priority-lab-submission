@@ -1,0 +1,92 @@
+{
+  "source_id": "sitpet",
+  "version": "1.1",
+  "doi": "10.5281/zenodo.19231310",
+  "url": "https://zenodo.org/api/records/19231310/files/examples.zip/content",
+  "bytes": 150667218,
+  "sha256": "60ffaaf43c4bc1287f50111aa70c1eef311616ad72e8667ca7c09a04c5750f82",
+  "md5": "b551f5215417e71d4c76b2fcd2f5b871",
+  "elapsed_s": 209.63098090002313,
+  "rights": {
+    "access_status": "ALLOW",
+    "analysis_status": "ALLOW",
+    "share_derived_status": "ALLOW",
+    "share_raw_status": "ALLOW",
+    "contest_use_status": "UNKNOWN"
+  },
+  "license": "CC-BY-4.0",
+  "entries": [
+    {
+      "path": "00_load_and_inspect.py",
+      "bytes": 4712
+    },
+    {
+      "path": "01_visualise_a_random_interaction.py",
+      "bytes": 12430
+    },
+    {
+      "path": "objects/",
+      "bytes": 0
+    },
+    {
+      "path": "objects/objects.csv.gz",
+      "bytes": 82950
+    },
+    {
+      "path": "pet_events/",
+      "bytes": 0
+    },
+    {
+      "path": "pet_events/pet_events.csv.gz",
+      "bytes": 70634
+    },
+    {
+      "path": "random_interaction.html",
+      "bytes": 4846507
+    },
+    {
+      "path": "README.md",
+      "bytes": 3623
+    },
+    {
+      "path": "scenarios/",
+      "bytes": 0
+    },
+    {
+      "path": "scenarios/scenarios.csv",
+      "bytes": 1161
+    },
+    {
+      "path": "signals/",
+      "bytes": 0
+    },
+    {
+      "path": "signals/scenario_signal_mapping.csv.gz",
+      "bytes": 147
+    },
+    {
+      "path": "signals/signal_locations.csv.gz",
+      "bytes": 305
+    },
+    {
+      "path": "signals/signal_states.csv.gz",
+      "bytes": 459088
+    },
+    {
+      "path": "tracks/",
+      "bytes": 0
+    },
+    {
+      "path": "tracks/tracks_2025-06-01.csv.gz",
+      "bytes": 148664568
+    }
+  ],
+  "raw_packaging": false,
+  "retrieved_at_utc": "2026-10-12T04:23:11.946159+00:00",
+  "retrieval_timestamp_basis": "Local archive write completion mtime; not server acquisition timestamp",
+  "official_page": "https://zenodo.org/records/19231310",
+  "resolved_download_url": null,
+  "resolved_url_basis": "NOT_RECORDED_EXACT_URL; final hostname zenodo.org was checked during acquisition; requested URL retained in url",
+  "license_evidence": "https://zenodo.org/api/records/19231310/files/LICENSE.md/content",
+  "license_sha256": "f8f1b1b6023c8a4024e6e98713729d2fce6ea6c7aa8e0a7c22127e64723fe984"
+}

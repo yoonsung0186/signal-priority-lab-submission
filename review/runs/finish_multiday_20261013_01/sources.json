@@ -1,0 +1,55 @@
+{
+  "contest_use_status": "UNKNOWN",
+  "creators": [
+    {
+      "affiliation": "Salzburg Research Forschungsgesellschaft mbH (Austria)",
+      "name": "Steinmaßl, Markus",
+      "orcid": "0000-0001-9407-9570"
+    },
+    {
+      "affiliation": "Salzburg Research Forschungsgesellschaft mbH (Austria)",
+      "name": "Rehrl, Karl",
+      "orcid": "0000-0003-4052-5867"
+    },
+    {
+      "affiliation": "Salzburg Research Forschungsgesellschaft mbH (Austria)",
+      "name": "Vornberger, Timo",
+      "orcid": "0009-0008-7349-4925"
+    }
+  ],
+  "dataset_id": "sitpet",
+  "doi": "10.5281/zenodo.19231310",
+  "inputs": [
+    {
+      "archive": "data/raw/sitpet_finish_20261013/attempt_01/pet_events.zip",
+      "bytes": 34033414,
+      "sha256": "615176e1138c70adab919b722da1a525e584d2c711eb06d4eb5ecf2c8738277f"
+    },
+    {
+      "archive": "data/raw/sitpet_finish_20261013/attempt_02/objects.zip",
+      "bytes": 23432360,
+      "sha256": "9d17b3894d49c0f0c5e7ab945324cafc89d3cc3e0bfe262ab3c7823284141343"
+    },
+    {
+      "archive": "data/raw/sitpet_finish_20261013/attempt_03/signals.zip",
+      "bytes": 72354318,
+      "sha256": "04676cd0ce221d7228d84a3d1c97a96c1052dd162afcbbbae2b131a7f7ebad6c"
+    },
+    {
+      "archive": "data/raw/sitpet_v1_1/examples.zip",
+      "bytes": 150667218,
+      "sha256": "60ffaaf43c4bc1287f50111aa70c1eef311616ad72e8667ca7c09a04c5750f82"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "license_evidence": "reproduce/sitpet/LICENSE.md",
+  "modifications": [
+    "Provider event QC and exact numeric timestamp parsing",
+    "Conditional statistics, date-cluster exploration and bounded AI descriptions",
+    "Automated source consistency audit"
+  ],
+  "reproduction_scope": "WITH_AUTHORIZED_DATA",
+  "software_license_changed": false,
+  "title": "Salzburg Intersection Trajectory and PET Interaction Dataset (SIT-PET)",
+  "version": "1.1"
+}

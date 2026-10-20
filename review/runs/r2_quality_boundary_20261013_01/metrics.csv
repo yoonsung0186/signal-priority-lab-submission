@@ -1,0 +1,5 @@
+tau_s,n_valid_nonnegative_pet,n_short_pet,new_long_interval_held_n_valid_nonnegative_pet,new_long_interval_held_n_short_pet,quality_held_n_valid_nonnegative_pet,quality_held_n_short_pet,remaining_unknown_n_valid_nonnegative_pet,remaining_unknown_n_short_pet,interpretable_n_valid_nonnegative_pet,interpretable_n_short_pet
+0.5,924775,1365,7062,19,42259,95,1250,1,881266,1269
+1.0,924775,4492,7062,49,42259,267,1250,5,881266,4220
+1.5,924775,10672,7062,89,42259,537,1250,11,881266,10124
+2.0,924775,18420,7062,149,42259,887,1250,18,881266,17515

@@ -1,0 +1,29 @@
+{
+  "nested_columns": "STABLE_JSON_STRINGS",
+  "numeric_boolean_types": "Decode by PET schema or CSV headers; no lossy float conversion",
+  "row_count": 104124,
+  "scalar_encoding": "STABLE_CSV_SCALAR_STRINGS_WITH_COLUMN_NAMES",
+  "shards": [
+    {
+      "path": "pet_ecdf_parquet/part_00000.parquet",
+      "row_count": 25000
+    },
+    {
+      "path": "pet_ecdf_parquet/part_00001.parquet",
+      "row_count": 25000
+    },
+    {
+      "path": "pet_ecdf_parquet/part_00002.parquet",
+      "row_count": 25000
+    },
+    {
+      "path": "pet_ecdf_parquet/part_00003.parquet",
+      "row_count": 25000
+    },
+    {
+      "path": "pet_ecdf_parquet/part_00004.parquet",
+      "row_count": 4124
+    }
+  ],
+  "table": "pet_ecdf"
+}

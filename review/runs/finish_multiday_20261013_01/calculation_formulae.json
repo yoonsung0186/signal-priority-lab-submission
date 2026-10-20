@@ -1,0 +1,10 @@
+{
+  "centroid_feature_share": "sum_over_unordered_centroid_pairs((center_a_j-center_b_j)^2) / sum_over_features_and_pairs",
+  "conditional_short_fraction": "n(QC-valid and 0 <= provider PET <= threshold) / n(QC-valid and provider PET >= 0)",
+  "descriptive_majority_agreement": "sum_group(max_cluster_count_in_group) / n(saved assignments)",
+  "explicit_count": "Count rows or reconciled keys in the explicitly declared population",
+  "explicit_count_over_declared_population": "numerator / explicitly declared denominator; denominator zero gives null",
+  "frozen_subset_agreement": "n(argmin frozen squared distance on selected dimensions == saved cluster) / n(saved assignments)",
+  "iqr_tail_flag": "observed feature < Q1-1.5*(Q3-Q1) or > Q3+1.5*(Q3-Q1); not a measurement-error label",
+  "provider_timestamp_identity": "(ts_enter_priority_ms - ts_leave_encroaching_ms) / 1000"
+}

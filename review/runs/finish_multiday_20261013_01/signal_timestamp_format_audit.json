@@ -1,0 +1,302 @@
+{
+  "status": "AUTOMATIC_FORMAT_RECONCILIATION",
+  "original_lexical_integer_rejected_rows": 26,
+  "original_affected_groups": 10,
+  "normalized_valid_intervals": 26,
+  "rows": [
+    {
+      "signal_group_id": "30:63:11",
+      "start_timestamp_ms": "1742944998908",
+      "end_timestamp_ms": "1.742945e+12",
+      "signal_state": "red-yellow",
+      "source_row_id": 1523136,
+      "parsed_start_ms": 1742944998908,
+      "parsed_end_ms": 1742945000000,
+      "valid_positive_interval": true,
+      "conversion": "EXACT_DECIMAL_INTEGRAL_VALUE_NO_ROUNDING"
+    },
+    {
+      "signal_group_id": "30:63:11",
+      "start_timestamp_ms": "1.742945e+12",
+      "end_timestamp_ms": "1742945020920",
+      "signal_state": "green",
+      "source_row_id": 1523137,
+      "parsed_start_ms": 1742945000000,
+      "parsed_end_ms": 1742945020920,
+      "valid_positive_interval": true,
+      "conversion": "EXACT_DECIMAL_INTEGRAL_VALUE_NO_ROUNDING"
+    },
+    {
+      "signal_group_id": "30:63:12",
+      "start_timestamp_ms": "1736793980975",
+      "end_timestamp_ms": "1.736794e+12",
+      "signal_state": "green",
+      "source_row_id": 1866051,
+      "parsed_start_ms": 1736793980975,
+      "parsed_end_ms": 1736794000000,
+      "valid_positive_interval": true,
+      "conversion": "EXACT_DECIMAL_INTEGRAL_VALUE_NO_ROUNDING"
+    },
+    {
+      "signal_group_id": "30:63:12",
+      "start_timestamp_ms": "1.736794e+12",
+      "end_timestamp_ms": "1736794087084",
+      "signal_state": "red",
+      "source_row_id": 1866052,
+      "parsed_start_ms": 1736794000000,
+      "parsed_end_ms": 1736794087084,
+      "valid_positive_interval": true,
+      "conversion": "EXACT_DECIMAL_INTEGRAL_VALUE_NO_ROUNDING"
+    },
+    {
+      "signal_group_id": "30:63:13",
+      "start_timestamp_ms": "1736793980975",
+      "end_timestamp_ms": "1.736794e+12",
+      "signal_state": "green",
+      "source_row_id": 2218662,
+      "parsed_start_ms": 1736793980975,
+      "parsed_end_ms": 1736794000000,
+      "valid_positive_interval": true,
+      "conversion": "EXACT_DECIMAL_INTEGRAL_VALUE_NO_ROUNDING"
+    },
+    {
+      "signal_group_id": "30:63:13",
+      "start_timestamp_ms": "1.736794e+12",
+      "end_timestamp_ms": "1736794087084",
+      "signal_state": "red",
+      "source_row_id": 2218663,
+      "parsed_start_ms": 1736794000000,
+      "parsed_end_ms": 1736794087084,
+      "valid_positive_interval": true,
+      "conversion": "EXACT_DECIMAL_INTEGRAL_VALUE_NO_ROUNDING"
+    },
+    {
+      "signal_group_id": "30:63:2",
+      "start_timestamp_ms": "1739424923820",
+      "end_timestamp_ms": "1.739425e+12",
+      "signal_state": "red",
+      "source_row_id": 4696165,
+      "parsed_start_ms": 1739424923820,
+      "parsed_end_ms": 1739425000000,
+      "valid_positive_interval": true,
+      "conversion": "EXACT_DECIMAL_INTEGRAL_VALUE_NO_ROUNDING"
+    },
+    {
+      "signal_group_id": "30:63:2",
+      "start_timestamp_ms": "1.739425e+12",
+      "end_timestamp_ms": "1739425002001",
+      "signal_state": "red-yellow",
+      "source_row_id": 4696166,
+      "parsed_start_ms": 1739425000000,
+      "parsed_end_ms": 1739425002001,
+      "valid_positive_interval": true,
+      "conversion": "EXACT_DECIMAL_INTEGRAL_VALUE_NO_ROUNDING"
+    },
+    {
+      "signal_group_id": "30:63:22",
+      "start_timestamp_ms": "1736793978066",
+      "end_timestamp_ms": "1.736794e+12",
+      "signal_state": "green",
+      "source_row_id": 5849251,
+      "parsed_start_ms": 1736793978066,
+      "parsed_end_ms": 1736794000000,
+      "valid_positive_interval": true,
+      "conversion": "EXACT_DECIMAL_INTEGRAL_VALUE_NO_ROUNDING"
+    },
+    {
+      "signal_group_id": "30:63:22",
+      "start_timestamp_ms": "1.736794e+12",
+      "end_timestamp_ms": "1736794085079",
+      "signal_state": "red",
+      "source_row_id": 5849252,
+      "parsed_start_ms": 1736794000000,
+      "parsed_end_ms": 1736794085079,
+      "valid_positive_interval": true,
+      "conversion": "EXACT_DECIMAL_INTEGRAL_VALUE_NO_ROUNDING"
+    },
+    {
+      "signal_group_id": "30:63:22",
+      "start_timestamp_ms": "1738161916907",
+      "end_timestamp_ms": "1.738162e+12",
+      "signal_state": "red",
+      "source_row_id": 5881430,
+      "parsed_start_ms": 1738161916907,
+      "parsed_end_ms": 1738162000000,
+      "valid_positive_interval": true,
+      "conversion": "EXACT_DECIMAL_INTEGRAL_VALUE_NO_ROUNDING"
+    },
+    {
+      "signal_group_id": "30:63:22",
+      "start_timestamp_ms": "1.738162e+12",
+      "end_timestamp_ms": "1738162021017",
+      "signal_state": "green",
+      "source_row_id": 5881431,
+      "parsed_start_ms": 1738162000000,
+      "parsed_end_ms": 1738162021017,
+      "valid_positive_interval": true,
+      "conversion": "EXACT_DECIMAL_INTEGRAL_VALUE_NO_ROUNDING"
+    },
+    {
+      "signal_group_id": "30:63:23",
+      "start_timestamp_ms": "1736793978066",
+      "end_timestamp_ms": "1.736794e+12",
+      "signal_state": "green",
+      "source_row_id": 6199301,
+      "parsed_start_ms": 1736793978066,
+      "parsed_end_ms": 1736794000000,
+      "valid_positive_interval": true,
+      "conversion": "EXACT_DECIMAL_INTEGRAL_VALUE_NO_ROUNDING"
+    },
+    {
+      "signal_group_id": "30:63:23",
+      "start_timestamp_ms": "1.736794e+12",
+      "end_timestamp_ms": "1736794085079",
+      "signal_state": "red",
+      "source_row_id": 6199302,
+      "parsed_start_ms": 1736794000000,
+      "parsed_end_ms": 1736794085079,
+      "valid_positive_interval": true,
+      "conversion": "EXACT_DECIMAL_INTEGRAL_VALUE_NO_ROUNDING"
+    },
+    {
+      "signal_group_id": "30:63:23",
+      "start_timestamp_ms": "1738161916907",
+      "end_timestamp_ms": "1.738162e+12",
+      "signal_state": "red",
+      "source_row_id": 6231466,
+      "parsed_start_ms": 1738161916907,
+      "parsed_end_ms": 1738162000000,
+      "valid_positive_interval": true,
+      "conversion": "EXACT_DECIMAL_INTEGRAL_VALUE_NO_ROUNDING"
+    },
+    {
+      "signal_group_id": "30:63:23",
+      "start_timestamp_ms": "1.738162e+12",
+      "end_timestamp_ms": "1738162021017",
+      "signal_state": "green",
+      "source_row_id": 6231467,
+      "parsed_start_ms": 1738162000000,
+      "parsed_end_ms": 1738162021017,
+      "valid_positive_interval": true,
+      "conversion": "EXACT_DECIMAL_INTEGRAL_VALUE_NO_ROUNDING"
+    },
+    {
+      "signal_group_id": "30:63:24",
+      "start_timestamp_ms": "1736793980975",
+      "end_timestamp_ms": "1.736794e+12",
+      "signal_state": "green",
+      "source_row_id": 6549158,
+      "parsed_start_ms": 1736793980975,
+      "parsed_end_ms": 1736794000000,
+      "valid_positive_interval": true,
+      "conversion": "EXACT_DECIMAL_INTEGRAL_VALUE_NO_ROUNDING"
+    },
+    {
+      "signal_group_id": "30:63:24",
+      "start_timestamp_ms": "1.736794e+12",
+      "end_timestamp_ms": "1736794087084",
+      "signal_state": "red",
+      "source_row_id": 6549159,
+      "parsed_start_ms": 1736794000000,
+      "parsed_end_ms": 1736794087084,
+      "valid_positive_interval": true,
+      "conversion": "EXACT_DECIMAL_INTEGRAL_VALUE_NO_ROUNDING"
+    },
+    {
+      "signal_group_id": "30:63:25",
+      "start_timestamp_ms": "1736793980975",
+      "end_timestamp_ms": "1.736794e+12",
+      "signal_state": "green",
+      "source_row_id": 6901950,
+      "parsed_start_ms": 1736793980975,
+      "parsed_end_ms": 1736794000000,
+      "valid_positive_interval": true,
+      "conversion": "EXACT_DECIMAL_INTEGRAL_VALUE_NO_ROUNDING"
+    },
+    {
+      "signal_group_id": "30:63:25",
+      "start_timestamp_ms": "1.736794e+12",
+      "end_timestamp_ms": "1736794087084",
+      "signal_state": "red",
+      "source_row_id": 6901951,
+      "parsed_start_ms": 1736794000000,
+      "parsed_end_ms": 1736794087084,
+      "valid_positive_interval": true,
+      "conversion": "EXACT_DECIMAL_INTEGRAL_VALUE_NO_ROUNDING"
+    },
+    {
+      "signal_group_id": "30:63:3",
+      "start_timestamp_ms": "1738161922921",
+      "end_timestamp_ms": "1.738162e+12",
+      "signal_state": "red",
+      "source_row_id": 7329469,
+      "parsed_start_ms": 1738161922921,
+      "parsed_end_ms": 1738162000000,
+      "valid_positive_interval": true,
+      "conversion": "EXACT_DECIMAL_INTEGRAL_VALUE_NO_ROUNDING"
+    },
+    {
+      "signal_group_id": "30:63:3",
+      "start_timestamp_ms": "1.738162e+12",
+      "end_timestamp_ms": "1738162002003",
+      "signal_state": "red-yellow",
+      "source_row_id": 7329470,
+      "parsed_start_ms": 1738162000000,
+      "parsed_end_ms": 1738162002003,
+      "valid_positive_interval": true,
+      "conversion": "EXACT_DECIMAL_INTEGRAL_VALUE_NO_ROUNDING"
+    },
+    {
+      "signal_group_id": "30:63:9",
+      "start_timestamp_ms": "1746692923808",
+      "end_timestamp_ms": "1.746693e+12",
+      "signal_state": "unknown",
+      "source_row_id": 11138467,
+      "parsed_start_ms": 1746692923808,
+      "parsed_end_ms": 1746693000000,
+      "valid_positive_interval": true,
+      "conversion": "EXACT_DECIMAL_INTEGRAL_VALUE_NO_ROUNDING"
+    },
+    {
+      "signal_group_id": "30:63:9",
+      "start_timestamp_ms": "1.746693e+12",
+      "end_timestamp_ms": "1746693017023",
+      "signal_state": "green",
+      "source_row_id": 11138468,
+      "parsed_start_ms": 1746693000000,
+      "parsed_end_ms": 1746693017023,
+      "valid_positive_interval": true,
+      "conversion": "EXACT_DECIMAL_INTEGRAL_VALUE_NO_ROUNDING"
+    },
+    {
+      "signal_group_id": "30:63:9",
+      "start_timestamp_ms": "1746930932942",
+      "end_timestamp_ms": "1.746931e+12",
+      "signal_state": "unknown",
+      "source_row_id": 11143791,
+      "parsed_start_ms": 1746930932942,
+      "parsed_end_ms": 1746931000000,
+      "valid_positive_interval": true,
+      "conversion": "EXACT_DECIMAL_INTEGRAL_VALUE_NO_ROUNDING"
+    },
+    {
+      "signal_group_id": "30:63:9",
+      "start_timestamp_ms": "1.746931e+12",
+      "end_timestamp_ms": "1746931014936",
+      "signal_state": "green",
+      "source_row_id": 11143792,
+      "parsed_start_ms": 1746931000000,
+      "parsed_end_ms": 1746931014936,
+      "valid_positive_interval": true,
+      "conversion": "EXACT_DECIMAL_INTEGRAL_VALUE_NO_ROUNDING"
+    }
+  ],
+  "source_ref": "state/finish_20261013/invalid_signal_rows.json",
+  "code_ref": "src/spl/pet_contracts.py:timestamp_integer",
+  "independent_accuracy": null,
+  "limitations": [
+    "Original exponent text carries coarse significant digits; no hidden precision reconstructed",
+    "These provider timestamps are treated as their exact represented numeric values; actual clock accuracy is unverified"
+  ],
+  "not_filtered_or_deleted": true
+}

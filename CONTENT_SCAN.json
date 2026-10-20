@@ -1,0 +1,8 @@
+{
+  "status": "CLEAR",
+  "findings": [],
+  "scope": "all payload bytes and PNG metadata; allowlisted technical source/evidence; no secret values printed",
+  "hidden_files": [
+    ".spl-project-root"
+  ]
+}

@@ -1,0 +1,52 @@
+ai:
+  cumulative_r1_fit_budget: 64
+  cv_splits: 2
+  enabled: true
+  k_candidates:
+  - 2
+  - 3
+  - 4
+  - 5
+  max_feature_missing_fraction: 0.2
+  max_fit_calls: 11
+  max_train_events: 100000
+  min_train_events: 200
+  missing_policy: TRAIN_MEDIAN
+  n_init: 20
+  seed: 20261012
+  stability_seeds:
+  - 20261012
+  - 20261013
+  - 20261014
+bootstrap:
+  min_days: 7
+  min_events: 30
+  repetitions: 200
+  seed: 20261012
+clock_offsets_s:
+- -0.5
+- -0.2
+- 0.0
+- 0.2
+- 0.5
+data_kind: REAL
+dataset_id: sitpet
+inputs:
+- archive: data/raw/sitpet_v1_1/examples.zip
+  sha256: 60ffaaf43c4bc1287f50111aa70c1eef311616ad72e8667ca7c09a04c5750f82
+  tables:
+  - pet_events
+  - objects
+  - scenarios
+  - scenario_signal_mapping
+  - signal_states
+local_timezone: Europe/Vienna
+profile_id: PET_INTERACTIONS_V1
+rights_manifest: state/data_acquisition_manifest.json
+scope: SAMPLE_DAY
+source_version: '1.1'
+thresholds_s:
+- 0.5
+- 1.0
+- 1.5
+- 2.0

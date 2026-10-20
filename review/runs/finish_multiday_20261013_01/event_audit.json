@@ -1,0 +1,258 @@
+{
+  "independent_accuracy": null,
+  "ledger_counts": {
+    "NEGATIVE_PET_REVIEW": 4183,
+    "VALID_NONNEGATIVE_PET": 924775,
+    "all_finite_negative_pet": 4183,
+    "finite_signed_pet": 928958,
+    "scenario_threshold_counts": [
+      {
+        "n_short_pet": 267,
+        "n_valid_nonnegative_pet": 388859,
+        "scenario_id": "1A",
+        "short_pet_fraction": 0.0006866242005456991,
+        "tau_s": 0.5
+      },
+      {
+        "n_short_pet": 1810,
+        "n_valid_nonnegative_pet": 388859,
+        "scenario_id": "1A",
+        "short_pet_fraction": 0.004654643456882829,
+        "tau_s": 1.0
+      },
+      {
+        "n_short_pet": 5880,
+        "n_valid_nonnegative_pet": 388859,
+        "scenario_id": "1A",
+        "short_pet_fraction": 0.015121162169321014,
+        "tau_s": 1.5
+      },
+      {
+        "n_short_pet": 11022,
+        "n_valid_nonnegative_pet": 388859,
+        "scenario_id": "1A",
+        "short_pet_fraction": 0.028344464188819085,
+        "tau_s": 2.0
+      },
+      {
+        "n_short_pet": 12,
+        "n_valid_nonnegative_pet": 24477,
+        "scenario_id": "1B",
+        "short_pet_fraction": 0.0004902561588429955,
+        "tau_s": 0.5
+      },
+      {
+        "n_short_pet": 131,
+        "n_valid_nonnegative_pet": 24477,
+        "scenario_id": "1B",
+        "short_pet_fraction": 0.005351963067369367,
+        "tau_s": 1.0
+      },
+      {
+        "n_short_pet": 481,
+        "n_valid_nonnegative_pet": 24477,
+        "scenario_id": "1B",
+        "short_pet_fraction": 0.0196511010336234,
+        "tau_s": 1.5
+      },
+      {
+        "n_short_pet": 994,
+        "n_valid_nonnegative_pet": 24477,
+        "scenario_id": "1B",
+        "short_pet_fraction": 0.040609551824161455,
+        "tau_s": 2.0
+      },
+      {
+        "n_short_pet": 212,
+        "n_valid_nonnegative_pet": 117895,
+        "scenario_id": "2A",
+        "short_pet_fraction": 0.0017982102718520718,
+        "tau_s": 0.5
+      },
+      {
+        "n_short_pet": 459,
+        "n_valid_nonnegative_pet": 117895,
+        "scenario_id": "2A",
+        "short_pet_fraction": 0.003893294881038212,
+        "tau_s": 1.0
+      },
+      {
+        "n_short_pet": 818,
+        "n_valid_nonnegative_pet": 117895,
+        "scenario_id": "2A",
+        "short_pet_fraction": 0.006938377369693371,
+        "tau_s": 1.5
+      },
+      {
+        "n_short_pet": 1392,
+        "n_valid_nonnegative_pet": 117895,
+        "scenario_id": "2A",
+        "short_pet_fraction": 0.011807116501972094,
+        "tau_s": 2.0
+      },
+      {
+        "n_short_pet": 279,
+        "n_valid_nonnegative_pet": 343342,
+        "scenario_id": "2B",
+        "short_pet_fraction": 0.0008126008469689115,
+        "tau_s": 0.5
+      },
+      {
+        "n_short_pet": 786,
+        "n_valid_nonnegative_pet": 343342,
+        "scenario_id": "2B",
+        "short_pet_fraction": 0.0022892626011382236,
+        "tau_s": 1.0
+      },
+      {
+        "n_short_pet": 1651,
+        "n_valid_nonnegative_pet": 343342,
+        "scenario_id": "2B",
+        "short_pet_fraction": 0.004808616481525709,
+        "tau_s": 1.5
+      },
+      {
+        "n_short_pet": 2642,
+        "n_valid_nonnegative_pet": 343342,
+        "scenario_id": "2B",
+        "short_pet_fraction": 0.0076949513895765735,
+        "tau_s": 2.0
+      },
+      {
+        "n_short_pet": 4,
+        "n_valid_nonnegative_pet": 11047,
+        "scenario_id": "2C",
+        "short_pet_fraction": 0.0003620892550013578,
+        "tau_s": 0.5
+      },
+      {
+        "n_short_pet": 19,
+        "n_valid_nonnegative_pet": 11047,
+        "scenario_id": "2C",
+        "short_pet_fraction": 0.0017199239612564498,
+        "tau_s": 1.0
+      },
+      {
+        "n_short_pet": 61,
+        "n_valid_nonnegative_pet": 11047,
+        "scenario_id": "2C",
+        "short_pet_fraction": 0.005521861138770707,
+        "tau_s": 1.5
+      },
+      {
+        "n_short_pet": 118,
+        "n_valid_nonnegative_pet": 11047,
+        "scenario_id": "2C",
+        "short_pet_fraction": 0.010681633022540056,
+        "tau_s": 2.0
+      },
+      {
+        "n_short_pet": 4,
+        "n_valid_nonnegative_pet": 13118,
+        "scenario_id": "2D",
+        "short_pet_fraction": 0.0003049245311785333,
+        "tau_s": 0.5
+      },
+      {
+        "n_short_pet": 38,
+        "n_valid_nonnegative_pet": 13118,
+        "scenario_id": "2D",
+        "short_pet_fraction": 0.0028967830461960665,
+        "tau_s": 1.0
+      },
+      {
+        "n_short_pet": 93,
+        "n_valid_nonnegative_pet": 13118,
+        "scenario_id": "2D",
+        "short_pet_fraction": 0.007089495349900899,
+        "tau_s": 1.5
+      },
+      {
+        "n_short_pet": 162,
+        "n_valid_nonnegative_pet": 13118,
+        "scenario_id": "2D",
+        "short_pet_fraction": 0.0123494435127306,
+        "tau_s": 2.0
+      },
+      {
+        "n_short_pet": 348,
+        "n_valid_nonnegative_pet": 18034,
+        "scenario_id": "3A",
+        "short_pet_fraction": 0.019296883664189864,
+        "tau_s": 0.5
+      },
+      {
+        "n_short_pet": 734,
+        "n_valid_nonnegative_pet": 18034,
+        "scenario_id": "3A",
+        "short_pet_fraction": 0.04070089830320506,
+        "tau_s": 1.0
+      },
+      {
+        "n_short_pet": 991,
+        "n_valid_nonnegative_pet": 18034,
+        "scenario_id": "3A",
+        "short_pet_fraction": 0.05495175779083952,
+        "tau_s": 1.5
+      },
+      {
+        "n_short_pet": 1234,
+        "n_valid_nonnegative_pet": 18034,
+        "scenario_id": "3A",
+        "short_pet_fraction": 0.06842630586669624,
+        "tau_s": 2.0
+      },
+      {
+        "n_short_pet": 239,
+        "n_valid_nonnegative_pet": 8003,
+        "scenario_id": "3B",
+        "short_pet_fraction": 0.029863801074597025,
+        "tau_s": 0.5
+      },
+      {
+        "n_short_pet": 515,
+        "n_valid_nonnegative_pet": 8003,
+        "scenario_id": "3B",
+        "short_pet_fraction": 0.06435086842434087,
+        "tau_s": 1.0
+      },
+      {
+        "n_short_pet": 697,
+        "n_valid_nonnegative_pet": 8003,
+        "scenario_id": "3B",
+        "short_pet_fraction": 0.08709234037236037,
+        "tau_s": 1.5
+      },
+      {
+        "n_short_pet": 856,
+        "n_valid_nonnegative_pet": 8003,
+        "scenario_id": "3B",
+        "short_pet_fraction": 0.10695989004123453,
+        "tau_s": 2.0
+      }
+    ],
+    "source_rows_represented": 928958,
+    "unique_ledger_rows": 928958,
+    "valid_short_1s": 4492
+  },
+  "limitations": [
+    "Shared provider-table parser and production QC are reused for role joins; timestamp arithmetic and interval query are separately calculated.",
+    "Timestamp agreement does not independently verify provider geometric PET construction or original interaction selection."
+  ],
+  "manual_review_status": "NOT_PERFORMED",
+  "method": "AUTOMATED_NUMERICAL_SOURCE_CONSISTENCY_CHECK",
+  "n_cases_with_differences": 0,
+  "negative_cases_selected": 4183,
+  "raw_source_counts": {
+    "finite_negative": 4183,
+    "finite_nonnegative": 924775,
+    "finite_pet": 928958,
+    "n_raw": 928958,
+    "timestamp_formula_checked": 928958,
+    "timestamp_formula_disagreements": 0
+  },
+  "selected_cases": 8699,
+  "selection_rule": "ALL_FINITE_NEGATIVE_PET_ALL_QC_VALID_0_TO_1S_PLUS_NUMERIC_EVENT_ID_FIRST_3_PER_SCENARIO",
+  "short_1s_cases_selected": 4492,
+  "status": "CONSISTENT"
+}

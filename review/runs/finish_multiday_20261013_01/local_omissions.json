@@ -1,0 +1,706 @@
+{
+  "omitted": [
+    {
+      "bytes": 692537482,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger.csv",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "72aba27b693fd82065904b2a426b0dc0d337951ee5985bceaa65373f4b12c7f7"
+    },
+    {
+      "bytes": 1822711,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00000.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "17297d59aa8ea4e4d158f665cb8e44bf3c0148460f85d9d13201fc821757f4a3"
+    },
+    {
+      "bytes": 1796834,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00001.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "17b4e64053bdf4245e6e42275886bcd7bc3d0658fddcfd4e501add9d9c7e158f"
+    },
+    {
+      "bytes": 1780637,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00002.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "b543c7564f65963eaeea9224767008f88a8d9fd3a04f6aaede1bbce7cffb8e38"
+    },
+    {
+      "bytes": 1754311,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00003.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "82162f3d4aecb4256cccc37efc432e12b3682473afa3799fcded3276ef7616b9"
+    },
+    {
+      "bytes": 1776007,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00004.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "19f8da8f48a1ce59b39a1ca33339185aeb8d4ece0abfdb523953626686781b54"
+    },
+    {
+      "bytes": 1783706,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00005.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "7fb4463a87a2dbf87136a748d38f5c82d02b063e7a7fb34e458cb000efa9a891"
+    },
+    {
+      "bytes": 1771875,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00006.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "5d6c2ac638bdd9c0b00f790f1401b6cc8ce5f9593ac90fa10a79044e400cfd1a"
+    },
+    {
+      "bytes": 1768271,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00007.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "f8789e9a0032c7b5d341635d9b1a959ffa3dbc61deba090405d6be721fd99fb2"
+    },
+    {
+      "bytes": 1798404,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00008.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "017b3f4ce2cd40471f9e70953df3c5269011916cf84a64fb18c68ddd032f8a9f"
+    },
+    {
+      "bytes": 1734177,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00009.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "d7c6cb5811b6d2a2a79d4eb9cb8fdb8607ec02bb48a017c3126032dc2d06a0c0"
+    },
+    {
+      "bytes": 1704351,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00010.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "f3bd9760937ea70357e2b5b871d9b24c92e17daf15f0f3a8ad98a072f04eac76"
+    },
+    {
+      "bytes": 1778301,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00011.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "dd1b2073e9b0581c875d6b2ef52f2399416bf70131d091fd33c8623505a7bbfd"
+    },
+    {
+      "bytes": 1744292,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00012.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "00848e4d38af2012391ba9eda3188b7f0d7361a50affb2ac5c359eeb9e5b04dd"
+    },
+    {
+      "bytes": 1776598,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00013.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "159b047ee06f452b1ec08023c7c69d737d70b8362b5282c9232d4f3c1683b0e6"
+    },
+    {
+      "bytes": 1777627,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00014.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "3f83fa005145ee8fa12efd735e81b4f7d372e99d9a99ea6f5650f3925a244e48"
+    },
+    {
+      "bytes": 1768747,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00015.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "ba61f2cf9c936405096c990d2403d11f120b1a74b2b9ce56221de39a0a30bd62"
+    },
+    {
+      "bytes": 1774467,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00016.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "040c66c0c126009e2c4245273d5aec4e68cbac23c19ad4c050630d99c42a3d73"
+    },
+    {
+      "bytes": 1794796,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00017.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "64c6b858edae7d0380f488693c501bf6e7d4d92eba26fe9a85999cd06c5ab7cc"
+    },
+    {
+      "bytes": 1755192,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00018.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "6da09c6ddff4b2835c4b28742c3b333e27dd25d335e07be9eec8b2dfe003abaf"
+    },
+    {
+      "bytes": 1758630,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00019.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "2f9ca105ac235438d348909cd4eeab150a7d6b8f2efa95e2c43d69fd0c6e1dbe"
+    },
+    {
+      "bytes": 1772053,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00020.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "a42f5679dfb1fed6bd84be1700fb813039e5895f0a05f694007987ee29947081"
+    },
+    {
+      "bytes": 1775848,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00021.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "109663ba79f401f1fe7c0198b99295e678bf528ad535b5fe5fd3a281b68f9b1c"
+    },
+    {
+      "bytes": 1796583,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00022.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "dd60fd5faf2f2598e2674e41d4464be9f967dbd453ea0f4e5224f722c1f353ab"
+    },
+    {
+      "bytes": 1796046,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00023.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "061c0e897ab03d0b1dbc58074fc84c25fb6479e88e163b1468d343c588bbcbf7"
+    },
+    {
+      "bytes": 1778834,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00024.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "698df949a1c24e5d47ff470e695b44378b86f2795ff89b5f4802d74d589e1669"
+    },
+    {
+      "bytes": 1792624,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00025.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "3051edf54ad10943d30a0bd7068aa1f91515d58a9401483ef0f47121bc8203de"
+    },
+    {
+      "bytes": 1767383,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00026.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "dfae8c25a8b6d7a6efffa894ea810a93734f77743478d2ab8a575ee5cfd74c48"
+    },
+    {
+      "bytes": 1756682,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00027.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "6b1f107e3c5c728e7e6e7324ccf50b0108d76825f5af08d898b7d806735c0777"
+    },
+    {
+      "bytes": 1802165,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00028.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "5519b6633405ce2052a330cafa1a145a082aadc38445b5f993e6c68db5c8c560"
+    },
+    {
+      "bytes": 1807641,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00029.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "b2b5cb2e935c18580bccfa0509758c989765d16b41f087aa76f683d47cca451c"
+    },
+    {
+      "bytes": 1821826,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00030.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "29490081d510eb31ed5597a194e33e4f476227fdb35a914856dd10cc82fa2210"
+    },
+    {
+      "bytes": 1783523,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00031.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "cf53856b4f8be3cf27ca9c2def0b79a8359df69249f924c8c02bb13c5d0cb81f"
+    },
+    {
+      "bytes": 1795604,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00032.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "d482f64288fb98bc80356f84e1be620a7a9b79dad2dddd7b1492e0f2d118bab0"
+    },
+    {
+      "bytes": 1790207,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00033.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "bea2a9772130faaa430cae7407b0afdb0c9570aca044d428836f264443d4bdd4"
+    },
+    {
+      "bytes": 1718884,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00034.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "f48a58efebd4e7b54a7fa66e9f938d2a74594c2474329c8e2f484a58fdd9aee0"
+    },
+    {
+      "bytes": 1786488,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00035.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "13684f63dfd7259fddd5d6664096f364e294c6617e6b61b56a152ddc97a8c9a3"
+    },
+    {
+      "bytes": 1732947,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00036.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "a8306a466bc36b8d466ec1b41abb6f062a031ed6d60491d25606cc5d06ec80d2"
+    },
+    {
+      "bytes": 171400,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet/part_00037.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "70daa8ee08eab5998e75a23521df79dde33c9f5f8aa13d790929e76eeb44d6bd"
+    },
+    {
+      "bytes": 3884,
+      "path": "runs/finish_final_20261013_A_pet_2/event_ledger_parquet_index.json",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "74c1816058e2288c9cb757270d92a043c8978ca962f957f9adff540d37e04f4a"
+    },
+    {
+      "bytes": 346356537,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context.csv",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "e0673f31ab994333bbee22de39b651d652456fd405ebf26106a19a0d7f06bf35"
+    },
+    {
+      "bytes": 364012,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00000.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "13adcdd382674ca0072440936759a1996c9063d3d4bc4f27e940dff1157fb7fb"
+    },
+    {
+      "bytes": 363381,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00001.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "d021789f193f4430b579797508b6ba5ba076d159cc7d3f71320ec2cfb16942c3"
+    },
+    {
+      "bytes": 349353,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00002.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "05bba586d4b4030291d61e662637e0510287b03442b891441154e7fffbfc221e"
+    },
+    {
+      "bytes": 363192,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00003.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "ee52b2baa6e16895555f30413ae284c001c0777711f1691efffd906c5c9ea3e8"
+    },
+    {
+      "bytes": 350370,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00004.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "96fc9c083ae36207e6494bb60da46bd85fc4d1fa1fe6420b765bf79ff9d4f37f"
+    },
+    {
+      "bytes": 350289,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00005.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "c2ce52157712c1b07cfd5d0e292fdac5ca2c3da72bd825f7bbca28fcbf2a2ffd"
+    },
+    {
+      "bytes": 349547,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00006.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "f99681319d94fa6fb5f84a0b6fc460990030b2038e1ff03d1b0e5c888913dda9"
+    },
+    {
+      "bytes": 330192,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00007.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "817fec593b8c20925d1b32110eadc0443635b97be79e521e273b95e897a68bde"
+    },
+    {
+      "bytes": 344958,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00008.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "5e805fa746723ac80ca57e749fb1b58a749d93909637e66a2407ff9484d21279"
+    },
+    {
+      "bytes": 352173,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00009.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "d1f404fecfa19c6f56558111cdc5f31109b02383f3a62f8cda38eaf35e652dca"
+    },
+    {
+      "bytes": 350713,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00010.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "2895a382328b42a6630b5a15bd8e6203d2d0b276d91f25b657dad25da4b07bc2"
+    },
+    {
+      "bytes": 352271,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00011.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "c5c17a6b3c156712d96b1da0c14fba9134a30d532aff2ddc7fe799b010184d2e"
+    },
+    {
+      "bytes": 346801,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00012.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "22eed7415185769d5aeb21213455da6f96f578d00a572c5f39217785d8742c29"
+    },
+    {
+      "bytes": 346060,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00013.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "dc4633ea9dd2c099e14be8817fed2ca29c160aaac3485ddad238206ee9c1493a"
+    },
+    {
+      "bytes": 348550,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00014.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "74c6f0e511ae0483598292b52d6459103002ab84c37489e860561afe0145a2e8"
+    },
+    {
+      "bytes": 352521,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00015.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "39242f44e248d7aaeb3bda0da914a61147dd595f6828b24bb31ac116c940c883"
+    },
+    {
+      "bytes": 355172,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00016.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "f04bf1febed3c37327bb917569e66996abf90f4cfa3fff8f2060c5d696511420"
+    },
+    {
+      "bytes": 357178,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00017.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "5c5a4bea9ed683c870aafab1d23f0ccb05f48a1015de5e2f1427607e60f7e059"
+    },
+    {
+      "bytes": 326645,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00018.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "0176c9a85a533db68434baaad7b1fae3e541603bf8a3db0e9092ecab19c762ce"
+    },
+    {
+      "bytes": 328501,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00019.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "71c052340389d2564db0d0c459f5c9dbf61e1b0acc998e12ef158b4f24f18ef8"
+    },
+    {
+      "bytes": 346304,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00020.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "73e128e117de1dc37049c00026c5f6afcbe36da6c7e5586239e5f1d73388aceb"
+    },
+    {
+      "bytes": 316168,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00021.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "c224d9aaa2d0e5f0be2f3eb831497a073ab38e560ea5c9dddc488e8c5f948761"
+    },
+    {
+      "bytes": 346100,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00022.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "29cb042513098584936987a744b77c581b2993254a1242c00e8c8d472f938924"
+    },
+    {
+      "bytes": 352130,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00023.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "844c862e00dc668f2dbe6598a060c9c8dcc26674048451fa97149ed20cc9a3cd"
+    },
+    {
+      "bytes": 329621,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00024.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "3066ef77da26c99cb3e033e021aacb66925e5ad83fba08e5de3d39c7740deeb5"
+    },
+    {
+      "bytes": 344482,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00025.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "0de92e2973023c6beb55b9f148f7dda81fe7a1eb4b774bf6c5ff6ac67d401b74"
+    },
+    {
+      "bytes": 355837,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00026.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "86c2901c7e6ebef8d695c6fd9d084b940e05699eb494684ff2cf81fd4db59f49"
+    },
+    {
+      "bytes": 343273,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00027.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "ea5e4a1cf03e446d2809649c67a019d57841bb75007ebe5e9acdcd77c5dfa01a"
+    },
+    {
+      "bytes": 344305,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00028.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "1f25c2fde615b3871e7355f713b6dd72daf9b2dd58e8132669e9b4eb7eb9390e"
+    },
+    {
+      "bytes": 358632,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00029.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "62867acf7815ef27a74b3146a11c56c2047501bf661527d765d42f7f289cef58"
+    },
+    {
+      "bytes": 347869,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00030.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "b6a162a4080d01b3b0be8c76b4f515bf2c490d509a70d856da51cef8b605c5ae"
+    },
+    {
+      "bytes": 350079,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00031.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "c41beb62e349e6e72b152441a2b259f885d408d4d0f48ece770fc0404ce63ce2"
+    },
+    {
+      "bytes": 347832,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00032.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "9c26e122b4893da29e01037ac5853adde171abcc0a8a82280b43c625876212e7"
+    },
+    {
+      "bytes": 354261,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00033.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "b6de7437840b2f40a7beaec49891627dfaedb19cd09f636a935c461308450f7f"
+    },
+    {
+      "bytes": 346258,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00034.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "b96c1054c23f0c8ab9f457cb5fca40cb3acc4702096dcfe945c78d1fe6afc929"
+    },
+    {
+      "bytes": 360638,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00035.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "04179af33e35e57faeae1a32abc30a07505798f1dbdef6890d22d655b98f38c9"
+    },
+    {
+      "bytes": 345509,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00036.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "992218df247a945eaef087254281c46f9efb78404d2765c2b6f348e992246621"
+    },
+    {
+      "bytes": 343007,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00037.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "54085c3465824e4274c1e90cad0b59bf4580246819a7feae43f8bbd679445e2c"
+    },
+    {
+      "bytes": 350727,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00038.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "c2e32bba08b262003b90f7363de16e2992e46c4e2c4296db15787146594b856a"
+    },
+    {
+      "bytes": 330367,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00039.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "3bf1bb78a617ba033e6a5b841dd6eb5e9e554118ff05d262d31c392bc4e29db2"
+    },
+    {
+      "bytes": 348166,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00040.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "4aa8aed8de077a7a44ba37789472b9ea71ee1ee630c64cbe730f7934a7c30bb3"
+    },
+    {
+      "bytes": 349662,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00041.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "c8fe6bda900326094aee9a6033b32d1cc76d53e93ecaf34dbe080e4795e60c45"
+    },
+    {
+      "bytes": 358201,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00042.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "b915404dc334b37d13091ab0771b6fcdd38736b8122a53aa491aaf86b78c6100"
+    },
+    {
+      "bytes": 331319,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00043.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "331db2df8d80eadd3f9b60faf84ddbf78a0d05d6ccede015f155daeff6d6cb20"
+    },
+    {
+      "bytes": 348166,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00044.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "63c97bd6bf3d72a790b86baabaf99ed97a5585150a55c6aa205ca28c48bafd1a"
+    },
+    {
+      "bytes": 361279,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00045.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "0b01e7404490e6f4aa04b3106cf4d28f5646f82d50520c90ca59904434a42f15"
+    },
+    {
+      "bytes": 350219,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00046.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "8069928ef7914bc743a8b799a31920144506dba7745fa40d047e63e364c6c479"
+    },
+    {
+      "bytes": 363987,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00047.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "6210d50d1cad41c7bb25a1eca56e8b8b40e55104a293709efbc9d54c0ac2a659"
+    },
+    {
+      "bytes": 347041,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00048.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "605f572861ad62c544f437fe55e9150a097c823caca37c2e1250bda043616607"
+    },
+    {
+      "bytes": 353572,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00049.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "2c61d15d4755a1758bc9e1eb8f86b60684005c29cf7bfb0c00a44678ad748a58"
+    },
+    {
+      "bytes": 359076,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00050.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "6431aed88b62070484f963c01a687a90bdb5c9694314873bce6f2114695c3a19"
+    },
+    {
+      "bytes": 350856,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00051.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "6944e84de0eb08cf54a86b69313e477dfb53b842f35c1205ba233ae74202bf5b"
+    },
+    {
+      "bytes": 348234,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00052.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "bd20dbf880a443df77c970cec3a5c6d5d0c2d098645c5a7c057ade89d43df7c4"
+    },
+    {
+      "bytes": 349944,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00053.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "6003f55727fa7e6ec16a61826a004f06b385b4c9dd876957065030fb880ab447"
+    },
+    {
+      "bytes": 349020,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00054.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "9c10669ba2d9bf36e438a70f02d470102be80b92b5656f6e8a7f01f5d57c6d5c"
+    },
+    {
+      "bytes": 344018,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00055.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "9e46df7301e5f8131933fa57f62098920ffabf3bf8561cc5a84b157c17a85ca2"
+    },
+    {
+      "bytes": 361138,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00056.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "9ef6e65ce65812e1ab6484da40a7cffdc9d65139a83e8b4a6d96698eb669f583"
+    },
+    {
+      "bytes": 352061,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00057.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "ee20ccd457a27db8ae030f0b1f74261cceff61ecc0fb0bffbf11adb4369827ec"
+    },
+    {
+      "bytes": 353802,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00058.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "662d91e9fe2cf3e128fa841ceb1503a488f0c81b09e26c437d01d86f235a7343"
+    },
+    {
+      "bytes": 361529,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00059.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "3aab020c4adf23b69afe6b7d7b24dc0a55211652e84f5a045504746cb801f23d"
+    },
+    {
+      "bytes": 362299,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00060.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "cd2ef73c2ff77b18ddefa865516979ddaa676ed423772c0e73042dd579c342ff"
+    },
+    {
+      "bytes": 357010,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00061.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "e421790dc4354291e5e815c0f47cd39f8ff547bb3364ba1fced63eb7c4fc2175"
+    },
+    {
+      "bytes": 356820,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00062.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "221cec9f5f24ab493d035af4f26bb7740e7c84b2128124a1af833b7a786afe60"
+    },
+    {
+      "bytes": 308220,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00063.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "e25e16a6e739e479618d3faa9697ecf733e296e31940de086f873dffba1d67ef"
+    },
+    {
+      "bytes": 300951,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00064.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "b505ff401d84af1f6009cc357e523d19ba1f1b2f1476b88a0e4f19024bd91475"
+    },
+    {
+      "bytes": 302328,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00065.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "10d97e383afa79282429e35651af734f5551ce4b9a9726215203c091301a9032"
+    },
+    {
+      "bytes": 321577,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00066.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "db5679f6d8419c5fa329eeb68f6a091de5c10b3cd5e6eeab03356e4f007729da"
+    },
+    {
+      "bytes": 358424,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00067.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "e3d628eb93ff7f2cc4e8d58fd2200c7dc120a4c1a742bc0d636c2fe21311ab5b"
+    },
+    {
+      "bytes": 351101,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00068.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "5cf1660facd0d12e33a61df617843fdf2bbeefc0a9489b7f81fa25bf31f0b4ce"
+    },
+    {
+      "bytes": 334419,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00069.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "232233109b72b33a6008c28f14862d48265dd659fce8be8fa0a8b2aee50c10d7"
+    },
+    {
+      "bytes": 360548,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00070.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "425edc3eee907572a985027eae503fa5f5d072c21934bc8762b06d19eef0a2bd"
+    },
+    {
+      "bytes": 350136,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00071.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "abcd8cbe71a4a5965e530daa47dbf3c60f41017f4c884b142e50bf3a43d383c4"
+    },
+    {
+      "bytes": 359760,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00072.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "131150cdfafdc8456e440911ec3a9f09f6b8219b4a388a2301e795e2412bbdb2"
+    },
+    {
+      "bytes": 325418,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00073.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "4e6594bfa1a2a010472f81f0989e219c7431e5a945ff2d7c9c9b13dc8fb5f4d7"
+    },
+    {
+      "bytes": 62201,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet/part_00074.parquet",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "3f4ccd548412d82fd38b4e1b4fa944d44991e7ac64dcdcb0f4e124bb10815b60"
+    },
+    {
+      "bytes": 7552,
+      "path": "runs/finish_final_20261013_A_pet_2/signal_context_parquet_index.json",
+      "reason": "LOCAL_FULL_DERIVED_OUTPUT; bounded handoff contains aggregates/audit cases; reproduce with authorized inputs",
+      "sha256": "32943ff3fe178c7e53f5c005bfce7e1fa0c3f919b60a0d764c7dfb0c9039b66a"
+    }
+  ]
+}

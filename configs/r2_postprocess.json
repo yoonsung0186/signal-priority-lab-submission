@@ -1,0 +1,33 @@
+{
+  "baseline_run": "runs/finish_final_20261013_A_pet_2",
+  "baseline_evidence_run": "runs/finish_final_20261013_A_evidence_2",
+  "reuse_manifest": "state/r2_20261013/baseline_reuse_manifest_v2.json",
+  "signal_cache": ".cache/finish_final_20261013_A_pet_2_input.sqlite",
+  "signal_archive": "data/raw/sitpet_finish_20261013/attempt_03/signals.zip",
+  "scenarios_archive": "data/raw/sitpet_v1_1/examples.zip",
+  "local_timezone": "Europe/Vienna",
+  "thresholds_s": [
+    0.5,
+    1.0,
+    1.5,
+    2.0
+  ],
+  "offsets_s": [
+    -2.0,
+    -1.0,
+    -0.5,
+    -0.2,
+    0.0,
+    0.2,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "bootstrap_repetitions": 200,
+  "bootstrap_seed": 20261012,
+  "min_cell_events": 30,
+  "new_actual_fit_budget": 0,
+  "baseline_source_commit": "204016acf827db3dd5a3c0afe0031e73bcc7c9ec",
+  "baseline_review_commit": "06be2bd22a15dfd490a48a38fb45565b6352b066",
+  "baseline_full_replay_in_r2": false
+}

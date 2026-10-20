@@ -1,0 +1,12 @@
+{
+  "run_id": "r2_finish_20261013_01",
+  "postprocess_source_commit": "dd83988e74696603b515f1944766207b2d3d26cf",
+  "baseline_analysis_source_commit": "204016acf827db3dd5a3c0afe0031e73bcc7c9ec",
+  "source_tree_hash": "1b80f24f6f3affe5c7e33ece7e4f3574c43a019082faa9071640d0e5b1b41338",
+  "actual_new_fits": 0,
+  "baseline_full_replay_in_r2": false,
+  "previous_review_preserved": "finish_multiday_20261013_01",
+  "input_and_model_hashes": "baseline_reuse_manifest_v2.json",
+  "config_and_inputs": "analysis/reproducibility_context.json",
+  "environment": "environment.json"
+}

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Normalized signal interval",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "dataset_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "signal_group_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "t_start_s": {
+      "type": "number"
+    },
+    "t_end_s": {
+      "type": "number"
+    },
+    "state": {
+      "enum": [
+        "RED",
+        "YELLOW",
+        "GREEN",
+        "UNKNOWN"
+      ]
+    },
+    "state_basis": {
+      "enum": [
+        "OBSERVED",
+        "PLAN",
+        "UNKNOWN"
+      ]
+    },
+    "source_resolution_s": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "source_row_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "dataset_id",
+    "record_id",
+    "signal_group_id",
+    "t_start_s",
+    "t_end_s",
+    "state",
+    "state_basis",
+    "source_resolution_s",
+    "source_row_ids"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "summary": {
+    "additional_fit_calls": 0,
+    "baseline_recomputed": false,
+    "candidate_period_signal_conclusions_withheld": true,
+    "clock_offsets_s": [
+      -2.0,
+      -1.0,
+      -0.5,
+      -0.2,
+      0.0,
+      0.2,
+      0.5,
+      1.0,
+      2.0
+    ],
+    "conservative_all_group_block": false,
+    "coverage_status": "CALCULATED_COMPLETE_CALENDAR_RANGE",
+    "ffill_performed": false,
+    "four_timestamp_shift_checks": 8360622,
+    "limitations": [
+      "Existing cache and ledger are reused; caller must bind their actual hashes.",
+      "States concern each role's own entry, not simultaneous signals or stop-line violations.",
+      "Stress offsets are not an empirical error distribution or guaranteed tolerance.",
+      "Recorded interactions and observed days do not establish traffic exposure or day independence."
+    ],
+    "local_date_end": "2025-06-30",
+    "local_date_start": "2025-01-01",
+    "local_timezone": "Europe/Vienna",
+    "missing_claim_status": "USER_REQUEST_UNVERIFIED",
+    "missing_period": [
+      "2025-06-05",
+      "2025-06-11"
+    ],
+    "n_calendar_days": 181,
+    "n_invalid_or_unrepresentable_anchor_time": 0,
+    "n_ledger_events": 928958,
+    "pet_and_event_keys_unchanged": true,
+    "populations": [
+      "ALL_LEDGER_EVENTS",
+      "VALID_NONNEGATIVE_PET",
+      "SHORT_NONNEGATIVE_PET_LE_1S"
+    ],
+    "signal_clock_shifted": false,
+    "source_signal_qc": {
+      "n_conservatively_blocked_groups": 0,
+      "n_identical_duplicates_merged": 0,
+      "n_invalid": 0,
+      "n_invalid_state_rows_retained_as_unknown": 0,
+      "n_overlapping_intervals": 0,
+      "n_raw": 11226785,
+      "n_retained_unknown_state_intervals": 0,
+      "n_valid_unique_intervals": 11226785
+    },
+    "used_signal_groups": [
+      "30:63:1",
+      "30:63:12",
+      "30:63:15",
+      "30:63:21",
+      "30:63:23",
+      "30:63:3",
+      "30:63:4",
+      "30:63:5",
+      "30:63:7",
+      "30:63:8"
+    ]
+  }
+}

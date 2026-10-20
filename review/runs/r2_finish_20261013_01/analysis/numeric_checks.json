@@ -1,0 +1,78 @@
+{
+  "A_baseline_counts_and_thresholds": true,
+  "baseline_unchanged": true,
+  "fractions_bounded": true,
+  "observation_unit_changes_intentional": true,
+  "signal_condition_partition_matches_A": true,
+  "source_qc": {
+    "data_kind": "REAL",
+    "event_rows": {
+      "n_conflicting_duplicate_rows_extra": 0,
+      "n_identical_duplicate_rows_merged": 0,
+      "n_missing_key_rows": 0,
+      "n_raw": 928958,
+      "n_unique_keys": 928958
+    },
+    "independent_pet_accuracy": null,
+    "invalid_reason_counts": {},
+    "manual_review_status": "NOT_PERFORMED",
+    "mapping_rows": {
+      "n_conflicting_duplicate_rows_extra": 0,
+      "n_identical_duplicate_rows_merged": 0,
+      "n_missing_key_rows": 0,
+      "n_raw": 8,
+      "n_unique_keys": 8
+    },
+    "missing_static_key_counts": {
+      "mapping": 0,
+      "objects": 0,
+      "scenarios": 0
+    },
+    "n_invalid": 0,
+    "n_negative_pet": 4183,
+    "n_raw": 928958,
+    "n_unique_event_keys": 928958,
+    "n_valid_nonnegative_pet": 924775,
+    "n_zero_pet": 157,
+    "object_rows": {
+      "n_conflicting_duplicate_rows_extra": 119803,
+      "n_identical_duplicate_rows_merged": 0,
+      "n_missing_key_rows": 0,
+      "n_raw": 2327831,
+      "n_unique_keys": 2208028
+    },
+    "paper_formula_and_filter_definition_status": "UNVERIFIED_UNLESS_MAIN_PROVIDES_OFFICIAL_EVIDENCE",
+    "population_definition": "Publisher-recorded interactions in fixed scenarios, not all traffic participants",
+    "processing_mode": "DATE_BATCHED_FULL_BASELINE_BOUNDED_AI",
+    "profile_id": "PET_INTERACTIONS_V1",
+    "reconciliation": {
+      "raw_rows_preserved": true,
+      "unique_partition_preserved": true
+    },
+    "review_reason_counts": {
+      "NEGATIVE_PET_REVIEW": 4183,
+      "ZERO_PET_REVIEW_TIME_RESOLUTION": 157
+    },
+    "scenario_rows": {
+      "n_conflicting_duplicate_rows_extra": 0,
+      "n_identical_duplicate_rows_merged": 0,
+      "n_missing_key_rows": 0,
+      "n_raw": 8,
+      "n_unique_keys": 8
+    },
+    "signal_count_population": "VALID_NONNEGATIVE_PET_INTERACTIONS",
+    "signal_rows": {
+      "n_conservatively_blocked_groups": 0,
+      "n_identical_duplicates_merged": 0,
+      "n_invalid": 0,
+      "n_invalid_state_rows_retained_as_unknown": 0,
+      "n_overlapping_intervals": 0,
+      "n_raw": 11226785,
+      "n_retained_unknown_state_intervals": 0,
+      "n_valid_unique_intervals": 11226785
+    }
+  },
+  "status": "MATCH",
+  "threshold_monotonicity": true,
+  "zero_denominator_null": true
+}

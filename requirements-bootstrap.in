@@ -1,0 +1,4 @@
+# Resolve in a new project-local environment and record/lock actual versions.
+# Used only by design/contract checks; not the final traffic runtime dependencies.
+PyYAML>=6,<7
+jsonschema>=4.20,<5

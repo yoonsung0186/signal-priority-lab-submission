@@ -1,0 +1,26 @@
+{
+  "package_id": "submission_20261019_02",
+  "status": "PACKAGED_WITH_REPRODUCTION_LIMITATIONS_PUBLICATION_PENDING",
+  "calculation_source_commit": "b9eeb57bec449ed74ff4c8f78430753a52b45676",
+  "evidence_commit": "c5ac62a54b76c551d9fe27ef9051f9f5e36722df",
+  "reused_R2_source_commit": "dd83988e74696603b515f1944766207b2d3d26cf",
+  "baseline_source_commit": "204016acf827db3dd5a3c0afe0031e73bcc7c9ec",
+  "packaging_tool_commit": "86f728ab1bfa2ab933b286605d96b88d58d62f4a",
+  "evidence_runs": [
+    "finish_multiday_20261013_01",
+    "r2_finish_20261013_01",
+    "r2_quality_boundary_20261013_01"
+  ],
+  "calculation_code_modified": false,
+  "distribution_changes": [
+    "New root README and reproduction/attribution/publication documents",
+    "Internal orchestration excluded with explicit omission list",
+    "Machine-specific absolute paths redacted in evidence only",
+    "Read-only saved-table verifier and per-file package manifest added"
+  ],
+  "new_real_fits": 0,
+  "full_raw_data_reproduction": false,
+  "main_model_requested": "gpt-6-astra/medium",
+  "runtime_model_id": "NOT_EXPOSED",
+  "new_workers": 0
+}

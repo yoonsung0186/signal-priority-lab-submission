@@ -1,0 +1,86 @@
+{
+  "actual_fit_after": 52,
+  "actual_fit_before": 52,
+  "actual_new_fits": 0,
+  "baseline_full_replay": false,
+  "executions": [
+    {
+      "command": [
+        "<PROJECT_ROOT>\\.venv\\Scripts\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_r2_signal_quality.py",
+        "-v"
+      ],
+      "elapsed_s": 2.7181926001794636,
+      "exit_code": 0,
+      "name": "boundary_tests",
+      "source_unchanged": true,
+      "started_utc": "2026-10-13T06:01:06.437232+00:00",
+      "stderr_sha256": "889a3264a86be541ff72fe35a0f9bb5f91298bcf971dc9d94a06bf593e5d4614",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "<PROJECT_ROOT>\\.venv\\Scripts\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools",
+        "-p",
+        "test_r2_signal_quality_context.py",
+        "-v"
+      ],
+      "elapsed_s": 1.6066602002829313,
+      "exit_code": 0,
+      "name": "binding_tests",
+      "source_unchanged": true,
+      "started_utc": "2026-10-13T06:01:09.310480+00:00",
+      "stderr_sha256": "e998cead751a7b1ccdb1cca2ccea861f9c43e5969dc9be8e3f17fb7b42a4b53c",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "<PROJECT_ROOT>\\.venv\\Scripts\\python.exe",
+        "tools/r2_signal_quality.py",
+        "--out",
+        "runs/r2_quality_boundary_20261013_A_1"
+      ],
+      "elapsed_s": 62.75322989979759,
+      "exit_code": 0,
+      "name": "overlay_1",
+      "source_unchanged": true,
+      "started_utc": "2026-10-13T06:01:11.085406+00:00",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "41c132256e8e2aa75e3cd74589c3131e75b13b4ccdb3b5be2a8ecc851608150e"
+    },
+    {
+      "command": [
+        "<PROJECT_ROOT>\\.venv\\Scripts\\python.exe",
+        "tools/r2_signal_quality.py",
+        "--out",
+        "runs/r2_quality_boundary_20261013_A_2"
+      ],
+      "elapsed_s": 61.66319580003619,
+      "exit_code": 0,
+      "name": "overlay_2",
+      "source_unchanged": true,
+      "started_utc": "2026-10-13T06:02:14.012045+00:00",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "4f0ca74dee2e5e7c1dafaf96ffdbbd3c7aed2f7fbece0b55486e3a51ac6314c7"
+    }
+  ],
+  "manual_ground_truth": "NOT_PERFORMED",
+  "r2_full_replay": false,
+  "reproducibility_sha256": "c73eb943cad12acf55d4ab6749a8db98ec26b69210bfaa7a0af3b075315772b1",
+  "scope": "Only new signal-quality boundary postprocessing and relevant boundary tests; original R2 evidence reused",
+  "selected_run": "runs/r2_quality_boundary_20261013_A_2",
+  "source_commit": "b9eeb57bec449ed74ff4c8f78430753a52b45676",
+  "source_tree_hash": "3122d69e09e30aab21c2139e1162c696909ea3ee055af0bd0d9d257a2c8199b7",
+  "status": "VERIFIED_BOUNDARY_OVERLAY"
+}

@@ -1,0 +1,70 @@
+{
+  "ai_attempted": true,
+  "ai_detailed_status": "FITTED_CHRONOLOGICAL_HELDOUT_DESCRIPTION",
+  "ai_failure_or_unavailable_reason": null,
+  "ai_status": "EXPLORATORY_ANALYSIS_PERFORMED",
+  "bootstrap_status": {
+    "eligible_scenarios": [
+      "1A",
+      "1B",
+      "2A",
+      "2B",
+      "2C",
+      "2D",
+      "3A",
+      "3B"
+    ],
+    "repetitions": 200,
+    "scope": "This intersection observed date clusters only; no broader population CI",
+    "seed": 20261012,
+    "status": "COMPUTED_EXPLORATORY_DATE_CLUSTER_INTERVALS"
+  },
+  "data_kind": "REAL",
+  "dataset_id": "sitpet",
+  "fit_call_count": 11,
+  "implemented_features": [
+    "FULL_DATE_BATCHED_PROVIDER_QC",
+    "FULL_CONDITIONAL_PET_METRICS",
+    "EVENT_ONLY_CLOCK_SENSITIVITY",
+    "DATE_CLUSTER_BOOTSTRAP",
+    "BOUNDED_AI_SAMPLE"
+  ],
+  "independent_accuracy": null,
+  "input_sha256s": [
+    "615176e1138c70adab919b722da1a525e584d2c711eb06d4eb5ecf2c8738277f",
+    "9d17b3894d49c0f0c5e7ab945324cafc89d3cc3e0bfe262ab3c7823284141343",
+    "04676cd0ce221d7228d84a3d1c97a96c1052dd162afcbbbae2b131a7f7ebad6c",
+    "60ffaaf43c4bc1287f50111aa70c1eef311616ad72e8667ca7c09a04c5750f82"
+  ],
+  "limitations": [
+    "Recorded interactions are not all traffic exposure",
+    "Observed date clusters do not establish population generalization",
+    "No independent PET geometric accuracy"
+  ],
+  "manual_review_status": "NOT_PERFORMED",
+  "metrics": {
+    "n_invalid": 0,
+    "n_negative_pet": 4183,
+    "n_raw": 928958,
+    "n_valid_nonnegative_pet": 924775
+  },
+  "mode": "pet-analyze",
+  "n_ai_input": 100000,
+  "n_invalid": 0,
+  "n_negative_pet": 4183,
+  "n_raw": 928958,
+  "n_unique_event_keys": 928958,
+  "n_valid_nonnegative_pet": 924775,
+  "not_performed": [
+    "independent PET geometric accuracy",
+    "paper filter validation"
+  ],
+  "original_straight_entry_profile_status": "DEFERRED_OUT_OF_SCOPE",
+  "pet_analysis_status": "COMPLETED_DESCRIPTIVE_BASELINE",
+  "pet_qc_status": "COMPLETED_PROVIDER_DERIVED_QC",
+  "population_definition": "Publisher-recorded interactions in fixed scenarios, not all traffic participants",
+  "processing_mode": "DATE_BATCHED_FULL_BASELINE_BOUNDED_AI",
+  "profile_id": "PET_INTERACTIONS_V1",
+  "scope": "MULTIDAY_CASE",
+  "source_version": "1.1"
+}

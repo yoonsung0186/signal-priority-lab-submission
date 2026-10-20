@@ -1,0 +1,124 @@
+{
+  "checked_at_utc": "2026-10-13T03:21:42.591340+00:00",
+  "official_notice_url": "https://koreashe.org/notice/?mod=document&uid=95427",
+  "downloaded_forms": [
+    {
+      "url": "https://koreashe.org/wp-content/uploads/2026/08/%EB%B6%99%EC%9E%841-%EC%B0%B8%EA%B0%80%EC%8B%A0%EC%B2%AD%EC%84%9C%EC%B5%9C%EC%A2%85.hwp",
+      "name": "참가신청서",
+      "attempt": 1,
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 114688,
+      "sha256": "46e683923160beb772ad4eb4dd6e01961de284b4303c6e7ea63f6f0ddf18e8de",
+      "path": "state\\r2_20261013\\research\\official_form_1.hwp"
+    },
+    {
+      "url": "https://koreashe.org/wp-content/uploads/2026/08/%EB%B6%99%EC%9E%842-%EB%B6%84%EC%84%9D%EB%B3%B4%EA%B3%A0%EC%84%9C%EC%B5%9C%EC%A2%85.hwp",
+      "name": "분석보고서",
+      "attempt": 1,
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 104960,
+      "sha256": "0a34e8ee013ec6de0706d090542b0cc269790bd4d5bf7181105520b7b9aa1c15",
+      "path": "state\\r2_20261013\\research\\official_form_2.hwp"
+    }
+  ],
+  "extraction": "HWP5 BodyText paragraph records; no rendering or filling forms",
+  "extraction_tool": "tools/r2_hwp_extract.py",
+  "requirements": [
+    {
+      "item": "report_format",
+      "status": "CONFIRMED",
+      "finding": "PDF submission; the downloaded HWP is the template, not the final submission format",
+      "source_form": 2
+    },
+    {
+      "item": "report_length",
+      "status": "CONFIRMED",
+      "finding": "Approximately five body pages, excluding cover and references",
+      "source_form": 2
+    },
+    {
+      "item": "report_required_content",
+      "status": "CONFIRMED",
+      "finding": "Prescribed sections, data sources, methods, AI use, results, references and result images",
+      "source_form": 2
+    },
+    {
+      "item": "code_link",
+      "status": "CONFIRMED_OFFICIAL_FORM",
+      "finding": "Programming analyses must include GitHub/cloud code link in report",
+      "source_form": 2
+    },
+    {
+      "item": "final_round_code",
+      "status": "CONFIRMED",
+      "finding": "Finalists submit runnable complete code following later instructions; code execution checked during final presentation evaluation",
+      "source_form": 2
+    },
+    {
+      "item": "ai_disclosure",
+      "status": "CONFIRMED",
+      "finding": "Disclose service, scope and main prompts; participant verifies generated or supplemented data and analysis",
+      "source_form": 1
+    },
+    {
+      "item": "data_rights",
+      "status": "CONFIRMED",
+      "finding": "Participant must demonstrate permitted acquisition, analysis, contest use, public results and organizer public-interest use",
+      "source_form": 1
+    },
+    {
+      "item": "originality",
+      "status": "CONFIRMED",
+      "finding": "Rules address plagiarism including self-plagiarism, proxy production and similar submissions elsewhere; personal compliance not evaluated by Codex",
+      "source_form": 1
+    },
+    {
+      "item": "winner_publication",
+      "status": "CONFIRMED",
+      "finding": "Winner must cooperate with final deliverable provision and organizer publication; this does not automatically authorize a public GitHub repository",
+      "source_form": 1
+    },
+    {
+      "item": "github_public_required",
+      "status": "UNKNOWN",
+      "finding": "No explicit PUBLIC repository requirement found in extracted forms",
+      "source_form": 2
+    },
+    {
+      "item": "participant_eligibility",
+      "status": "PARTIAL",
+      "finding": "Individual/team options visible; age/residency restrictions not established, team form has representative and two member rows but maximum not inferred",
+      "source_form": 1
+    },
+    {
+      "item": "deadline_time",
+      "status": "UNKNOWN",
+      "finding": "Official page confirms 2026-10-22 date; exact time not found in forms",
+      "source_form": null
+    },
+    {
+      "item": "overseas_data",
+      "status": "UNKNOWN",
+      "finding": "No explicit overseas data condition found in extracted forms",
+      "source_form": null
+    },
+    {
+      "item": "permitted_ai_services",
+      "status": "UNKNOWN",
+      "finding": "No specific allowed service list established",
+      "source_form": 1
+    }
+  ],
+  "prior_user_reported_code_quote_preserved": true,
+  "code_requirement_now_independently_confirmed_from_official_form": true,
+  "deadline_date": "2026-10-22",
+  "deadline_time": null,
+  "judge_access": "SEPARATE_USER_AUTHORIZATION_REQUIRED",
+  "general_chatgpt_access": "USER_REPORTED_SUCCESS_NOT_THIS_AGENT_CALL",
+  "personal_eligibility_and_consent": "USER_TO_CONFIRM",
+  "report_generated": false,
+  "forms_filled": false,
+  "source_forms_not_redistributed": true
+}

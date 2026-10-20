@@ -1,0 +1,31 @@
+{
+  "fixed_record": 19231310,
+  "version": "1.1",
+  "inputs": [
+    {
+      "archive": "data/raw/sitpet_finish_20261013/attempt_01/pet_events.zip",
+      "bytes": 34033414,
+      "sha256": "615176e1138c70adab919b722da1a525e584d2c711eb06d4eb5ecf2c8738277f",
+      "download_url": "https://zenodo.org/api/records/19231310/files/pet_events.zip/content"
+    },
+    {
+      "archive": "data/raw/sitpet_finish_20261013/attempt_02/objects.zip",
+      "bytes": 23432360,
+      "sha256": "9d17b3894d49c0f0c5e7ab945324cafc89d3cc3e0bfe262ab3c7823284141343",
+      "download_url": "https://zenodo.org/api/records/19231310/files/objects.zip/content"
+    },
+    {
+      "archive": "data/raw/sitpet_finish_20261013/attempt_03/signals.zip",
+      "bytes": 72354318,
+      "sha256": "04676cd0ce221d7228d84a3d1c97a96c1052dd162afcbbbae2b131a7f7ebad6c",
+      "download_url": "https://zenodo.org/api/records/19231310/files/signals.zip/content"
+    },
+    {
+      "archive": "data/raw/sitpet_v1_1/examples.zip",
+      "bytes": 150667218,
+      "sha256": "60ffaaf43c4bc1287f50111aa70c1eef311616ad72e8667ca7c09a04c5750f82",
+      "download_url": "https://zenodo.org/api/records/19231310/files/examples.zip/content"
+    }
+  ],
+  "downloaded_in_packaging": false
+}

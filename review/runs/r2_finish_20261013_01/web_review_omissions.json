@@ -1,0 +1,17 @@
+{
+  "files": [
+    {
+      "source": "runs/r2_final_20261013_B_2/bootstrap_rank_replicates.csv",
+      "bytes": 7454339,
+      "sha256": "345ecf1c5caf6c0997ff38305833e2ae0d235669e38a3a0e53931d71d52fda64",
+      "reason": "Bounded web review; full local manifest retained"
+    },
+    {
+      "source": "runs/r2_final_20261013_B_2/unit_selection.csv",
+      "bytes": 128014822,
+      "sha256": "89058115936e32cc8eecbf0afe85867c4c1e1c4d6a1c280d278ad288017d7c3b",
+      "reason": "Bounded web review; full local manifest retained"
+    }
+  ],
+  "no_analysis_rerun_for_copy": true
+}

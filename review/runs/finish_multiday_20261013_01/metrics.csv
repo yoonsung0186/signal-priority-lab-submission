@@ -1,0 +1,6 @@
+denominator,fraction,metric_id,numerator,population,unit
+928958,0.004502894641092493,raw_source_finite_negative,4183,"All original provider rows, before QC or key reconciliation",recorded interaction fraction
+928958,0.9954971053589075,qc_valid_nonnegative,924775,Unique reconciled event keys including explicit invalid rows,recorded interaction fraction
+928958,0.004502894641092493,qc_valid_negative_review,4183,Unique reconciled event keys including explicit invalid rows,recorded interaction fraction
+928958,0.0,qc_invalid,0,Unique reconciled event keys including explicit invalid rows,recorded interaction fraction
+924775,0.004857397745397529,valid_nonnegative_pet_le_1s,4492,QC-valid nonnegative provider interactions,recorded interaction fraction

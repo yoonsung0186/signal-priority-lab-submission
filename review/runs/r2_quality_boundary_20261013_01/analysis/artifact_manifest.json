@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "bytes": 39624,
+      "path": "boundary_impact.csv",
+      "sha256": "2c6f38372698cdd559e89ddb453ef16c0830d67ce32aa0aeb5672d21817d0570"
+    },
+    {
+      "bytes": 76446,
+      "path": "boundary_role_impact.csv",
+      "sha256": "1f1a3c69057652b877ca72451383f97b749419ea5a0d24a07fe58888e26b1d0d"
+    },
+    {
+      "bytes": 27490,
+      "path": "provenance.json",
+      "sha256": "e75f05d07bebccf089471133870a9e5ccd0fb4e1eac8659ad9581ac6af398115"
+    },
+    {
+      "bytes": 3851,
+      "path": "quality_intervals.csv",
+      "sha256": "0822a2f83b5ecc16cb95ca377161d4d6c3666b21cbeda40499c591018bdffd66"
+    },
+    {
+      "bytes": 453414,
+      "path": "signal_condition_quality.csv",
+      "sha256": "4cca38bad41042c0668aa0f1393335ab7c9e3b9b1b70507462447022c651b815"
+    },
+    {
+      "bytes": 1542,
+      "path": "summary.json",
+      "sha256": "8a1f98f800fe3d2d3b96b301501dcaaa0a3706226006934dbd87cf43cb160748"
+    }
+  ]
+}

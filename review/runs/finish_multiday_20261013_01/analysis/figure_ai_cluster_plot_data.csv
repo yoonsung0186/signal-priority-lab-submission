@@ -1,0 +1,3 @@
+cluster,encroaching_occupancy_median_s,n_events,priority_occupancy_median_s,scope
+0,1.398,88851,0.901,CHRONOLOGICAL_HELDOUT_DESCRIPTION
+1,4.901,11149,0.998,CHRONOLOGICAL_HELDOUT_DESCRIPTION

@@ -1,0 +1,36 @@
+{
+  "recorded_at_utc": "2026-10-12T17:52:16.359036+00:00",
+  "requirement": "분석 코드는 github/클라우드에 업로드 후 열람 링크를 보고서에 기재",
+  "source": "사용자가 확인해 전달한 공고 문구",
+  "official_original_directly_verified": false,
+  "code_upload_required": true,
+  "fixed_version_link_required": true,
+  "github_exclusive": false,
+  "codex_cloud_execution_required": false,
+  "repository": "yoonsung0186/signal-priority-lab",
+  "authorized_visibility": "PRIVATE",
+  "analysis_source_commit": "204016acf827db3dd5a3c0afe0031e73bcc7c9ec",
+  "reviewer_access_status": "NOT_VERIFIED_PENDING_SEPARATE_USER_SHARING_AUTHORIZATION",
+  "general_chatgpt_access_status": "NOT_VERIFIED",
+  "access_validation_after_authorized_sharing": [
+    "Open immutable commit URL using intended reviewer access, not the repository-owner Codex login",
+    "Verify README, reproduction guide, lockfile, config, input acquisition instructions and verification result can be read",
+    "Download the pinned source ZIP and compare SHA-256",
+    "Check the intended reviewer or ChatGPT GitHub connector is actually granted repository access; private URL alone is insufficient"
+  ],
+  "prohibited_without_new_authorization": [
+    "PUBLIC conversion",
+    "reviewer invitation",
+    "external mirror/share"
+  ],
+  "fixed_code_url": "https://github.com/yoonsung0186/signal-priority-lab/tree/204016acf827db3dd5a3c0afe0031e73bcc7c9ec",
+  "readme_url": "https://github.com/yoonsung0186/signal-priority-lab/blob/204016acf827db3dd5a3c0afe0031e73bcc7c9ec/README.md",
+  "reproduction_url": "https://github.com/yoonsung0186/signal-priority-lab/blob/204016acf827db3dd5a3c0afe0031e73bcc7c9ec/technical/finish_multiday.md",
+  "environment_lock_url": "https://github.com/yoonsung0186/signal-priority-lab/blob/204016acf827db3dd5a3c0afe0031e73bcc7c9ec/requirements.lock",
+  "input_profile_url": "https://github.com/yoonsung0186/signal-priority-lab/blob/204016acf827db3dd5a3c0afe0031e73bcc7c9ec/configs/pet_multiday_finish.yaml",
+  "upload_status": "SOURCE_COMMIT_PUSHED_AND_REMOTE_VERIFIED",
+  "release_status": "LOCALLY_VERIFIED_RELEASE_PENDING",
+  "source_zip_status": "LOCALLY_VERIFIED",
+  "first_verified_remote_commit": "6a9b49a1cb9de3d5397272f3c7a5d163b66d0fa6",
+  "technical_tag": "technical-finish-20261013-01"
+}

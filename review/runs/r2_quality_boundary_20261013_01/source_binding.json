@@ -1,0 +1,52 @@
+{
+  "source_commit": "b9eeb57bec449ed74ff4c8f78430753a52b45676",
+  "source_tree_hash": "3122d69e09e30aab21c2139e1162c696909ea3ee055af0bd0d9d257a2c8199b7",
+  "new_files": [
+    {
+      "path": "configs/r2_signal_quality.json",
+      "working_sha256": "bfca21ebdb2cdf1281402637f83932bce7f3258dadee9a6d3a15f8b8fdc86512",
+      "git_content_sha256": "bfca21ebdb2cdf1281402637f83932bce7f3258dadee9a6d3a15f8b8fdc86512",
+      "byte_equal": true,
+      "only_EOL_difference": false
+    },
+    {
+      "path": "src/spl/r2_signal_quality.py",
+      "working_sha256": "6c418ade42d91b383db7bc4ebd22b7d59f2833d522d26fc559ac38b1d1789015",
+      "git_content_sha256": "6c418ade42d91b383db7bc4ebd22b7d59f2833d522d26fc559ac38b1d1789015",
+      "byte_equal": true,
+      "only_EOL_difference": false
+    },
+    {
+      "path": "technical/R2_SIGNAL_QUALITY_BOUNDARY.md",
+      "working_sha256": "f2b446f5f329a8643105e45189bb9d3db49aa97fa10c6220b59e974234f2d90e",
+      "git_content_sha256": "f2b446f5f329a8643105e45189bb9d3db49aa97fa10c6220b59e974234f2d90e",
+      "byte_equal": true,
+      "only_EOL_difference": false
+    },
+    {
+      "path": "tests/test_r2_signal_quality.py",
+      "working_sha256": "6115a24be4cbf5931eceb4d65930837810503bfe1ce43284bc954222bf5a53b5",
+      "git_content_sha256": "6115a24be4cbf5931eceb4d65930837810503bfe1ce43284bc954222bf5a53b5",
+      "byte_equal": true,
+      "only_EOL_difference": false
+    },
+    {
+      "path": "tools/r2_signal_quality.py",
+      "working_sha256": "8103d15c9f8d48f33ad173a02d2a0734f3b5b72b0b33eb9be939350343ca12b1",
+      "git_content_sha256": "8103d15c9f8d48f33ad173a02d2a0734f3b5b72b0b33eb9be939350343ca12b1",
+      "byte_equal": true,
+      "only_EOL_difference": false
+    },
+    {
+      "path": "tools/test_r2_signal_quality_context.py",
+      "working_sha256": "07812e0478fdbec6ba66231d6d841bc4056bc74ac4073241f805cfb4524aaa81",
+      "git_content_sha256": "07812e0478fdbec6ba66231d6d841bc4056bc74ac4073241f805cfb4524aaa81",
+      "byte_equal": true,
+      "only_EOL_difference": false
+    }
+  ],
+  "prior_source_unchanged": "All 139 original source files checked by both overlay executions",
+  "prior_git_source_binding": "review/runs/r2_finish_20261013_01/source_commit_binding_final.json",
+  "new_file_count": 6,
+  "all_bound": true
+}

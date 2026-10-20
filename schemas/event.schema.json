@@ -1,0 +1,197 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Entry event row",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "dataset_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "site_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "approach_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "track_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "boundary_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "data_kind": {
+      "enum": [
+        "REAL",
+        "SYNTHETIC"
+      ]
+    },
+    "status": {
+      "enum": [
+        "RED_CONSISTENT",
+        "NON_RED_CONSISTENT",
+        "SIGNAL_AMBIGUOUS",
+        "EXCLUDED"
+      ]
+    },
+    "classification_scope": {
+      "enum": [
+        "DOCUMENTED_OBSERVATION",
+        "ASSUMPTION_BASED",
+        "UNRESOLVED"
+      ]
+    },
+    "t_cross_s": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "t_lo_s": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "t_hi_s": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "signal_group_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "crossing_reference": {
+      "enum": [
+        "FRONT_BUMPER",
+        "CENTROID",
+        "UNRESOLVED"
+      ]
+    },
+    "source_refs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "reason_codes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "config_hash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  },
+  "required": [
+    "schema_version",
+    "event_id",
+    "dataset_id",
+    "record_id",
+    "site_id",
+    "approach_id",
+    "track_id",
+    "boundary_id",
+    "data_kind",
+    "status",
+    "classification_scope",
+    "t_cross_s",
+    "t_lo_s",
+    "t_hi_s",
+    "signal_group_id",
+    "crossing_reference",
+    "source_refs",
+    "reason_codes",
+    "run_id",
+    "config_hash"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "enum": [
+              "RED_CONSISTENT",
+              "NON_RED_CONSISTENT",
+              "SIGNAL_AMBIGUOUS"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "t_cross_s": {
+            "type": "number"
+          },
+          "t_lo_s": {
+            "type": "number"
+          },
+          "t_hi_s": {
+            "type": "number"
+          },
+          "approach_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "boundary_id": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "EXCLUDED"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "reason_codes": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "r2_config": "configs/r2_postprocess.json",
+  "r2_run": "runs/r2_final_20261013_B_2",
+  "r2_review_root": "review/runs/r2_finish_20261013_01",
+  "r2_source_commit": "dd83988e74696603b515f1944766207b2d3d26cf",
+  "prior_review_commit": "622baed63fb69a79bf835f10b5374d479a7cdabd",
+  "bindings": [
+    {
+      "path": "review/runs/r2_finish_20261013_01/analysis/artifact_manifest.json",
+      "bytes": 5019,
+      "sha256": "fec954e01290730ba432dbeec98ad6f7581ba984fc10f3b3e72f32e3a6d81f09"
+    },
+    {
+      "path": "review/runs/r2_finish_20261013_01/analysis/signal_missing_period_crossings.csv",
+      "bytes": 2349,
+      "sha256": "7ecf59620a504fd84291654f4728c1c269a0ff357cc542f75ddb7329809642bf"
+    },
+    {
+      "path": "review/runs/r2_finish_20261013_01/analysis/signal_condition_pet.csv",
+      "bytes": 292264,
+      "sha256": "ff65ceb3732b54cec6ab12b8652e8ee9ab712b6f9f31706f795f6606112021c1"
+    },
+    {
+      "path": "review/runs/r2_finish_20261013_01/analysis/unit_summary.csv",
+      "bytes": 61038,
+      "sha256": "16bcde59e4f4add06442462520fd299140227f506e29c2b82e989264ed37e2f5"
+    },
+    {
+      "path": "review/runs/r2_finish_20261013_01/web_artifact_manifest.json",
+      "bytes": 11998,
+      "sha256": "ba722ec72cd7a169d6afcdb4220aaaafb4c287022c7793be33552233e0f6533e"
+    }
+  ],
+  "offsets_s": [
+    -2,
+    -1,
+    -0.5,
+    -0.2,
+    0,
+    0.2,
+    0.5,
+    1,
+    2
+  ],
+  "new_actual_fit_budget": 0,
+  "quality_flag": "SOURCE_QUALITY_UNRESOLVED_LONG_INTERVAL",
+  "signal_values_modified": false,
+  "baseline_full_replay": false,
+  "r2_full_replay": false
+}

@@ -1,0 +1,333 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "template": {
+            "const": true
+          }
+        },
+        "required": [
+          "template"
+        ]
+      },
+      "then": {
+        "properties": {
+          "engineering_status": {
+            "const": "NOT_STARTED"
+          },
+          "evidence_status": {
+            "const": "NONE"
+          },
+          "handoff_type": {
+            "const": "NOT_GENERATED"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "handoff_type": {
+            "enum": [
+              "FULL_TECHNICAL_HANDOFF",
+              "PARTIAL_TECHNICAL_HANDOFF",
+              "TECHNICAL_ONLY"
+            ]
+          }
+        },
+        "required": [
+          "handoff_type"
+        ]
+      },
+      "then": {
+        "properties": {
+          "artifact_manifest_ref": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "run_id": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "source_snapshot_ref": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "template": {
+            "const": false
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "evidence_status": {
+            "enum": [
+              "REAL_EXPLORATORY",
+              "REAL_VALIDATED"
+            ]
+          }
+        },
+        "required": [
+          "evidence_status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "data_manifest_ref": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "template": {
+            "const": false
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "evidence_status": {
+            "const": "REAL_VALIDATED"
+          }
+        },
+        "required": [
+          "evidence_status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "validation_evidence_refs": {
+            "items": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "verification_ref": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "validation_evidence_refs"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "engineering_status": {
+            "const": "VERIFIED"
+          }
+        },
+        "required": [
+          "engineering_status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "source_snapshot_ref": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "template": {
+            "const": false
+          },
+          "verification_ref": {
+            "minLength": 1,
+            "type": "string"
+          }
+        }
+      }
+    }
+  ],
+  "properties": {
+    "ai_status": {
+      "enum": [
+        "NOT_RUN",
+        "STABLE_DESCRIPTION",
+        "UNSTABLE",
+        "INSUFFICIENT_DATA",
+        "EXPLORATORY_ANALYSIS_PERFORMED",
+        "AI_ATTEMPTED_FAILED",
+        "AI_INCOMPLETE"
+      ]
+    },
+    "artifact_manifest_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "blockers": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "contest_eligibility": {
+      "enum": [
+        "UNKNOWN",
+        "CONFIRMED",
+        "INELIGIBLE"
+      ]
+    },
+    "data_manifest_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "data_scope": {
+      "type": "string"
+    },
+    "engineering_status": {
+      "enum": [
+        "NOT_STARTED",
+        "IN_PROGRESS",
+        "VERIFIED",
+        "PARTIAL",
+        "BLOCKED"
+      ]
+    },
+    "evidence_status": {
+      "enum": [
+        "NONE",
+        "SYNTHETIC_ONLY",
+        "REAL_EXPLORATORY",
+        "REAL_VALIDATED"
+      ]
+    },
+    "external_submission_performed": {
+      "const": false
+    },
+    "handoff_type": {
+      "enum": [
+        "NOT_GENERATED",
+        "FULL_TECHNICAL_HANDOFF",
+        "PARTIAL_TECHNICAL_HANDOFF",
+        "TECHNICAL_ONLY"
+      ]
+    },
+    "implemented_features": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "manual_review_status": {
+      "enum": [
+        "NOT_PERFORMED",
+        "PERFORMED_WITH_EVIDENCE"
+      ]
+    },
+    "next_actions": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "not_performed": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "profile_id": {
+      "type": "string"
+    },
+    "profile_status": {
+      "type": "string"
+    },
+    "project_id": {
+      "const": "signal-priority-lab"
+    },
+    "report_generated": {
+      "const": false
+    },
+    "rights_for_contest": {
+      "enum": [
+        "ALLOW",
+        "DENY",
+        "UNKNOWN",
+        "AMBIGUOUS"
+      ]
+    },
+    "rights_for_handoff": {
+      "enum": [
+        "ALLOW",
+        "DENY",
+        "UNKNOWN",
+        "AMBIGUOUS"
+      ]
+    },
+    "run_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "source_snapshot_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "template": {
+      "type": "boolean"
+    },
+    "v3_full_spec_verified": {
+      "type": "boolean"
+    },
+    "validation_evidence_refs": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "verification_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "template",
+    "project_id",
+    "run_id",
+    "handoff_type",
+    "engineering_status",
+    "evidence_status",
+    "rights_for_handoff",
+    "rights_for_contest",
+    "contest_eligibility",
+    "ai_status",
+    "manual_review_status",
+    "report_generated",
+    "external_submission_performed",
+    "source_snapshot_ref",
+    "data_manifest_ref",
+    "verification_ref",
+    "artifact_manifest_ref",
+    "blockers",
+    "not_performed",
+    "next_actions"
+  ],
+  "title": "Technical handoff status",
+  "type": "object"
+}

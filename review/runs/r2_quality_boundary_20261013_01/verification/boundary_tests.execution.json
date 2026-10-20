@@ -1,0 +1,20 @@
+{
+  "command": [
+    "<PROJECT_ROOT>\\.venv\\Scripts\\python.exe",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_r2_signal_quality.py",
+    "-v"
+  ],
+  "elapsed_s": 2.7181926001794636,
+  "exit_code": 0,
+  "name": "boundary_tests",
+  "source_unchanged": true,
+  "started_utc": "2026-10-13T06:01:06.437232+00:00",
+  "stderr_sha256": "889a3264a86be541ff72fe35a0f9bb5f91298bcf971dc9d94a06bf593e5d4614",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

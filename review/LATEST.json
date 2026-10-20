@@ -1,0 +1,31 @@
+{
+  "status": "VERIFIED_R2_SIGNAL_QUALITY_BOUNDARY_CLOSED_WITH_SOURCE_LIMITATIONS",
+  "latest_verified_run_id": "r2_quality_boundary_20261013_01",
+  "verification_id": "r2_quality_boundary_20261013_A",
+  "analysis_run_id": "runs/r2_quality_boundary_20261013_A_2",
+  "analysis_source_commit": "b9eeb57bec449ed74ff4c8f78430753a52b45676",
+  "source_tree_hash": "3122d69e09e30aab21c2139e1162c696909ea3ee055af0bd0d9d257a2c8199b7",
+  "reused_r2_source_commit": "dd83988e74696603b515f1944766207b2d3d26cf",
+  "reused_r2_review_root": "review/runs/r2_finish_20261013_01",
+  "baseline_analysis_source_commit": "204016acf827db3dd5a3c0afe0031e73bcc7c9ec",
+  "review_root": "review/runs/r2_quality_boundary_20261013_01",
+  "review_paths": {
+    "metrics.csv": "review/runs/r2_quality_boundary_20261013_01/metrics.csv",
+    "analysis/boundary_impact.csv": "review/runs/r2_quality_boundary_20261013_01/analysis/boundary_impact.csv",
+    "analysis/boundary_role_impact.csv": "review/runs/r2_quality_boundary_20261013_01/analysis/boundary_role_impact.csv",
+    "analysis/quality_intervals.csv": "review/runs/r2_quality_boundary_20261013_01/analysis/quality_intervals.csv",
+    "analysis/signal_condition_quality.csv": "review/runs/r2_quality_boundary_20261013_01/analysis/signal_condition_quality.csv",
+    "verification_summary.json": "review/runs/r2_quality_boundary_20261013_01/verification_summary.json",
+    "reproducibility.json": "review/runs/r2_quality_boundary_20261013_01/reproducibility.json",
+    "numeric_checks.json": "review/runs/r2_quality_boundary_20261013_01/numeric_checks.json",
+    "review_final.json": "review/runs/r2_quality_boundary_20261013_01/review_final.json",
+    "calculation_methods.md": "review/runs/r2_quality_boundary_20261013_01/calculation_methods.md",
+    "limitations.md": "review/runs/r2_quality_boundary_20261013_01/limitations.md",
+    "FINDINGS.md": "review/runs/r2_quality_boundary_20261013_01/FINDINGS.md",
+    "web_artifact_manifest.json": "review/runs/r2_quality_boundary_20261013_01/web_artifact_manifest.json"
+  },
+  "prior_R2_release_unchanged_and_excludes_this_overlay": true,
+  "general_chatgpt_access": "USER_REPORTED_SUCCESS_NOT_AGENT_VERIFIED",
+  "judge_access": "PENDING_SEPARATE_USER_AUTHORIZATION",
+  "report_created": false
+}

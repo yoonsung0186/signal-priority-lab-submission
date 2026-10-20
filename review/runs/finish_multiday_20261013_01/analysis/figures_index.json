@@ -1,0 +1,106 @@
+{
+  "figures": [
+    {
+      "data_kind": "REAL",
+      "display_point_cap_per_scenario": 256,
+      "figure_id": "PET_ECDF",
+      "files": [
+        "figures/pet_ecdf.png",
+        "figures/pet_ecdf.svg"
+      ],
+      "full_source_table": "pet_ecdf.csv",
+      "input_refs": [
+        {
+          "archive": "data/raw/sitpet_finish_20261013/attempt_01/pet_events.zip",
+          "bytes": 34033414,
+          "sha256": "615176e1138c70adab919b722da1a525e584d2c711eb06d4eb5ecf2c8738277f"
+        },
+        {
+          "archive": "data/raw/sitpet_finish_20261013/attempt_02/objects.zip",
+          "bytes": 23432360,
+          "sha256": "9d17b3894d49c0f0c5e7ab945324cafc89d3cc3e0bfe262ab3c7823284141343"
+        },
+        {
+          "archive": "data/raw/sitpet_finish_20261013/attempt_03/signals.zip",
+          "bytes": 72354318,
+          "sha256": "04676cd0ce221d7228d84a3d1c97a96c1052dd162afcbbbae2b131a7f7ebad6c"
+        },
+        {
+          "archive": "data/raw/sitpet_v1_1/examples.zip",
+          "bytes": 150667218,
+          "sha256": "60ffaaf43c4bc1287f50111aa70c1eef311616ad72e8667ca7c09a04c5750f82"
+        }
+      ],
+      "source_table": "figure_pet_ecdf_plot_data.csv"
+    },
+    {
+      "claim_scope": "Descriptive occupancy/size types; no accident or violation accuracy",
+      "figure_id": "AI_OCCUPANCY_TYPES",
+      "files": [
+        "figures/ai_occupancy_types.png",
+        "figures/ai_occupancy_types.svg"
+      ],
+      "heldout_metrics": {
+        "n_events": 30485,
+        "selection_used_heldout": false,
+        "silhouette": 0.7837332270022704
+      },
+      "input_refs": [
+        {
+          "archive": "data/raw/sitpet_finish_20261013/attempt_01/pet_events.zip",
+          "bytes": 34033414,
+          "sha256": "615176e1138c70adab919b722da1a525e584d2c711eb06d4eb5ecf2c8738277f"
+        },
+        {
+          "archive": "data/raw/sitpet_finish_20261013/attempt_02/objects.zip",
+          "bytes": 23432360,
+          "sha256": "9d17b3894d49c0f0c5e7ab945324cafc89d3cc3e0bfe262ab3c7823284141343"
+        },
+        {
+          "archive": "data/raw/sitpet_finish_20261013/attempt_03/signals.zip",
+          "bytes": 72354318,
+          "sha256": "04676cd0ce221d7228d84a3d1c97a96c1052dd162afcbbbae2b131a7f7ebad6c"
+        },
+        {
+          "archive": "data/raw/sitpet_v1_1/examples.zip",
+          "bytes": 150667218,
+          "sha256": "60ffaaf43c4bc1287f50111aa70c1eef311616ad72e8667ca7c09a04c5750f82"
+        }
+      ],
+      "source_table": "figure_ai_cluster_plot_data.csv"
+    },
+    {
+      "figure_id": "AI_SEED_AGREEMENT",
+      "files": [
+        "figures/ai_seed_agreement.png",
+        "figures/ai_seed_agreement.svg"
+      ],
+      "input_refs": [
+        {
+          "archive": "data/raw/sitpet_finish_20261013/attempt_01/pet_events.zip",
+          "bytes": 34033414,
+          "sha256": "615176e1138c70adab919b722da1a525e584d2c711eb06d4eb5ecf2c8738277f"
+        },
+        {
+          "archive": "data/raw/sitpet_finish_20261013/attempt_02/objects.zip",
+          "bytes": 23432360,
+          "sha256": "9d17b3894d49c0f0c5e7ab945324cafc89d3cc3e0bfe262ab3c7823284141343"
+        },
+        {
+          "archive": "data/raw/sitpet_finish_20261013/attempt_03/signals.zip",
+          "bytes": 72354318,
+          "sha256": "04676cd0ce221d7228d84a3d1c97a96c1052dd162afcbbbae2b131a7f7ebad6c"
+        },
+        {
+          "archive": "data/raw/sitpet_v1_1/examples.zip",
+          "bytes": 150667218,
+          "sha256": "60ffaaf43c4bc1287f50111aa70c1eef311616ad72e8667ca7c09a04c5750f82"
+        }
+      ],
+      "meaning": "Agreement, not independent detection accuracy",
+      "source_table": "figure_ai_stability_plot_data.csv"
+    }
+  ],
+  "no_ai_figures_when_not_run": true,
+  "not_generated": []
+}

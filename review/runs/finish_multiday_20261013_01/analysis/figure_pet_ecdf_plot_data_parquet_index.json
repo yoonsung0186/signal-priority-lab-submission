@@ -1,0 +1,11 @@
+{
+  "nested_columns": "STABLE_JSON_STRINGS",
+  "row_count": 2048,
+  "shards": [
+    {
+      "path": "figure_pet_ecdf_plot_data.parquet",
+      "row_count": 2048
+    }
+  ],
+  "table": "figure_pet_ecdf_plot_data"
+}

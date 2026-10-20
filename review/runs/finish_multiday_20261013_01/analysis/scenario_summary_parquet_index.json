@@ -1,0 +1,11 @@
+{
+  "nested_columns": "STABLE_JSON_STRINGS",
+  "row_count": 8,
+  "shards": [
+    {
+      "path": "scenario_summary.parquet",
+      "row_count": 8
+    }
+  ],
+  "table": "scenario_summary"
+}

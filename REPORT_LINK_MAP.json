@@ -1,0 +1,42 @@
+{
+  "links": [
+    {
+      "id": "code",
+      "existing_link": "https://github.com/yoonsung0186/signal-priority-lab/blob/b9eeb57bec449ed74ff4c8f78430753a52b45676/README.md",
+      "corresponding_file": "README.md",
+      "actual_new_link": null,
+      "original_sha": "b9eeb57bec449ed74ff4c8f78430753a52b45676",
+      "deployment_commit": null,
+      "access_status": "PUBLICATION_NOT_AUTHORIZED_NOT_TESTED"
+    },
+    {
+      "id": "baseline",
+      "existing_link": "https://github.com/yoonsung0186/signal-priority-lab/blob/c5ac62a54b76c551d9fe27ef9051f9f5e36722df/review/runs/finish_multiday_20261013_01/metrics.csv",
+      "corresponding_file": "review/runs/finish_multiday_20261013_01/metrics.csv",
+      "actual_new_link": null,
+      "original_sha": "c5ac62a54b76c551d9fe27ef9051f9f5e36722df",
+      "deployment_commit": null,
+      "access_status": "PUBLICATION_NOT_AUTHORIZED_NOT_TESTED"
+    },
+    {
+      "id": "R2",
+      "existing_link": "https://github.com/yoonsung0186/signal-priority-lab/blob/c5ac62a54b76c551d9fe27ef9051f9f5e36722df/review/runs/r2_finish_20261013_01/analysis/unit_summary.csv",
+      "corresponding_file": "review/runs/r2_finish_20261013_01/analysis/unit_summary.csv",
+      "actual_new_link": null,
+      "original_sha": "c5ac62a54b76c551d9fe27ef9051f9f5e36722df",
+      "deployment_commit": null,
+      "access_status": "PUBLICATION_NOT_AUTHORIZED_NOT_TESTED"
+    },
+    {
+      "id": "boundary",
+      "existing_link": "https://github.com/yoonsung0186/signal-priority-lab/blob/c5ac62a54b76c551d9fe27ef9051f9f5e36722df/review/runs/r2_quality_boundary_20261013_01/metrics.csv",
+      "corresponding_file": "review/runs/r2_quality_boundary_20261013_01/metrics.csv",
+      "actual_new_link": null,
+      "original_sha": "c5ac62a54b76c551d9fe27ef9051f9f5e36722df",
+      "deployment_commit": null,
+      "access_status": "PUBLICATION_NOT_AUTHORIZED_NOT_TESTED"
+    }
+  ],
+  "original_repository_visibility": "PRIVATE",
+  "private_owner_access_is_not_judge_access": true
+}

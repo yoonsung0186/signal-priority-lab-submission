@@ -1,0 +1,22 @@
+{"evidence_kind": "REAL_ESTIMATOR_FIT", "fit_call": 1, "k": 2, "n_init": 20, "n_train": 34743, "seed": 20261012, "split": "DEVELOPMENT_DATE_GROUP_CV_0", "status": "STARTED"}
+{"elapsed_seconds": 0.3196650999598205, "evidence_kind": "REAL_ESTIMATOR_FIT", "fit_call": 1, "k": 2, "n_init": 20, "n_train": 34743, "seed": 20261012, "split": "DEVELOPMENT_DATE_GROUP_CV_0", "status": "COMPLETED"}
+{"evidence_kind": "REAL_ESTIMATOR_FIT", "fit_call": 2, "k": 2, "n_init": 20, "n_train": 34772, "seed": 20261012, "split": "DEVELOPMENT_DATE_GROUP_CV_1", "status": "STARTED"}
+{"elapsed_seconds": 0.226229100022465, "evidence_kind": "REAL_ESTIMATOR_FIT", "fit_call": 2, "k": 2, "n_init": 20, "n_train": 34772, "seed": 20261012, "split": "DEVELOPMENT_DATE_GROUP_CV_1", "status": "COMPLETED"}
+{"evidence_kind": "REAL_ESTIMATOR_FIT", "fit_call": 3, "k": 3, "n_init": 20, "n_train": 34743, "seed": 20261012, "split": "DEVELOPMENT_DATE_GROUP_CV_0", "status": "STARTED"}
+{"elapsed_seconds": 0.39129590010270476, "evidence_kind": "REAL_ESTIMATOR_FIT", "fit_call": 3, "k": 3, "n_init": 20, "n_train": 34743, "seed": 20261012, "split": "DEVELOPMENT_DATE_GROUP_CV_0", "status": "COMPLETED"}
+{"evidence_kind": "REAL_ESTIMATOR_FIT", "fit_call": 4, "k": 3, "n_init": 20, "n_train": 34772, "seed": 20261012, "split": "DEVELOPMENT_DATE_GROUP_CV_1", "status": "STARTED"}
+{"elapsed_seconds": 0.502774499822408, "evidence_kind": "REAL_ESTIMATOR_FIT", "fit_call": 4, "k": 3, "n_init": 20, "n_train": 34772, "seed": 20261012, "split": "DEVELOPMENT_DATE_GROUP_CV_1", "status": "COMPLETED"}
+{"evidence_kind": "REAL_ESTIMATOR_FIT", "fit_call": 5, "k": 4, "n_init": 20, "n_train": 34743, "seed": 20261012, "split": "DEVELOPMENT_DATE_GROUP_CV_0", "status": "STARTED"}
+{"elapsed_seconds": 0.4540312001481652, "evidence_kind": "REAL_ESTIMATOR_FIT", "fit_call": 5, "k": 4, "n_init": 20, "n_train": 34743, "seed": 20261012, "split": "DEVELOPMENT_DATE_GROUP_CV_0", "status": "COMPLETED"}
+{"evidence_kind": "REAL_ESTIMATOR_FIT", "fit_call": 6, "k": 4, "n_init": 20, "n_train": 34772, "seed": 20261012, "split": "DEVELOPMENT_DATE_GROUP_CV_1", "status": "STARTED"}
+{"elapsed_seconds": 0.40359399979934096, "evidence_kind": "REAL_ESTIMATOR_FIT", "fit_call": 6, "k": 4, "n_init": 20, "n_train": 34772, "seed": 20261012, "split": "DEVELOPMENT_DATE_GROUP_CV_1", "status": "COMPLETED"}
+{"evidence_kind": "REAL_ESTIMATOR_FIT", "fit_call": 7, "k": 5, "n_init": 20, "n_train": 34743, "seed": 20261012, "split": "DEVELOPMENT_DATE_GROUP_CV_0", "status": "STARTED"}
+{"elapsed_seconds": 0.6046495996415615, "evidence_kind": "REAL_ESTIMATOR_FIT", "fit_call": 7, "k": 5, "n_init": 20, "n_train": 34743, "seed": 20261012, "split": "DEVELOPMENT_DATE_GROUP_CV_0", "status": "COMPLETED"}
+{"evidence_kind": "REAL_ESTIMATOR_FIT", "fit_call": 8, "k": 5, "n_init": 20, "n_train": 34772, "seed": 20261012, "split": "DEVELOPMENT_DATE_GROUP_CV_1", "status": "STARTED"}
+{"elapsed_seconds": 0.5801641996949911, "evidence_kind": "REAL_ESTIMATOR_FIT", "fit_call": 8, "k": 5, "n_init": 20, "n_train": 34772, "seed": 20261012, "split": "DEVELOPMENT_DATE_GROUP_CV_1", "status": "COMPLETED"}
+{"evidence_kind": "REAL_ESTIMATOR_FIT", "fit_call": 9, "k": 2, "n_init": 20, "n_train": 69515, "seed": 20261012, "split": "FINAL_DEVELOPMENT_TRAIN", "status": "STARTED"}
+{"elapsed_seconds": 0.40995340002700686, "evidence_kind": "REAL_ESTIMATOR_FIT", "fit_call": 9, "k": 2, "n_init": 20, "n_train": 69515, "seed": 20261012, "split": "FINAL_DEVELOPMENT_TRAIN", "status": "COMPLETED"}
+{"evidence_kind": "REAL_ESTIMATOR_FIT", "fit_call": 10, "k": 2, "n_init": 20, "n_train": 69515, "seed": 20261013, "split": "DEVELOPMENT_SEED_STABILITY", "status": "STARTED"}
+{"elapsed_seconds": 0.4006787999533117, "evidence_kind": "REAL_ESTIMATOR_FIT", "fit_call": 10, "k": 2, "n_init": 20, "n_train": 69515, "seed": 20261013, "split": "DEVELOPMENT_SEED_STABILITY", "status": "COMPLETED"}
+{"evidence_kind": "REAL_ESTIMATOR_FIT", "fit_call": 11, "k": 2, "n_init": 20, "n_train": 69515, "seed": 20261014, "split": "DEVELOPMENT_SEED_STABILITY", "status": "STARTED"}
+{"elapsed_seconds": 0.4542895001359284, "evidence_kind": "REAL_ESTIMATOR_FIT", "fit_call": 11, "k": 2, "n_init": 20, "n_train": 69515, "seed": 20261014, "split": "DEVELOPMENT_SEED_STABILITY", "status": "COMPLETED"}
